@@ -1,0 +1,24 @@
+#!/bin/sh
+
+set -e
+
+case "$1" in 
+    remove|purge)
+     if [ -x /usr/sbin/dictdconfig ]; then dictdconfig -w ;fi
+     if [ -x /etc/init.d/dictd ]; then invoke-rc.d dictd restart; fi
+
+     exit 0
+     ;;
+
+
+    upgrade|abort-upgrade|abort-remove|abort-deconfigure|in-favour|removing)
+        exit 0;
+    ;;
+
+    *)
+        echo "postinst called with unknown argument \`$1'" >&2;
+        exit 0;
+    ;;
+esac
+
+#DEBHELPER#

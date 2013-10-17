@@ -1,0 +1,186 @@
+History and other useful information
+**************************************
+
+*V.E.R.A. -- Virtual Entity of Relevant Acronyms*
+
+*Version 7.2* (June 2006)
+
+Version 7.2 (Texinfo release 1.17) contains about 405 acronyms more
+than the last release. Now V.E.R.A. knows about 11025 acronyms.
+
+*Version 7.0* (June 2005)
+
+Version 7.0 (Texinfo release 1.16) contains about 106 acronyms more
+than the last release. Now V.E.R.A. knows about 10620 acronyms.
+
+*Version 6.9* (March 2005)
+
+Version 6.9 (Texinfo release 1.15) contains about 262 acronyms more
+than the last release. Now V.E.R.A. knows about 10514 acronyms.
+
+*Version 6.7* (September 2004)
+
+Version 6.7 (Texinfo release 1.14) contains about 92 acronyms more than
+the last release. Now V.E.R.A. knows about 10252 acronyms.
+
+Until I find out how to put V.E.R.A. back into the GNU system, I will
+provide it on my home page at http://home.snafu.de/ohei.  I have
+repeatedly written to addresses given in postings, asking for
+information on how to access the GNU server to no availability. Those
+guys must be busy, very busy.
+
+*Version 6.6* (June 2004)
+
+Version 6.6 (Texinfo release 1.13) contains about 290 acronyms more
+than the last release. Now V.E.R.A. knows about 10160 acronyms.
+
+Until I find out how to put V.E.R.A. back into the GNU system, I will
+provide it on my home page at http://home.snafu.de/ohei.
+
+*Version 6.5* (December 2003)
+
+Version 6.5 (Texinfo release 1.12) contains about 210 acronyms more
+than the last release. Now V.E.R.A. knows about 9870 acronyms.
+
+Until I find out how to put V.E.R.A. back into the GNU system, I will
+provide it on my home page at http://home.snafu.de/ohei.
+
+*Version 6.3* (June 2003)
+
+Version 6.3 (Texinfo release 1.11) contains about 150 acronyms more
+than the last release. Now V.E.R.A. knows about 9660 acronyms.
+
+I had problems finding an proper way to upload the last release
+(Texinfo release 1.10) to the GNU server. All seem to have changed, the
+old FTP Server is down, my e-mail contact is gone etc.
+
+Until I find out how to put V.E.R.A. back into the system, I will
+provide it on my home page at http://home.snafu.de/ohei.
+
+*Version 6.2* (March 2003)
+
+Version 6.2 (Texinfo release 1.10) contains about 300 acronyms more
+than the last release. Now V.E.R.A. knows about 9510 acronyms.
+
+For the log: There neither had been a GNU nor a Non-GNU edition of
+V.E.R.A. in September 2002.
+
+*Version 6.0* (June 2002)
+
+Version 6.0 (Texinfo release 1.9) contains about 289 acronyms more than
+the last release. Now V.E.R.A. knows about 9203 acronyms.
+
+Fixed some formatting bugs which had accumulated. Thanks for reporting
+those.
+
+There has been a request to add a 'README' file to the distribution. I
+added one.
+
+Also added a Perl search routine for V.E.R.A. from Andres Soolo <soolo
+[at] math . ut . ee>. You will find it in  the `./contrib' directory of
+the distribution.  For bug reports please contact Andres.
+
+*Version 5.8* (December 2001)
+
+Version 5.8 (Texinfo release 1.8) contains about 426 acronyms more than
+the last release. Now V.E.R.A. knows about 8914 acronyms.
+
+*Version 5.5* (March 2001)
+
+Version 5.5 (Texinfo release 1.7) contains about 320 acronyms more than
+the last release. Now V.E.R.A. knows about 8440 acronyms.
+
+There had been no update of the GNU version for nearly a year, which
+was mostly due to the lack of significant increase of acronyms.
+
+Please note that this is the first GNU edition of V.E.R.A.  to be
+released under the GNU Free Documentation License.
+
+Please also note that Bob Hilliard <hilliard [at] debian . org> now
+maintains the Debian vera package as well as the dict-* packages for
+the Debian GNU/LINUX distribution.
+
+*Version 5.2* (June 2000)
+
+Welcome to the first GNU edition of V.E.R.A. in the year 100, eh, I
+mean 1900+100 :)
+
+Version 5.2 (Texinfo release 1.6) contains about 500 acronyms more than
+the last release. Now V.E.R.A. knows about than 8119 acronyms.
+
+There had been no update of the GNU version for over a year, which was
+mostly due to the lack of significant increase of acronyms.
+
+Thanks to all the supporters, some of which did send huge lists with
+new acronyms.
+
+*Version 4.7* (March 1999)
+
+Version 4.7 (Texinfo release 1.5) contains about 100 acronyms more than
+the last release. Now V.E.R.A. knows about than 7592 acronyms.
+
+Corrected a bug in my script to replace german comments with the
+according english terms which led to the comment brackets being deleted
+in every line touched by it.
+
+*Version 4.6* (December 1998)
+
+Version 4.6 had not been released as Texinfo version, because there was
+no significant increase in the count of acronyms.
+
+*Version 4.5* (September 1998)
+
+Version 4.5 (Texinfo release 1.4) contains about 90 acronyms more than
+the last release. Now V.E.R.A. knows about than 7490 acronyms.
+
+I also received a lot of spelling corrections for the acronym
+expansions as well as for the text of this Texinfo release. Thanks to
+the submitters.
+
+*Version 4.4* (June 1998)
+
+Version 4.4 (Texinfo release 1.3) contains about 250 acronyms more than
+the last release. Now V.E.R.A. knows about more than 7400 acronyms.
+
+Version 4.2 had accidently been released containing ISO 8859-1
+characters. I received no complaints, but I believe not everyone can
+display these characters as meant to be, so I switched back to 7 bit
+with this version.
+
+Recently V.E.R.A. ran into copyright/trademark problems. It's
+unbelievable how small the name space in the computer field went over
+the years. To give you an example there are acronyms in this list which
+have five or more different meanings.  However Systems Science Inc.
+agreed to solve the problem by including the following sentence into
+the distribution: "This dictionary has nothing to do with Systems
+Science Inc.  or its products."  Please don't wonder if you
+surprisingly run into this sentence.
+
+*Version 4.3* (March 1998)
+
+I found no time to release V.E.R.A. 4.3 as Texinfo version in March
+1998 as I was busy with other things. As compiling the Texinfo version
+is always additional work to do, I thought of to spare the March
+version and release the next Texinfo version on the next release date
+(June, 1st).
+
+*Version 4.2*
+
+Version 4.2 contains about 180 acronyms more than the last release.  I
+also received a mail from the folks who maintain the GNU catalogue.
+This may mean that V.E.R.A. will be included on the GNU CD-ROM
+distribution, but I'm not sure.
+
+*Version 4.1* (December 1997)
+
+Version 4.1 contains about 500 acronyms more than the initial release.
+Now V.E.R.A. knows about more than 7000 acronyms.
+
+Besides I wrote a script which automagically translates the German
+references sometimes to be found behind the acronym expansions in the
+original version of V.E.R.A. into the appropriate English terms.  It
+also adds `Germany' to German locations. However I still may have
+missed some German terms or locations.  It is kind of awful to
+proof-read 7000 acronym expansions.  If you still spot German terms in
+the references, please let me know about.
+

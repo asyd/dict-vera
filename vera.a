@@ -1,0 +1,2624 @@
+@c -*-texinfo-*-
+@c This is part of the GNU edition of V.E.R.A.
+@c Copyright (C) 1993/2006 Oliver Heidelbach
+@c See the file vera.texi for copying conditions.
+@c 
+@c Syntax:
+@c ACRONYM
+@c Expansion[ (Reference)][, "Style"]
+@c Additional explanations are included in [square brackets]
+
+@table @asis
+@item A2DP
+Advanced Audio Distribution Profile (Bluetooth)
+
+@item A4C
+Authentication, Authorization, Accounting, Auditing and Charging
+
+@item AA
+Auto Answer (MODEM)
+
+@item AAA
+Authentication, Authorization and Accounting [= Triple A]
+
+@item AAAAA
+Anonym Association Against Acronym Abuse (slang)
+
+@item AAAI
+American Association for Artificial Intelligence (org., AI, USA)
+
+@item AAAS
+American Association for the Advancement of Science (org., USA)
+
+@item AAC
+Advanced Audio Coding (IIS, MPEG, AT&T, Dolby, Sony, ...)
+
+@item AAC
+Authorization and Access Control (IETF)
+
+@item AACLC
+Advanced Audio Coding - Low Complexity [profile] (AAC), "AAC-LC"
+
+@item AACLTP
+Advanced Audio Coding - Long Term Production (AAC), "AAC-LTP"
+
+@item AAD
+Authorized AutoCAD Dealer (carCAD, CAD)
+
+@item AADN
+American Association of DOMAIN Names (org., USA, Internet)
+
+@item AAE
+Allgemeine AnschaltErlaubnis (DTAG)
+
+@item AAF
+Advanced Authoring Format (MS)
+
+@item AAIM
+Association for Applied Interactive Multimedia (org.)
+
+@item AAIS
+Allied command europe ACCIS Implementation Strategy (ACCIS, NATO, mil.)
+
+@item AAL
+ATM Adaption Layer (ATM)
+
+@item AAL
+Authentication Assurance Level (CC)
+
+@item AAM
+Automatic Acoustic Management (ATA, HDD)
+
+@item AAMOF
+As A Matter Of Fact (slang, Usenet, IRC)
+
+@item AAMSI
+American Association for Medical Systems Informatics (org., USA)
+
+@item AAP
+Address Allocation Protocol (Multicast)
+
+@item AAP
+Applications Access Point
+
+@item AAP
+Association of American Publishers (org., USA)
+
+@item AARP
+Appletalk Address Resolution Protocol (Apple, AppleTalk)
+
+@item AASP
+ASCII Asynchronous Support Package (ASCII)
+
+@item AAT
+Average Access Time
+
+@item AATP
+Authorized Academic Training Program (MS, MCSD)
+
+@item AAUI
+Apple Attachment Unit Interface (Apple, AppleTalk)
+
+@item ABA
+American Bankers Association (org., USA, banking)
+
+@item ABAP4
+Advanced Business Application Programming/4 (SAP, R/3, 4GL), "ABAP/4"
+
+@item ABATS
+Automatic Bit Access Test System (BIT)
+
+@item ABBS
+Apple Bulletin Board System (Apple)
+
+@item ABC
+Atanasoff-Berry-Computer
+
+@item ABCD
+Altavista Business Card Directory (WWW)
+
+@item ABEL
+Advanced Boolean Expression Language
+
+@item ABEND
+ABnormal END (Netware)
+
+@item ABI
+Aktionsbuendnis fuer Barrierefreie Informaionstechnik Org., Germany
+
+@item ABI
+Application Binary Interface (POE)
+
+@item ABIOS
+Advanced Basic Input Output System (IBM)
+
+@item ABIST
+Automatic Built In Self Test (IBM)
+
+@item ABM
+Asynchronous Balanced Mode
+
+@item ABNF
+Augmented Backus-Naur Form (BNF, RFC 733/2234)
+
+@item ABP
+Address Book Provider (Internet)
+
+@item ABR
+Available Bit Rate (ATM, CBR, VBR, UBR, QOS, BIT)
+
+@item ABS
+Apple Business Systems (Apple)
+
+@item ABUI
+Association of Banyan Users International (org., Banyan, VINES, user group, predecessor, ENA)
+
+@item AC
+Access Concentrator (PPPoE, ADSL)
+
+@item AC
+Access Control (Token Ring, ...)
+
+@item AC
+Amiga Club (org., user group, Amiga)
+
+@item AC
+Area Code
+
+@item AC
+Automatic Computer
+
+@item AC3
+[digital] Audio Compression - 3 (Dolby, DVD, Digital audio), "AC-3"
+
+@item AC97
+Audio CODEC 97 (Intel, CODEC)
+
+@item ACA
+Asynchronous Communications Adapter
+
+@item ACAD
+AutoCAD (carCAD, CAD)
+
+@item ACAS
+Application Control Architecture Services (DEC)
+
+@item ACAU
+Automatic Calling and Answering Unit
+
+@item ACC
+Adaptive Cruise Control (car)
+
+@item ACC
+Area Communication Controller (MODACOM)
+
+@item ACC
+Atari Competence Center
+
+@item ACCIS
+Automated Command and Control Information System (mil., USA)
+
+@item ACCM
+Asynchronous Character Control Map (PPP)
+
+@item ACCS
+Army Command and Control System (mil., USA)
+
+@item ACCU
+Association of C and C++ Users (org., UK)
+
+@item ACD
+Automated Call Distribution (CTI)
+
+@item ACDC
+Alternating Current/Direct Current, "AC/DC"
+
+@item ACDI
+Asynchronous Communications Device Interface (IBM, CM/2)
+
+@item ACE
+Access Control Entry (AD)
+
+@item ACE
+Actuator Control Electronics (Airbus, A380)
+
+@item ACE
+Adobe Color Engine (Adobe)
+
+@item ACE
+Advanced Computing Environment (manufacturer)
+
+@item ACE
+ASCII Compatible Encoding (ASCII, Internet, DOMAIN)
+
+@item ACE
+Autonomous Computer Engine (WD)
+
+@item ACES
+APEC Cooperation for Earthquake Simulation (org., Australia, China, Japan, USA)
+
+@item ACF
+Access Control Field
+
+@item ACF
+Advanced Communications Function (IBM)
+
+@item ACF
+Apple Communications Framework (Apple)
+
+@item ACFC
+Address and Control Field Compression (PPP)
+
+@item ACFNCP
+Advanced Communication Function / Network Control Program (IBM, ACF), "ACF/NCP"
+
+@item ACFTCAM
+Advanced Communication Function / Telecommunications Access Method (IBM, ACF), "ACF/TCAM"
+
+@item ACFVTAM
+Advanced Communication Function / Virtual Telecommunications Access Method (IBM, ACF), "ACF/VTAM"
+
+@item ACH
+Association for Computers and the Humanities (org., USA)
+
+@item ACIA
+Associacio Catalana d'Intelligencia Artificial (org., Spain, AI)
+
+@item ACIA
+Asynchronous Communications Interface Adapter
+
+@item ACID
+Analysis Console for Intrusion Databases (IDS, CERT)
+
+@item ACID
+Atomicity - Consistency - Isolation - Durability (DB, TP)
+
+@item ACIS
+American Committee for Interoperable Systems (org., USA)
+
+@item ACL
+[MS] Access Compatibility Layer (MS, DB)
+
+@item ACL
+Access Control List (DCE, DFS, NDS, AD)
+
+@item ACL
+Advanced CMOS Logic
+
+@item ACL
+Agent Control Language (Agents)
+
+@item ACL
+Association for Computational Linguistics (org., USA)
+
+@item ACL
+Asynchronous ConnectionLess (HCI, Bluetooth)
+
+@item ACL
+Autodesk Campus License (cardesk)
+
+@item ACLF
+Access Control List Facility (DCE)
+
+@item ACM
+Address Complete Message (ATM)
+
+@item ACM
+Association for Computing Machinery (org., USA)
+
+@item ACMC
+Australian CEFACT Management Committee (Australia, org., CEFACT)
+
+@item ACME
+A Company that Makes Everything (slang)
+
+@item ACMS
+Application Control Management System
+
+@item ACNS
+Application and Content Networking System (Cisco)
+
+@item ACO
+AMP Communications Outlet
+
+@item ACOPS
+Automatic CPU Overheating Prevention System (GigaByte), "A-COPS"
+
+@item ACOT
+Apple Classrooms Of Tomorrow (Apple)
+
+@item ACP
+Active Configuration Profile (MODEM)
+
+@item ACP
+Auxillary Control Process
+
+@item ACPA
+Audio Capture and Playback Adapter (IBM)
+
+@item ACPC
+Apple Communications Protocol Card (Apple)
+
+@item ACPI
+Advanced Configuration and Power Interface (Intel, MS, Toshiba, ACPI, OSPM, BIOS)
+
+@item ACPICA
+Advanced Configuration and Power Interface - Component Architecture (ACPI, Intel), "ACPI-CA"
+
+@item ACPT
+Automated Corporate Planning Tool
+
+@item ACR
+Adobe Camera Raw
+
+@item ACR
+Anonymous Call Rejection
+
+@item ACR
+Artificial Content Recognition (Puresight, WWW, AI)
+
+@item ACR
+Attenuation to Crosstalk Ratio (cable)
+
+@item ACR
+Automatic Call Recording
+
+@item ACRONYM
+Abbreviated Coded Rendition Of Name Yielding Meaning (slang)
+
+@item ACRONYM
+Abbreviation by CROping Names that Yield Meaning (slang)
+
+@item ACS
+Access Control System (DISA)
+
+@item ACS
+Advanced Communications System
+
+@item ACS
+Advanced Console Server (Cyclades)
+
+@item ACS
+Alternate Character Set
+
+@item ACS
+Architekten, Computer, Systeme (fair)
+
+@item ACS
+Asynchronous Communication Server
+
+@item ACS
+Australian Computer Science
+
+@item ACS
+Australian Computer Society (org., Australia)
+
+@item ACSE
+Association Control Service Element (OSI, ISO, DIS 8649)
+
+@item ACSI
+Advanced/Atari Computer System Interface (Atari)
+
+@item ACSMIB
+ATM Circuit Steering Management Information Base (ATM, MIB), "ACS-MIB"
+
+@item ACSNET
+Academic Computing Services NETwork
+
+@item ACSS
+Aural Cascading Style Sheets (CSS, HTML, WWW)
+
+@item ACT
+Architecture Characterization Template (DISA)
+
+@item ACTA
+America's Carriers Telecommunications Association (USA)
+
+@item ACTEF
+ACcess TEchnologies Forum (org.)
+
+@item ACTP
+Adobe Certified Training Provider (Adobe)
+
+@item ACTPU
+ACTivate Physical Unit (SNA)
+
+@item ACTS
+Advanced Communications Technologies and Services (Europe, ACTS)
+
+@item ACU
+Automatic Calling Unit
+
+@item ACU
+Automatic Client Update (Novell, Netware)
+
+@item ACUTA
+Association of College and University Telecommunication Administrators (org., USA)
+
+@item ACUTE
+Airbus Cockpit Universal Thrust Emulator (Airbus, A380)
+
+@item AD
+Active Directory (MS, Windows, AD, DS)
+
+@item AD
+Analog-to-Digital (D/A), "A/D"
+
+@item AD
+Authorized Distributor (DEC)
+
+@item AD
+Autonomous DOMAIN
+
+@item ADA
+Automatic Data Acquisitions
+
+@item ADAPSO
+Association of Data Processing Service Organisation (org., USA)
+
+@item ADAPT
+Architecture Design, Analysis, and Planning Tool
+
+@item ADATP
+Allied DATa processing Publication (mil., USA)
+
+@item ADB
+A DeBugger (Unix)
+
+@item ADB
+Apple Desktop Bus (Apple)
+
+@item ADBS
+Advanced Data Broadcasting System (DirecPC)
+
+@item ADC
+Adaptive Data Compression (MODEM)
+
+@item ADC
+Analog to Digital Converter
+
+@item ADC
+Apple Display Connector (Apple)
+
+@item ADC
+Apple Distribution Center (Apple)
+
+@item ADC
+Automatic Data Capture
+
+@item ADCCP
+Advanced Data Communications Control Procedure (ANSI)
+
+@item ADD
+Adapter Device Driver (OS/2)
+
+@item ADD
+AGP Digital Display [adapter] (AGP)
+
+@item ADDC
+Automatic Data Direction Control (RS-485)
+
+@item ADDDC
+Automatic Direct Distance Dialing System
+
+@item ADE
+Application Development Environment
+
+@item ADE
+Aufforderung zur DatenEingabe (BTX)
+
+@item ADEPT
+Administrative Data Entry for Processing Transmission (mil., USA)
+
+@item ADES
+Automatic Digital Encoding System
+
+@item ADEW
+Andrew Development Environment Workbench (ATK, Unix)
+
+@item ADF
+Access control Decision Function (mil., USA)
+
+@item ADF
+Automatic Document Feeder
+
+@item ADG
+[RAID] Advanced Data Guarding (RAID, HP)
+
+@item ADI
+Autocad Device Interface (CAD, carCAD)
+
+@item ADI
+AUTODIN-to-DISN Interface (AUTODIN, DISN, mil., USA)
+
+@item ADIMM
+Asynchronous Dual Inline Memory Module (DIMM, IC, Leadtek)
+
+@item ADIRU
+Air Data Inertial Reference Unit (Airbus, A380, Honeywell)
+
+@item ADL
+[international conference on the] Advances in Digital Libraries (IEEE)
+
+@item ADL
+Adventure Description Language
+
+@item ADLC
+Asynchronous Data Link Control
+
+@item ADM
+Add-Drop-Multiplexer
+
+@item ADMA
+Area Division Multiple Access (mobile-systems)
+
+@item ADMD
+ADministration Management DOMAIN (X.400)
+
+@item ADMF
+ADMinistration Function (UMTS)
+
+@item ADMS
+Access Device Messaging Specification (banking, Visa)
+
+@item ADMT
+Active Directory Migration Tool (MS, AD)
+
+@item ADO
+ActiveX Data Objects (ASP, ODBC, MS, IIS)
+
+@item ADODB
+ActiveX Data Objects DataBase [library] (ADO, PHP), "ADOdb"
+
+@item ADONIS
+ADvanced On-Screen Information System, "AdonIS"
+
+@item ADP
+Administrative Data Processing
+
+@item ADP
+Advanced Data Processing
+
+@item ADP
+Automatic Data Processing (ADP)
+
+@item ADPCM
+Adaptive Delta Pulse Code Modulation
+
+@item ADPE
+Automatic Data Processing Equipment (ADP)
+
+@item ADPLO
+Automated Data Processing Liaison Office (ADP)
+
+@item ADPS
+Automatic Data Processing System (ADP)
+
+@item ADPT
+Automated Data Processing/Telecommunications (ADP), "ADP/T"
+
+@item ADR
+Advanced Digital Recording (Streamer, Philips, OnStream)
+
+@item ADR
+Automated Distance Regulation (car)
+
+@item ADS
+Advanced Digital System
+
+@item ADS
+Application Development System
+
+@item ADS
+Automatic Distribution System
+
+@item ADS
+Automatic Documenting System (LAN)
+
+@item ADS
+Auxiliary Data System
+
+@item ADSA
+Advanced Driver Software Architecture (C-Media, audio)
+
+@item ADSI
+Active Directory Service Interface (MS, COM, AD)
+
+@item ADSIA
+Allied Data Systems Interoperability Agency (org., NATO, mil.)
+
+@item ADSL
+Asymmetric Digital Subscriber Line [technology] (BELLCORE, AT&T, DSL, ADSL)
+
+@item ADSL
+Asymmetric Digital Subscriber Loop [modulation]
+
+@item ADSP
+Advanced Digital Signal Processor (DSP)
+
+@item ADSP
+Appletalk Data Stream Protocol (Apple, AppleTalk)
+
+@item ADSR
+Attack, Decay, Sustain, Release [generator] (VCA, audio)
+
+@item ADSU
+ATM Data Service Unit (ATM)
+
+@item ADT
+Abstract Data Type
+
+@item ADT
+Access Developer's Toolkit (MS, DB, Windows)
+
+@item ADT
+Application Data Type
+
+@item ADT
+Application Development Tools (IBM, AS/400)
+
+@item ADT
+Atlantic Daylight Time [-0300] (TZ, AST)
+
+@item ADU
+Automatic Dialing Unit
+
+@item ADUA
+Administrative Directory User Agent
+
+@item ADV
+Automatisierte DatenVerarbeitung
+
+@item ADV
+staatliche Akademie fuer DatenVerarbeitung (org., Uni Boeblingen, Germany)
+
+@item ADVS
+Automatisiertes DatenVerarbeitungsSystem
+
+@item ADX
+Automatic Data eXchange
+
+@item AE
+Apple Events (Apple)
+
+@item AE
+Application Entity / Environment / Execution / Engineering (APE)
+
+@item AEA
+American Electronics Association (org., USA)
+
+@item AEA
+Asynchroner EmulationsAdapter (IBM)
+
+@item AEB
+Analog Expansion Bus
+
+@item AEC
+Advanced Error Correction (CD)
+
+@item AECBF
+Acoustic Echo Cancellation / Beam Forming (audio), "AEC/BF"
+
+@item AEF
+Access control Enforcement Function
+
+@item AEGIS
+Advanced Electronic Guidance and Instrumentation System
+
+@item AEI
+Application Enabling Interface (IBM)
+
+@item AEI
+Automatic Equipment Identification
+
+@item AEIMP
+Apple Event Interprocess Messaging Protocol (Apple)
+
+@item AEL
+Asterisk Extension Language (VoIP)
+
+@item AEM
+Automatic Emulation Management (Brother)
+
+@item AEOM
+Apple Events Object Model (Apple)
+
+@item AEPIA
+Asociacion Espanola Para la Inteligencia Artificial (org., Spain, AI)
+
+@item AERO
+Authentic, Energetic, Reflective, Open (MS, Windows, Vista, GUI)
+
+@item AES
+Advanced Encryption Standard (cryptography)
+
+@item AES
+Application Environment Service / Specification (OSF)
+
+@item AES
+Automatic Emulation Switching (Lexmark)
+
+@item AESCCMP
+AES Counter mode CBC MAC Protocol (AES, CBC, MAC, cryptography, IEEE 802.11i, WLAN), "AES-CCMP"
+
+@item AESEBU
+Auto Engineering Society/European Broadcasting Union (Digital audio), "AES/EBU"
+
+@item AETE
+Apple Event Terminology Extension (Apple)
+
+@item AETIC
+Asociacion de empresas de Electronica, Tecnologias de la Informacion y teleComunicaciones de espana (org., Spain)
+
+@item AEUT
+Apple Event User Terminology (Apple)
+
+@item AF
+Anisotropic Filter
+
+@item AF
+Auxiliary carry Flag (assembler)
+
+@item AFA
+Association Fournisseur d'Access et service internet (org., ISP, France)
+
+@item AFAIC
+As Far As I'm Concerned (slang, Usenet, IRC)
+
+@item AFAICR
+As Far As I Can Recall (telecommunication, Usenet, IRC)
+
+@item AFAICT
+As Far As I Can Tell (telecommunication, Usenet, IRC)
+
+@item AFAIK
+As Far As I Know (slang, Usenet, IRC)
+
+@item AFAIR
+As Far As I Recall / Remember (slang, Usenet, IRC)
+
+@item AFAMPE
+[u.s.] Air Force Automated Message Processing Exchange (org., USA. mil.)
+
+@item AFC
+Alkaline Fuel Cell
+
+@item AFC
+AntiFerromagnetically Coupled [technology] (IBM, HDD)
+
+@item AFC
+Application Foundation Classes (MS, GUI, Java)
+
+@item AFC
+Automatic Font Change
+
+@item AFCET
+Association Francaise pour la Cybernetique Economique et Technique (org., France)
+
+@item AFD
+Automatic File Distribution
+
+@item AFDX
+Avionics Full DupleX switched ethernet system (Airbus, A380, ethernet)
+
+@item AFE
+Apple File Exchange (Apple)
+
+@item AFEB
+AFrican EDIFACT Board (org., EDIFACT), "AF/EB"
+
+@item AFF
+Antigen File Filtering (Sybari)
+
+@item AFFS
+Advanced Fringe Field Switching (LCD, IPS), "A-FFS"
+
+@item AFH
+Adaptive Frequency Hopping (Bluetooth)
+
+@item AFI
+Authority and Format Indicator (NSAP, IDP)
+
+@item AFI
+Authority Frame Identifier
+
+@item AFII
+Association for Font Information Interchange (org., USA)
+
+@item AFIN
+Air Force Information Network (network, USA, mil.)
+
+@item AFIS
+AutomatisiertesFingerabdruck-InformationsSystem (INPOL)
+
+@item AFK
+Away from Keyboard (slang, Usenet, IRC)
+
+@item AFM
+Atomic Force Microscopy [technology] (HDD, MEMS)
+
+@item AFN
+Advanced Fiber Network
+
+@item AFNET
+Air Force Network (network, USA, mil.)
+
+@item AFP
+Advanced Function Presentation (IBM)
+
+@item AFP
+Appletalk Filing Protocol (Apple, AppleTalk)
+
+@item AFPA
+Advanced Function Printing Architecture (IBM)
+
+@item AFPDS
+Advanced Function Printing Data Stream (IBM)
+
+@item AFPL
+Aladdin Free Public License
+
+@item AFPL
+Artifex Free Public License
+
+@item AFR
+Annualized Failure Rate (Maxtor, HDD)
+
+@item AFS
+Andrew File System (IBM, Unix)
+
+@item AFT
+Authenticated Firewall Traversal (IETF)
+
+@item AFTP
+Anonymous File Transfer Protocol (FTP)
+
+@item AFUU
+Association Francaise des Utilisateurs d'Unix (org., France, Unix)
+
+@item AGA
+Advanced Graphics Adapter
+
+@item AGC
+Automatic Gain Control (audio)
+
+@item AGCH
+Access Grant CHannel (GSM, CCCH, mobile-systems)
+
+@item AGE
+Adobe Graphics Engine (Adobe)
+
+@item AGEP
+ArbeitsGemeinschaft Elektronisches Publizieren [e.v.] (org., DTP), "AgEP"
+
+@item AGF
+Arbeitsgemeinschaft der GrossForschungseinrichtungen [deutschlands] (org.)
+
+@item AGFMB
+ArbeitsGemeinschaft Freier MailBoxen (org.)
+
+@item AGI
+Asterisk Gateway Interface (VoIP)
+
+@item AGNS
+AT&T Global Network Services (AT&T)
+
+@item AGNULA
+A GNU/Linux Audio distribution (GNU, Linux, Europe)
+
+@item AGP
+Advanced / Accelerated Graphics Port (Intel, MMX, AGP)
+
+@item AGPS
+Advanced / Assisted Global Positioning System (GPS), "A-GPS"
+
+@item AH
+[IP] Authentication Header (IPSEC, IPV6, RFC 1826, VPN)
+
+@item AHB
+Advanced High performance Bus (AMBA, ARM)
+
+@item AHCI
+Advanced Host Controller Interface (SATA)
+
+@item AHFG
+ATM-attached Host Functional Group (ATM, MPOA)
+
+@item AHIMA
+American Health Information Management Association (org., USA)
+
+@item AHP
+Analytical Hierachy Process
+
+@item AHPCRC
+Army High Performance Computing Research Center (org., USA, HPC)
+
+@item AI
+Adobe Illustrator (Adobe)
+
+@item AI
+Artificial Intelligence
+
+@item AIA
+Application Integration Architecture
+
+@item AIAF
+Artificial Intelligence AutoFocus (AI, Canon)
+
+@item AIBO
+Artificial Intelligence roBOt (Sony, AI)
+
+@item AIC
+[SRI] Artificial Intelligence Center (SRI, AI)
+
+@item AIC
+AIX windows Interface Composer (AIX, IBM)
+
+@item AICA
+Associazione Italiana per l'Informatica ed il Calcolo Automatico (org., Italy)
+
+@item AID
+Application IDentifier (APDU)
+
+@item AID
+Attention Interrupt Device [key] (IBM)
+
+@item AID
+AUTODIN Interface Device (AUTODIN, mil., USA)
+
+@item AIDA
+Aktuelle Informationen in Deutsch zum Amiga (AC, Amiga)
+
+@item AIDAT
+African Internet Development Action Team (org., Internet)
+
+@item AIDS
+Automatic Installation and Diagnostic Service
+
+@item AIFF
+Audio Interchange File Format
+
+@item AIFS
+Arbitrary InterFrame Space (MAC, PCF, IFS, WLAN)
+
+@item AIGLX
+Accelerated Indirect OpenGL extension for the X window system (GLX, X-Wondows, RedHat)
+
+@item AII
+Active Input Interface (UNI, PMD, FDDI)
+
+@item AIIA
+Associazione Italiana per l'Intelligenza Artificiale (org., Italy, AI)
+
+@item AIIM
+Association for Information and Image Management (org., USA)
+
+@item AIK
+Attestation Identity Key (TCPA)
+
+@item AIM
+Advanced Invar Mask (Display, ViewSonic)
+
+@item AIM
+Alternate Input Method (OS/2)
+
+@item AIM
+AOL Instant Messenger [protocol] (AOL, IM)
+
+@item AIM
+Apple, IBM, Motorola [consortium] (Apple, IBM, Motorola, org.)
+
+@item AIM
+Association of Imaging Manufacturers (org.)
+
+@item AIM
+ATM / Ascend Inverse Multiplexing [protocol] (ATM)
+
+@item AIM
+Automatic Interface Management (Brother)
+
+@item AIMD
+Additive-Increase Multiplicative-Decrease (TCP)
+
+@item AIMS
+Apple Internet Mail Server (Apple)
+
+@item AIMSRCF
+Advanced Information Manager/Shared Resource Control Facility (Fujitsu), "AIM/SRCF"
+
+@item AIN
+Advanced Intelligent Network (IN)
+
+@item AIN
+Auto Insert Notification (CD-R)
+
+@item AIO
+Asynchronous Input/Output
+
+@item AIP
+Association of Internet Professionals (org., Internet)
+
+@item AIP
+Associazione Informatici Professionisti (org., Italy)
+
+@item AIP
+ATM Interface Processor (ATM)
+
+@item AIR
+Automatic Image Refinement (Canon), "A.I.R."
+
+@item AIRTC
+[international symposium on] Artificial Intelligence in Real-Time Control (IFAC, IFIP, IMACS, conference)
+
+@item AIS
+Account Information Security
+
+@item AIS
+Alarm Indication Signal (UNI, ATM, OAM, DS3/E3)
+
+@item AIS
+Applied Information Sciences (manufacturer)
+
+@item AIS
+Applied Information Systems (manufacturer)
+
+@item AIS
+Arbeitgeber-Informations-Service (WWW)
+
+@item AIS
+Automated Information System
+
+@item AIS
+Autonomous Intelligent System
+
+@item AISB
+Association of Imaging Service Bureaus (org.)
+
+@item AISE
+Alarm Indication Signal-External (UNI, ATM), "AIS-E"
+
+@item AISIG
+[south australian] Artificial Intelligence Special Interest Group (org., Australia, AI)
+
+@item AISP
+Association for Internet Service Providers (org., USA, ISP)
+
+@item AISP
+Association of Information Systems Professionals (org., USA)
+
+@item AISSO
+Automated Information Systems Security Officer (mil., USA)
+
+@item AIST
+Agency of Industrial Science and Technology (org., Japan)
+
+@item AIT
+Advanced Intelligent Tape (Sony, Streamer)
+
+@item AIT
+Angewandte InformationsTechnik [verlags gmbh] (manufacturer)
+
+@item AITEC
+[research institute for] Advanced Information TEChnology (org., Japan)
+
+@item AITO
+Association Internationale pour les Technologies Objets (org.)
+
+@item AIUI
+As I Understand It (slang, Usenet, IRC)
+
+@item AIW
+All In Wonder [graphic card] (ATI)
+
+@item AIW
+APPN Implementers Workshop (org., APPN)
+
+@item AIX
+Advanced Interactive eXecutive (IBM, Unix, OS)
+
+@item AIXESA
+Advanced Interactive eXecutive/Enterprise Systems Architecture (IBM, AIX), "AIX/ESA"
+
+@item AJAX
+Asynchronous Javascript And XML (XML, XHTML, CSS, XSLT)
+
+@item AJBS
+Association of Japanese Business Studies (org., Japan)
+
+@item AK
+Application Kit (NextStep, OpenStep, Apple, Rhapsody)
+
+@item AKA
+Also Known As
+
+@item AKI
+Arbeitsgemeinschaft der deutschen KI Institute (org., KI)
+
+@item AL
+Artificial Life
+
+@item AL
+Assembly Language
+
+@item ALAN
+Audio Local Area Network (audio), "A-LAN"
+
+@item ALAP
+Appletalk Link Access Protocol (Apple, AppleTalk)
+
+@item ALAP
+As Late As Possible (slang, Usenet)
+
+@item ALAS
+Asociacion Latinoamericana de Seguridad (org.)
+
+@item ALC
+Adaptation Layer Controller (ATM)
+
+@item ALC
+Arithmetic and Logic Circuits (IC)
+
+@item ALC
+Automatic Level Control
+
+@item ALDC
+Adaptive Lossless Data Compression (IBM)
+
+@item ALE
+Address Lifetime Expectation (org., IETF, IP)
+
+@item ALE
+Application Link Enabling (R/3, SAP)
+
+@item ALE
+Atlanta Linux Enthusiasts (org., Linux, user group)
+
+@item ALE
+Atomic Layer Epitaxy (IC)
+
+@item ALEC
+Authorized Linux Education Center (Linux, Caldera)
+
+@item ALGOL
+ALGOrithmic Language
+
+@item ALIWEB
+Archie Like Indexing in the WEB (WWW)
+
+@item ALK
+Automatisierte LiegenschaftsKarte (ALTIS)
+
+@item ALM
+Application / Appware Loadable Module (Novell, Netware)
+
+@item ALM
+Application Life cycle Management
+
+@item ALM
+Asynchronous Line Module
+
+@item ALM
+Asynchronous Line Multiplexer
+
+@item ALOE
+Apple Library for Object Embedding (Apple, OpenDoc)
+
+@item ALP
+Access Linux Platform (Linux, PDA, Palm)
+
+@item ALP
+Assembly Language Processor (IBM)
+
+@item ALPA
+Association de Lutte contre la Piraterie Audiovisuelle (org., France)
+
+@item ALR
+Advanced Logic Research, inc (manufacturer)
+
+@item ALS
+Adjacent Link Station (IBM)
+
+@item ALSA
+Advanced Linux Sound Architecture (Linux, audio)
+
+@item ALSI
+Associazione nazionale Laureati in Scienze dell'informazione e Informatica (org., Italy)
+
+@item ALTEL
+Association of Long-distance TELephone companies (org., USA)
+
+@item ALTERNIC
+ALTERnative Network Information Center (Internet, USA)
+
+@item ALTPSM
+ALTernating Phase Shift Mask [lithography]
+
+@item ALTS
+Association for Local Telecommunications Services (org., USA)
+
+@item ALU
+Arithmetic and Logic Unit (CPU)
+
+@item AM
+Active Matrix (LCD)
+
+@item AM
+Amplitude Modulation
+
+@item AM
+Asynchronous Mode
+
+@item AMA
+Automatic Message Accounting
+
+@item AMACS
+AMA Collection System (AMA)
+
+@item AMAP
+As Much As Possible (telecommunication, Usenet, IRC)
+
+@item AMARC
+AMA Recording Center (AMA)
+
+@item AMASE
+AMA Standard Entry (AMA)
+
+@item AMAT
+AMA Transmitter (AMA)
+
+@item AMATPS
+AMA TeleProcessing System (AMA)
+
+@item AMB
+Advanced Memory Buffer (IC, RAM, FB-DIMM)
+
+@item AMBA
+Advanced Microcontroller Bus Architecture (ARM, AMBA)
+
+@item AMCD
+Active Matrix Color Display (AMD, LCD)
+
+@item AMCD
+Activity Monitoring Completion Detection
+
+@item AMD
+Active Matrix Display (LCD)
+
+@item AMD
+Advanced MicroDevices [inc.] (manufacturer)
+
+@item AMD
+AutoMounterDAEMON (Macintosh, Apple)
+
+@item AME
+Advanced Metal Evaporated [tape] (Seagate, Streamer, Sony)
+
+@item AME
+Advanced Modeling Extension (carCAD)
+
+@item AMEL
+Active Matrix Electro Luminescent (AMD, LCD)
+
+@item AMF
+Action Message Format (Macromedia, Flash)
+
+@item AMH
+Automated Material Handling
+
+@item AMHS
+Automated Message Handling System (MHS)
+
+@item AMI
+Alternate Mark Inversion [encoding] (ISDN, T1)
+
+@item AMI
+American Megatrends Incorporation (manufacturer)
+
+@item AMI
+ATM Management Interface (ForeRunner)
+
+@item AMIA
+American Medical Informatics Association (org., USA)
+
+@item AMIA
+Australian Medical Informatics Association (org., Australia)
+
+@item AMIC
+Apple Memory-mapped I/O Controller (Apple)
+
+@item AMIC
+Automotive Multimedia Interface Collaboration (USA, org.), "AMI-C"
+
+@item AMIGADE
+Amiga Digital Environment (Amiga), "AmigaDE"
+
+@item AMIGOS
+Advanced Mobile Integration in General Operating Systems
+
+@item AMIS
+Audio Message Interface Standard
+
+@item AML
+ACPI Machine Language (ACPI, ASL, BIOS)
+
+@item AMLCD
+Active Matrix Liquid Crystal Display (AMD, LCD)
+
+@item AMMA
+Advanced Memory Management Architecture
+
+@item AMME
+Automated Multi-Media Exchange
+
+@item AMNET
+Allgemeines Mailbox NETzwerk (BBS, network)
+
+@item AMOK
+A Modular Operating Kernel (OS, Cray)
+
+@item AMOR
+Amusing Misuse of Resources (Linux, KDE)
+
+@item AMOS
+Alpha Microsystems Operating System (OS)
+
+@item AMP
+Asymmetric MultiProcessor [system] (SMP)
+
+@item AMPE
+Automated Message Processing Exchange
+
+@item AMPS
+Advanced Mobile Phone Service (mobile-systems, Motorola)
+
+@item AMPSK
+Amplitude Modulation with Phase Shift Keying, "AM/PSK"
+
+@item AMR
+Audio MODEM Riser [slot] (Intel)
+
+@item AMS
+Advanced Monitor System (OS, DEC, PDP 9, PDP 15)
+
+@item AMS
+American Mathematical Society (org., USA)
+
+@item AMS
+Andrew Mail / Message System (Unix)
+
+@item AMS
+Asymmetric Multiprocessing System
+
+@item AMS
+AUTODIN Mail Server (AUTODIN, mil., USA)
+
+@item AMSDOS
+AMStrad Disk Operating System (Amstrad, OS), "AMS-DOS"
+
+@item AMT
+Active Management Technology (Intel)
+
+@item AMT
+Active Matrix Technology (AMD, LDC)
+
+@item AMT
+Apple Media Toolkit (Apple)
+
+@item AMTC
+Advanced Mask Technology Center (org., EuropeVL, Infineon, AMD, ...)
+
+@item AMTF
+Average Modulation Transfer Function
+
+@item AMTFT
+Active Matrix Thin Film Transistor (AMD, LCD, TFT)
+
+@item AMTPE
+Apple Media Tool Programming Environment (Apple), "AMT PE"
+
+@item AMWG
+Architecture Methodology Working Group (org., DISA)
+
+@item AN
+Access Node
+
+@item AN
+Alternating Network
+
+@item ANAIS
+Architecture Not Allowed In Source (Linux, Debian, slang)
+
+@item ANAT
+Alternative Network Address Types
+
+@item ANBU
+ANlagenBUchhaltung
+
+@item ANCS
+AT&T Netware Connect Services (AT&T, Netware)
+
+@item ANDF
+Architecture Neutral Distribution Format (OSF)
+
+@item ANFSCD
+And Now For Something Completely Different (slang, Usenet, IRC)
+
+@item ANHR
+Access Node Hub Router (AN)
+
+@item ANI
+Automatic Number Identification
+
+@item ANI
+Automatische Netzwerk Installation
+
+@item ANIEL
+Asociacion Nacional de Industrias Electronicas y de teLecomunicaciones (org., Spain, AETIC, predecessor)
+
+@item ANMA
+Apple Network Managers Association (org., Apple)
+
+@item ANMP
+Account Network Management Program
+
+@item ANMP
+Ad hoc Network Management Protocol
+
+@item ANN
+Artificial Neural Networks (NN)
+
+@item ANO
+Advanced Network Option (CA)
+
+@item ANR
+Access Node Router
+
+@item ANS
+Advanced Network & Services Inc. (IBM, MCI. Merit, NFSnet)
+
+@item ANS
+American National Standard (ANSI, ISO, USA)
+
+@item ANSA
+Advanced Networked Systems Architecture (ISA)
+
+@item ANSI
+American National Standard Institute (org., USA)
+
+@item ANSN
+Advertised Neighbor Sequence Number (OLSR)
+
+@item ANSPAG
+Advanced Network System Performance and Application Group (RDN-CRC)
+
+@item ANT
+Another Neat Tool (Java)
+
+@item ANTC
+Advanced Networking Test Center (org., USA, AMD, FDDI)
+
+@item ANTLR
+ANother Tool for Language Recognition, "Antlr"
+
+@item ANTS
+Advanced .NET Testing System (.NET, Red-Gate)
+
+@item ANTS
+AT&T Novell Telephone Services (AT&T, Novell), "A/NTS" 
+
+@item ANUML
+Australian National University Meta Language, "ANU ML" 
+
+@item AO
+Arvutikasutaja Oskustunnistus (Org, Estonia)
+
+@item AOA
+American Optometric Association (org., USA)
+
+@item AOAC
+Always On, Always Connected (NBS)
+
+@item AOCD
+Advice Of Charge, During the call
+
+@item AOCE
+Advice Of Charge, at the End of the call
+
+@item AOCE
+Apple Open Collaboration Environment (Apple)
+
+@item AOCS
+Attitude and Orbit Control System (ESA, Venus-Express)
+
+@item AOD
+Advanced Optical Disc (HD-DVD, predecessor)
+
+@item AODI
+Always On / Dynamic ISDN (ISDN, ACTEF), "AO/DI"
+
+@item AOE
+Application Operating Environment (AT&T)
+
+@item AOI
+Active Output Interface (UNI, PMD, FDDI)
+
+@item AOL
+Alert On LAN (LAN, Intel, IBM, BIOS), "AoL"
+
+@item AOL
+America OnLine (network, AOL)
+
+@item AOP
+Aspect Orientated Programming
+
+@item AOS
+[LambdaRouter] All Optical Switch (Lucent, LambdaXtreme)
+
+@item AOS
+Advanced Operating System (OS)
+
+@item AOS
+Algebraic Operating System (IBM)
+
+@item AOSS
+Airstation One-touch Secure System (WLAN)
+
+@item AOTC
+Australian Overseas Telecommunications Corporation (org., Australia)
+
+@item AOU
+Arithmetic Output Unit
+
+@item AOW
+Asia and Oceania Workshop (OSI)
+
+@item AP
+Access Point (WLAN)
+
+@item AP
+Access Provider (ETSI, ETSI 201 671)
+
+@item AP
+Application Processor
+
+@item AP
+Auto Precharge (SDRAM)
+
+@item AP
+Automatic Pagination
+
+@item APA
+Adaptive Packet Assembly
+
+@item APA
+All Points Addressable
+
+@item APA
+Arithmetic Processing Accelerator
+
+@item APACI
+APache AutoConf-style Interface (HTTP, Apache)
+
+@item APAR
+Authorized Program Analysis Report (IBM)
+
+@item APB
+Advanced Peripheral Bus (AMBA, ARM)
+
+@item APC
+American Power Conversion (manufacturer, UPS)
+
+@item APC
+ArbeitsPlatz Computer (SNI)
+
+@item APC
+Association for Progressive Communications (org., network)
+
+@item APCUG
+Association of Personal Computer User Groups (org.)
+
+@item APD
+Additional Product Documentation
+
+@item APDA
+Apple Programmers and Developers Association (org., Apple)
+
+@item APDPR
+Advanced PDF Password Recovery (PDF)
+
+@item APDU
+Application Protocol Data Unit (OSI, PDU, OSI/RM, APDU, ICC)
+
+@item APE
+Adaptable Persistence Engine (ZOPE)
+
+@item APE
+APplication Engineering
+
+@item APEL
+A Portable EMACS Library (EMACS, GNU)
+
+@item APEX
+Advanced Packet EXchange
+
+@item APF
+Advanced Printer Function (IBM, ADT)
+
+@item API
+Application Program Interface (API)
+
+@item API
+Associacao Portuguesa de Informatica (org., Portugal)
+
+@item APIC
+Advanced Programmable Interrupt Controller (Intel, PIC)
+
+@item APIPA
+Automatic Private IP Addressing (MS, IP)
+
+@item APIS
+Arbeitsdatei PIOS Innere Sicherheit (INPOL, PIOS)
+
+@item APL
+A Perspicuous Language / Alles Parallel Loesbar (APL, slang)
+
+@item APL
+A Programming Language (IBM)
+
+@item APLSF
+A Programming Language with Shared Files (CMU, DEC)
+
+@item APLSF
+A Programming Language with Shared Variables (IBM)
+
+@item APLV
+Arbeitsdatei PIOS LandesVerrat (INPOL, PIOS)
+
+@item APM
+Advanced Power Management
+
+@item APM
+Application Programming Model (J2EE)
+
+@item APM
+Automated Precision Manufacturing
+
+@item APMS
+Automated Program Management information System
+
+@item APN
+Access Point Name (GPRS, mobile-systems)
+
+@item APNIC
+Asian Pacific Network Information Center (org., Internet)
+
+@item APO
+Advanced Planner and Optimizer (SAP, SCM)
+
+@item APOK
+Arbeitsdatei PIOS Organisierte Kriminalitaet (INPOL, PIOS)
+
+@item APOP
+Authenticated Post Office Protocol (Internet, POP, RFC 1734)
+
+@item APP
+Application Portability Profile
+
+@item APPC
+Advanced Peer-to-Peer Communications (IBM, SNA, LU 6.2)
+
+@item APPC
+Advanced Program to Program Communication (IBM)
+
+@item APPC
+Application Program to Program Converter (IBM)
+
+@item APPCM
+Access Protection and Priority Control Mechanism (DQDB)
+
+@item APPCP
+Advanced Program to Program Communications Protocol (APPC, IBM)
+
+@item APPEL
+A P3P Preference Exchange Language (P3P)
+
+@item APPI
+Advanced Peer to Peer Internetworking (Cisco)
+
+@item APPN
+Advanced Peer to Peer Networking (IBM)
+
+@item APPS
+Application Packaging Problems & Solutions (Cygwin)
+
+@item APR
+Apache Portable Runtime (Apache)
+
+@item APR
+Arbeitsdatei PIOS Rauschgift (INPOL, PIOS)
+
+@item APS
+Active Pixel Sensor
+
+@item APS
+Application Page Server
+
+@item APS
+Application Service Provider (WAN)
+
+@item APS
+Asynchronous Protocol Specification
+
+@item APSE
+Ada Programming Support Environment
+
+@item APSE
+Agfa Publishing Systems Environment (Agfa, DTP)
+
+@item APSL
+Apple Public Source License (Apple)
+
+@item APT
+Address Pass Through
+
+@item APT
+Advanced Package Tool (Linux, Debian)
+
+@item APT
+Advanced Photoscale Technology (Brother)
+
+@item APT
+Automatically Programmed Tools
+
+@item APTC
+Advanced Processor Temperature Control (Chaintech)
+
+@item APTM
+Application Program to Transaction Manager (TP)
+
+@item APU
+Auxiliary Processing Unit
+
+@item APVE
+[Parhelia] Audio, Photo, Video, Express (Matrox), "APVe"
+
+@item APW
+Arbeitsdatei PIOS Waffen (INPOL, PIOS)
+
+@item APWG
+Anti-Pishing Working Group (org.)
+
+@item AQM
+Active Queue Management
+
+@item AR
+Administrative Request [message] (LFAP)
+
+@item AR
+Aperture Ratio (DVD)
+
+@item AR
+Augmented Reality
+
+@item ARA
+Administrative Request Acknowledge [message] (LFAP)
+
+@item ARA
+Affiliate Registration Authority (RA, PKI, ITU)
+
+@item ARA
+Apple[talk] Remote Access (Apple, AppleTalk)
+
+@item ARAG
+AntiReflection AntiGlare (ViewSonic)
+
+@item ARAP
+Apple Remote Access Protocol (Apple, AppleTalk)
+
+@item ARB
+Architecture Review Board (OpenGL, manufacturer, org.)
+
+@item ARC
+Advanced RISC Computing [architecture] (ACE, RISC)
+
+@item ARCA
+Advanced RISC Computing Architecture (ACE, RISC)
+
+@item ARCNET
+Attached Resource Computer NETwork (Datapoint), "ARCnet" 
+
+@item ARD
+Apple Remote Desktop (Apple, Macintosh)
+
+@item ARE
+All Routes Explorer (ATM)
+
+@item AREXX
+Amiga Restructured EXtended eXecutor [language] (Amiga, Commodore, REXX)
+
+@item ARIN
+American Registry for Internet Numbers (org., Internet, USA)
+
+@item ARKD
+Abuse Resistant Key Distribution (Arcade)
+
+@item ARL
+Access Rights List (Banyan, VINES)
+
+@item ARLL
+Advanced Run-Length Limited [encoding]
+
+@item ARM
+Advanced RISC Machines (manufacturer, Acorn, Apple, VLSI, RISC)
+
+@item ARM
+Annotated [c++] Reference Manual
+
+@item ARM
+Application Response Measurement [working group]
+
+@item ARM
+Asynchronous Response Mode
+
+@item ARMA
+Association of Records Managers and Administrators, inc. (org.)
+
+@item ARMS
+Architecture for Reliable Managed Storage (Cheyenne)
+
+@item ARMS
+Automation Resources Management System
+
+@item ARNS
+Appletalk Remote Network Server (Apple, AppleTalk)
+
+@item ARO
+Affiliate Registration Organization (RA, PKI, ITU)
+
+@item AROM
+Alterable Read Only Memory (ROM)
+
+@item ARP
+Address Resolution Protocol (Internet, RFC 826)
+
+@item ARPA
+Advanced Research Projects Agency (org., USA)
+
+@item ARPANET
+Advanced Research Projects Agency NETwork (USA, network)
+
+@item ARPDP
+Association of Rehabilitation Programs in Data Processing (org., USA)
+
+@item ARQ
+Automatic Re-transmission reQuest (MODEM)
+
+@item ARQAPDU
+Associate ReQuest Application Protocol Data Unit (APDU)
+
+@item ARRA
+Announced Retransmission Random Access (MAC)
+
+@item ART
+Adaptive Resonance Theory (NN)
+
+@item ART
+Advanced Resolution Technology (Minolta)
+
+@item ARTS
+Accelerated Ray-Tracing System (raytracing)
+
+@item ARTS
+Asynchronous Remote Takeover Server
+
+@item ARTT
+Asynchronous Remote Takeover Terminal
+
+@item AS
+[Red Hat Enterprise Linux] Advanced Server (RedHat, Linux, RHEL)
+
+@item AS
+Advanced Server (MS, Windows NT)
+
+@item AS
+Authentication Service (DCE)
+
+@item AS
+Autonomous System (IP, Internet, RFC 1930)
+
+@item AS400
+Application System/400 (IBM), "AS/400"
+
+@item ASA
+Adaptive Security Appliance (Cisco)
+
+@item ASA
+Advanced SCSI Architecture (SCSI)
+
+@item ASA
+American Standards Association (org., USA, ANSI, predecessor)
+
+@item ASAP
+As Soon As Possible (slang, Usenet, IRC)
+
+@item ASAP
+Automatic Switching And Processing
+
+@item ASB
+Advanced System Bus (AMBA, ARM)
+
+@item ASBR
+Autonomous System Border / Boundary Router (AS)
+
+@item ASC
+Accredited Standards Committee (org., ANSI)
+
+@item ASC
+Additional Sense Code
+
+@item ASC
+American Society for Cybernetics (org., USA)
+
+@item ASC
+Authorized Support Center
+
+@item ASC
+Automatic Contrast Selection (FAX)
+
+@item ASCC
+Automatic Sequence Controlled Calculator (IBM)
+
+@item ASCI
+Accelerated Strategic Computing Initiative
+
+@item ASCI
+Agent to Server Communication Interval (McAfee, ePolicy)
+
+@item ASCII
+American Standard Code of Information Interchange
+
+@item ASCSI
+Advanced Small Computer Systems Interface (SCSI)
+
+@item ASD
+Architecture Summary Design
+
+@item ASDSP
+Application-Specific Digital Signal Processor
+
+@item ASE
+Active Storage Element (GigaB, IP-router)
+
+@item ASE
+Aladdin Smartcard Environment (Fast, Aladdin)
+
+@item ASE
+Amplified Spontaneous Emission (FO, EDFA)
+
+@item ASE
+Application Service Element (ATM)
+
+@item ASEB
+ASian EDIFACT Board (org., EDIFACT), "AS/EB"
+
+@item ASEMH
+Army Standards Electronic Mail Host (mil., USA)
+
+@item ASES
+Application Software Entity Security
+
+@item ASES
+Australian Solid Earth Simulator (ACES)
+
+@item ASF
+Advanced Streaming Format (MS)
+
+@item ASF
+Apache Software Foundation (org., Apache)
+
+@item ASH
+Almquist SHell (BSD, Unix, Shell), "ash"
+
+@item ASHLI
+Advanced Shading Language Interface (ATI)
+
+@item ASI
+Adapter Support Interface (IBM, LAN)
+
+@item ASI
+Advanced Switching Interconnect
+
+@item ASI
+Amorphous SIlicon drum (Kyocera), "aSI"
+
+@item ASI
+Aquarius Systems International (manufacturer)
+
+@item ASI
+Asynchronous SCSI Interface
+
+@item ASI
+Automatic System Installation
+
+@item ASIC
+Application Specific Integrated Circuit (IC, RL)
+
+@item ASIM
+Arbeitskreis Simulation und Kuenstliche Intelligenz (org., GI)
+
+@item ASIO
+Audio Stream Input/Output
+
+@item ASIP
+Application Specific Instruction-set Processor (IC)
+
+@item ASIS
+American Society for Information Science (org.)
+
+@item ASISIG
+Advanced Switching Interconnect Special Interest Group (org., SIG), "ASI SIG"
+
+@item ASK
+Akademische Software Kooperation (org., Karlsruhe, Germany)
+
+@item ASK
+Amplitude Shift Keying
+
+@item ASKSAM
+Access Stored Knowledge via Symbolic Access Method (DB), "askSam"
+
+@item ASL
+ACPI Source Language (ACPI, AML)
+
+@item ASL
+Adaptive Speed Levelling (US Robotics)
+
+@item ASL
+Astaro Security Linux (Linux)
+
+@item ASLT
+Advanced Solid Logic Technology (IC)
+
+@item ASM
+Advanced Server Management (Acer)
+
+@item ASM
+Association of Systems Management (org.)
+
+@item ASM
+Automatic Storage Management (DB, Oracle)
+
+@item ASMA
+Administratively Scoped IP Multicast (RFC 2365, Multicast)
+
+@item ASMA
+Asus System Monitoring Agent (Asus, ASWM)
+
+@item ASMO
+Advanced Storage Magneto Optical [disk] (Hitachi, Maxell, Matsushita, Fujitsu, Olympus, Philips, Sanyo, Sharp, Sony, LG Electronics)
+
+@item ASMP
+ASymetric MultiProcessing [system]
+
+@item ASMP
+ASymmetrisches MultiProzessor [system]
+
+@item ASN1
+Abstract Syntax Notation One (OSI, ISO, IS 8824), "ASN.1"
+
+@item ASNM
+AdvanceStack Network Management (HP)
+
+@item ASO
+Address Supporting Organization (Internet)
+
+@item ASP
+Abstract Service Primitive (OSI)
+
+@item ASP
+Active Server Pages (HTTP, MS)
+
+@item ASP
+Advanced Signal Processing / Processor
+
+@item ASP
+Advanced Simple Profile
+
+@item ASP
+Appletalk Session Protocol (Apple, AppleTalk)
+
+@item ASP
+Application Service Provider / Providing (ISP, Internet)
+
+@item ASP
+Association of Shareware Professionals (org., USA)
+
+@item ASP
+Authorized Service Provider (Sun)
+
+@item ASPEC
+Advanced SPectre Entropy Coding (MPEG, Digital audio)
+
+@item ASPEN
+Automatic System for Performance Evaluation of the Network
+
+@item ASPI
+Advanced SCSI Programming Interface (Adaptec, API, SCSI)
+
+@item ASPIC
+Advanced SCSI Programmable Interrupt Controller (PIC, SCSI)
+
+@item ASPIK
+Algebraic Specifications and Implementations ??? (ISDV)
+
+@item ASPL3
+Advanced Simple Profile @@ Level 3 (MPEG, CIF), "ASP@@L3"
+
+@item ASPP
+Application Specific Programmable Product (ASIC, ASSP, FPGA, RL)
+
+@item ASPS
+Advanced Signal Processing System
+
+@item ASQ
+Automated Software Quality
+
+@item ASQC
+American Society of Quality Control (org., USA)
+
+@item ASQF
+Arbeitskreis Software-Qualitaet Franken [e.V.] Org., Germany
+
+@item ASR
+Automated System Recovery (MS, Windows, XP)
+
+@item ASR
+Automatic Server Restart (HP)
+
+@item ASR
+Automatic Speech Recognition
+
+@item ASSERT
+ADEPT Subsystem for Scanning of Electronic Received Traffic (ADEPT, mil., USA)
+
+@item ASSIST
+Automated Special Security Information System Terminal (mil., USA)
+
+@item ASSP
+Application Specific Standard Product (RL)
+
+@item ASSPA
+ASsociation Suisse pour l'Automatique (org., Switzerland)
+
+@item ASSR
+Agreed Set of Security Rules (mil., USA)
+
+@item ASSUME
+Association of Statistics Specialists Using Microsoft Excel (org., user group)
+
+@item AST
+Abstract Syntax Tree (GCC)
+
+@item AST
+Atlantic Standard Time [-0400] (TZ, ADT)
+
+@item ASTA
+Advanced Software Technology and Agorithms (HPCC)
+
+@item ASTRAL
+Alliance fuer Strategic Token Ring Advancement and Leadership (manufacturer)
+
+@item ASU
+Asynchron-Synchron Umsetzer
+
+@item ASV
+Adobe SVG Viewer (Adobe, SVG)
+
+@item ASV
+Advanced Super-View (LCD, Sharp, MVA)
+
+@item ASVD
+Analog Simultaneous Voice and Data (MODEM)
+
+@item ASWM
+Asus System Web-based Management (Asus, DMI, SNMP, ASMA)
+
+@item AT
+Advanced Technology (IBM, PC)
+
+@item ATA
+Advanced Technology Attachment (ATA, HDD)
+
+@item ATA
+Analog Telephone Adaptor (VoIP)
+
+@item ATAG
+Authoring Tool Accessibility Guidelines (WAI)
+
+@item ATAP
+ARM Technology Access Program (ARM)
+
+@item ATAPI
+Advanced Technology Attachment Packet Interface (ATA)
+
+@item ATASPI
+Advanced Technology Attachment Software Programming Interface (ATA)
+
+@item ATC
+Address Translation Cache (CPU)
+
+@item ATC
+Address Translation Controller (ATM)
+
+@item ATC
+Advanced Thermo Concept (Cooler-Master)
+
+@item ATC
+Authorized Testing Center (MS)
+
+@item ATC
+Automatic Transmission Control
+
+@item ATCA
+Advanced Telecom Computing Architecture (Intel)
+
+@item ATCA
+Allied Tactical Communications Agency (org., NATO, mil.)
+
+@item ATCP
+[PPP] AppleTalk Control Protocol (Apple, AppleTalk, PPP, NCP, RFC 1378)
+
+@item ATD
+Asynchronous Time Division (ATM)
+
+@item ATDM
+Asynchronous Time Division Multiplexer (ATD)
+
+@item ATDMA
+Asynchronous Time Division Multiple Access (ATD)
+
+@item ATDP
+ATtention Dial Pulse (MODEM)
+
+@item ATDT
+ATtention Dial Tone (MODEM)
+
+@item ATE
+Asynchronous Terminal Emulation (Banyan, VINES)
+
+@item ATE
+ATM Terminating Equipment (SONET, ATM)
+
+@item ATEC
+Authorized Training and Education Center (MS,  MOCS, MCSD, ATEC)
+
+@item ATES
+Advanced Techniques integration into Efficient scientific Software (ESPRIT, CASE)
+
+@item ATF
+Automatic Track Finding (DDS)
+
+@item ATH
+Absolute Threshold of Hearing (MP3)
+
+@item ATH
+ATtention Hang up (MODEM)
+
+@item ATI
+Advanced Telecomunications Institute (org., USA)
+
+@item ATI
+Asociacion de Tecnicos de Informatica (org., Spain)
+
+@item ATIP
+Absolute Time In Pregroove (CD)
+
+@item ATIS
+Alliance  for Telecommunications Industry Solutions (org., USA)
+
+@item ATK
+Andrew ToolKit (Unix)
+
+@item ATKIS
+Amtliches Topographisch-Kartographisches InformationsSystem
+
+@item ATL
+Activex Template Library (MS, ActiceX, MSVC)
+
+@item ATL
+Adaptive Threshold Learning (neural nets)
+
+@item ATM
+Abstract Test Method (ISO 9646-1)
+
+@item ATM
+Adobe Type Manager
+
+@item ATM
+Asynchronous Transfer Mode (ATM)
+
+@item ATM
+At The Moment (slang, Usenet, IRC)
+
+@item ATM
+Automatic Teller Machine
+
+@item ATMARP
+ATM Address Resolution Protocol (ATM, ARP)
+
+@item ATMP
+Ascend Tunnel Management Protocol (Ascend, RFC 2107)
+
+@item ATMS
+Assumption based Truth Maintenance System (AI)
+
+@item ATN
+Augmented Transition Network
+
+@item ATOB
+ASCII TO Binary (ASCII)
+
+@item ATOMM
+Advanced super Thinlayer and high-Output Metal Media (Fuji)
+
+@item ATP
+[Macromedia] Authorized Training Program (Macromedia)
+
+@item ATP
+Advanced Technology Partner
+
+@item ATP
+Appletalk Transaction Protocol (Apple)
+
+@item ATP
+Application Transaction Program (IBM, APPC)
+
+@item ATP
+Available To Promise (SCM)
+
+@item ATP2
+AppleTalk Phase 2 (Apple, AppleTalk)
+
+@item ATPS
+AppleTalk Printing Services (AppleTalk, Apple)
+
+@item ATR
+Advanced Telecommunications Research laboratory (org., Japan)
+
+@item ATR
+Answer To Reset
+
+@item ATR
+Automatic Terminal Recognition
+
+@item ATRAC
+Adaptive TRansform Acoustic Coding (Sony, Digital audio, CODEC)
+
+@item ATS
+Abstract Test Suite
+
+@item ATS
+Adaptive Tape Speed (HP, Streamer, LTO)
+
+@item ATS
+Administrative Terminal System
+
+@item ATS
+Apple Terminal Services (Apple, AppleTalk)
+
+@item ATSPI
+Assistive Technology - Service Provider Interface (GNOME), "AT-SPI"
+
+@item ATSUI
+Apple Text Services for Unicode Imaging (Apple, Unicode)
+
+@item ATT
+American Telephone and Telegraph, "AT&T" 
+
+@item ATUS
+A Toolkit for Usable Security (Uni Freiburg)
+
+@item ATVEF
+Advanced TV Enhancement Forum (org.)
+
+@item ATX
+Advanced Technology eXtended [form factor]
+
+@item AU
+Access Unit
+
+@item AUAI
+Association for Uncertainty in Artificial Intelligence (org., AI)
+
+@item AUC
+AUthentication Center (GSM, mobile-systems), "AuC"
+
+@item AUDIT
+AUtomated Data Input Terminal
+
+@item AUDIUS
+AUssenDIenstUnterstuetzungsSystem (CAS)
+
+@item AUE
+Andrew User Environment (Unix)
+
+@item AUGCE
+Autodesk User Group Central Europe (org., user group)
+
+@item AUGE
+Apple User Group Europe (org., Apple, user group)
+
+@item AUI
+Access Unit Interface
+
+@item AUI
+Asociacion de Usuarios de Internet (Internet, user group, Spain, org.)
+
+@item AUI
+Attachment Unit Interface (ethernet)
+
+@item AUI
+Audible User Interface (UI)
+
+@item AUIS
+Andrew User Interface System (Unix, UI)
+
+@item AUP
+Acceptable Use Policy (NFSNet)
+
+@item AURP
+Appletalk Update-based Routing Protocol (Apple, Appletalk, RFC 1504)
+
+@item AUT
+Application Under Test
+
+@item AUTODIN
+AUTOmatic DIgital Network (DMS, DISA)
+
+@item AUTOSAR
+AUTomotive Open Systems Architecture [initiative] (org.)
+
+@item AUTOSEVOCOM
+AUTOmated SEcure VOice COMmunications (predecessor, SVIP, mil., USA)
+
+@item AUTOVON
+AUTOmatic VOice Network (predecessor, DSN, DISA)
+
+@item AUU
+ATM User-to-User (ATM)
+
+@item AUX
+Apple UniX (Apple, Unix), "A/UX" 
+
+@item AUX
+Auxiliary Power Unit (Airbus, A380)
+
+@item AV
+Audio/Video, "A/V"
+
+@item AV
+AudioVisual [macintosh] (Apple)
+
+@item AVA
+Audio-Visual Authoring
+
+@item AVAS
+teile-Auftragserfassungs-, Verwaltungs- und AbrufSystem (MBAG)
+
+@item AVATAR
+Advanced Video Attribute Terminal Assembler and Recreator (BBS)
+
+@item AVC
+Access Vector Cache
+
+@item AVC
+Advanced Video Coding (VCEG, video)
+
+@item AVC
+Audio-Visual Connection
+
+@item AVCD
+Audio-Visual Computer Display
+
+@item AVD
+Advanced Video Disk [old term] (China, EVD)
+
+@item AVD
+Alternation Voice/Data
+
+@item AVDL
+Application Vulnerability Description Language (OASIS, XML)
+
+@item AVE
+AutoCAD Visualization Extension (carCAD)
+
+@item AVERT
+Anti-Virus Emergency Response Team (McAfee)
+
+@item AVGA
+Advanced Video Graphics Array (VGA)
+
+@item AVI
+Audio Video Interleaved (MS)
+
+@item AVIS
+AuftragsVerwaltungs- und InformationsSYstem (MBAG)
+
+@item AVL
+Adelson, Veslkij and Laudis [tree]
+
+@item AVM
+AudioVisuelles Marketing und computersysteme [gmbh] (manufacturer)
+
+@item AVPD
+Anchor Volume Descriptor Pointer (CD-R, UDF, ISO 9660)
+
+@item AVR
+Automatic Voice Recognition
+
+@item AVR
+Automatic Voltage Regulation (USV)
+
+@item AVS
+Address Verification System
+
+@item AVS
+Adult Verification System (WWW)
+
+@item AWAC
+Audio Waveform Amplifier and Converter (Apple)
+
+@item AWADO
+Automatischer Wechselschalter in der AnschlussDose
+
+@item AWD
+Automatische Waehleinrichtung fuer Datenverbindungen
+
+@item AWE
+Address Windowing Extensions (API, PAE)
+
+@item AWE
+Autocad Windows Extension (carCAD)
+
+@item AWG
+American Wire Gauge (cable)
+
+@item AWK
+al Aho, peter Weinberger, brian Kernighan (Unix)
+
+@item AWL
+AnWeisungsListe (DIN 19239)
+
+@item AWOL
+Absent WithOut Leave (telecommunication, Usenet, IRC)
+
+@item AWP
+Association of Web Professionals (org., WWW)
+
+@item AWS
+Amazon Web Services (XML, API)
+
+@item AWS
+Apple Workgroup Server (Appletalk, Apple)
+
+@item AWT
+Abstract Window Toolkit (Java, Sun)
+
+@item AWTAPI
+Abstract Windows Toolkit-Application Programmer Interface (AWT, API, Java)
+
+@item AXE
+Application eXecution Environment
+
+@item AXIS
+Apache eXtensible Interaction System (Apache, SOAP)
+
+@item AYS
+Are You Sure (slang, Usenet, IRC)
+
+@item AZEB
+Australian/new Zealand EDIFACT Board (org., EDIFACT), "AZ/EB"
+
+@end table
+
+

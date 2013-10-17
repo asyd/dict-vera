@@ -1,0 +1,5 @@
+
+* Add targets to debian/rules to automatically extract ChangeLog,
+   README and copyright from vera.texi.
+* Use quilt for patch management, maybe? Will be resolved
+   automatically when switching to Format: 3.0 (quilt).

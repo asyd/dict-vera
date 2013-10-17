@@ -1,0 +1,77 @@
+@c -*-texinfo-*-
+@c This is part of the GNU edition of V.E.R.A.
+@c Copyright (C) 1993/2006 Oliver Heidelbach
+@c See the file vera.texi for copying conditions.
+@c 
+@c Syntax:
+@c ACRONYM
+@c Expansion[ (Reference)][, "Style"]
+@c Additional explanations are included in [square brackets]
+
+@table @asis
+@item 100VG
+100 Voice Grade [technology]
+
+@item 10GE
+10 GigaBIT Ethernet (ethernet, BIT)
+
+@item 1D2B
+1 D-channel 2 B-channels (BRI, ISDN)
+
+@item 2B1D
+2 B-channels 1 D-channel (BRI, ISDN)
+
+@item 2S2D
+Double Sided - Double Density (FDD)
+
+@item 3DDDI
+3D Device Dependent Interface (MS), "3D DDI"
+
+@item 3DRAM
+3 Dimensional Random Access Memory (RAM)
+
+@item 3GIO
+Third Generation Input/Output (PCIe)
+
+@item 3GIP
+3rd Generation . Internet Protocol (org., IP, GPRS, WLAN, mobile-systems), "3G.IP"
+
+@item 3GL
+3rd Generation Language
+
+@item 3GPP
+Third Generation Partnerships Projects (org.)
+
+@item 3PCC
+Third Party Call Control (SIP, RFC 3725)
+
+@item 4GL
+4th Generation Language
+
+@item 4GT
+4 GB [RAM] Tuning (RAM, GB)
+
+@item 5GL
+5th Generation Language
+
+@item 7E1
+7 [bits], Even [parity], 1 [stop bit] (MODEM, BIT)
+
+@item 80211HR
+802.11 High Rate (IEEE, WLAN), "802.11/HR"
+
+@item 8B10B
+8 bit / 10 bit [encoding] (IBM, FC, BIT), "8B/10B"
+
+@item 8N1
+8 [bits], No [parity bit], 1 [stop bit] (MODEM, BIT)
+
+@item 8PSK
+8 Phase Shift Keying (EDGE, mobile-systems)
+
+@item 8VSB
+8-Vestigial Side Band, "8-VSB"
+
+@end table
+
+

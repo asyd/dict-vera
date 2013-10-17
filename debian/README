@@ -1,0 +1,553 @@
+
+
+*V.E.R.A. -- Virtual Entity of Relevant Acronyms*
+
+V.E.R.A. is a free list of acronyms all of which are used in the field
+of computing.
+
+V.E.R.A. is primarily meant to be used as an online reference, although
+some efforts have been taken to make its TeX output looking acceptable.
+However I doubt that somebody would like to print it.  The original
+release compiled to 250 pages.
+
+This edition is a special contribution to the GNU project similar to
+the version 7.2 of V.E.R.A.  It contains approximately 11024 acronyms.
+
+The idea to make V.E.R.A. available in Texinfo format came after reading
+two other Info files both of which are available on the Internet, the
+_Standards_ and the _Languages_ file, both dealing with antique DEC
+mainframe environments and both distributed stand-alone; that is, both
+are not serving as a software manual like most of Texinfo files. I
+thought it would be very handy to have a list of acronyms available
+while using Emacs.
+
+It may be considered only a very little contribution.  However I make
+it to express my appreciation for the GNU project and its philosophy.
+This project does not only make software available free to everyone, it
+also seems that it sets the only standard `everyone' supports nowadays.
+
+I started V.E.R.A. around easter 1993.  The ASCII version is being
+posted to the German=speaking newsgroups _z-netz.alt.listen_ and
+_de.etc.lists_ every three months.  It is not being posted to an
+international newsgroup, because the introduction as well as many
+internal references are only available in German.
+
+Please note that the original version of V.E.R.A. is not related to the
+to the Free Software Foundation or the GNU project at all.
+
+The list is far from being complete as dozens of new acronyms evolve
+every month.  Also I am not an every day Unix user, so I am pretty sure
+that a lot of acronyms from the Unix world are missing.  The same is
+true for the Apple world.  Please don't be angry if your field of
+computing seems little or not represented at all. Instead please
+consider contributing the missing acronyms to let other people share
+what you know.
+
+The shift from the original format of V.E.R.A. to Texinfo format took a
+whole week.  Please forgive any errors which still remain.  For hints
+how to submit corrections or to report bugs, please see *Note History::.
+
+For a more in-depth discussion of some of the more common acronyms
+contained in this document you may want to consider visiting the _Free
+Online Dictionary of Computing (FOLDOC)_, at least if you have access
+to the World Wide Web.  It can be found at http://foldoc.org/ (as of
+June 2006).
+
+2 List format
+*************
+
+*V.E.R.A. -- Virtual Entity of Relevant Acronyms*
+
+Some notes on the systematic approach of the acronym list:
+
+Because often acronyms are being referenced not very unique in style,
+the acronyms in V.E.R.A. do not contain any special characters; only
+characters and numbers are used.  Please remember this, when you are
+searching for acronyms.
+
+German umlauts are expressed with AE, ae, OE, oe, UE, ue and ss.
+
+Examples:
+
+ASN.1 = ASN1
+OS/2 = OS2
+DFUE, Foerderung, Grossforschungseinrichtung, ...
+
+What is thought to be the common style can be found at the end of the
+line(s) in quotation marks.
+
+Examples:
+
+ASN1
+     Abstract Syntax Notation One (OSI), "ASN.1"
+
+ATT
+     American Telephone and Telegraph, "AT&T"
+
+
+
+
+2.1 Style of the acronym expansions
+===================================
+
+The acronym expansions basically follow their acronyms in style.
+Exceptions are made if expansions are containing acronyms themselves.
+This often leads to an kind of odd or even wrong orthographical style.
+
+Examples:
+
+AUX
+     Apple UniX, "A/UX"
+
+XT
+     eXtended Technology
+
+ACL
+     Advanced CMOS Logic
+
+
+2.2 Alternative expansions
+==========================
+
+If alternative expansions for the same acronym are known these are
+separated by a slash.  However that is not true for acronyms of
+basically different meanings.
+
+Examples:
+
+AE
+     Apple Events
+
+AE
+     Application Entity / Environment / Engineering (APE)
+
+
+2.3 Additional explanations
+===========================
+
+Terms in square brackets show additional explanations, of which do not
+directly belong to the acronym's expansion, but rather to the acronym's
+meaning.
+
+Examples:
+
+ARM
+     Annotated [c++] Reference Manual
+
+RLL
+     Run Length Limited [encoding]
+
+
+2.4 Reference tags for acronyms
+===============================
+
+The terms in parenthesis which often appear behind the expansions are
+reference links to certain topics or firms and should help you to get an
+idea of in which context an acronym is being used.
+
+Examples:
+
+WB
+     WorkBench (Amiga)
+
+WYSIWYG
+     What You See Is What You Get (DTP)
+
+
+Please note that the original version of V.E.R.A. is meant to be
+formatted in a hypertext environment.  Thus some references may seem
+redundant in an environment which does not support such links.
+
+Examples:
+
+API
+     Application Program Interface (API)
+
+
+2.5 Concatenated acronyms
+=========================
+
+Often-used concatenated acronyms appear without the space or any special
+characters between them.
+
+Examples:
+
+AMTPE
+     Apple Media Tool Programming Environment (Apple), "AMT PE"
+
+RISCOS
+     RISC Operating System (Acorn), "RISC OS"
+
+
+2.6 Acronyms pointing to versions
+=================================
+
+When there is a series of related acronyms differing by a number at the
+end, V.E.R.A. usually has just one entry, which omits the number.  For
+example, there are many versions of MNP (Microcom Networking Protocol),
+distinguished by numbers; but we do not list MNP4, MNP5 or MNP10, only
+MNP.
+
+So if you look for an acronym that ends in a number, and you don't find
+it, try leaving out the number(s).
+
+2.7 File extensions
+===================
+
+Please note that file extensions are not covered by V.E.R.A. at the
+moment, although some exceptions were made. You will not find things
+like EPS (Encapsulated PostScript) or GIF (Graphics Interchange Format).
+
+There are many such lists on the Internet if you should be looking for
+file extensions.
+
+2.8 Gaps
+========
+
+You will probably notice that some acronym expansions or references are
+tagged with three question marks (`???').  This indicates that an
+expansion or reference is still missing or uncertain.
+
+3 Acronym
+*********
+
+An acronym is a word derived from the initial letters or groups of
+letters of several other words.
+
+Popular examples are:
+_Laser_, from "(l)ight (a)mplification by (s)timulated (e)mission of
+(r)adiation", _Radar_, from "(ra)dio (d)etecting (a)nd (r)anging" or
+_snafu_, which should politely be rendered as "(s)ituation (n)ormal,
+(a)ll (f)ouled (u)p".
+
+The word acronym itself derives from the Greek words _akros_ "the
+highest, the most outer" and _onoma_ "name".
+
+Please note that acronyms are always pronounced as the spelling
+indicates.
+
+*Installation as Info file*
+
+If you like to install V.E.R.A. in your Info environment, there are
+three steps to do so:
+
+  1. Make an Info file from the Texinfo source, type:
+
+     `makeinfo vera.texi'
+
+     (The file extension may differ in your environment.)
+
+  2. Copy the files generated by the previous step to the directory
+     where the Info files reside on your site.
+
+  3. Go to your Info directory and edit the `dir' file. Insert a line
+     like the following where appropriate.
+
+     `* V.E.R.A.:  (vera).        Virtual Entity of Relevant Acronyms'
+
+*Bugs*
+
+This edition of V.E.R.A. has been translated from German and has not
+been intensively proofread.  Please report bugs concerning the use of
+broken or unsound English used in this document to the current
+maintainer of this document.
+
+If you spot any faults in the acronym chapters, these will be considered
+a bug too.  Please report those bugs to the current maintainer of this
+document.
+
+*Call for submissions*
+
+This acronym list is not and will never be complete.  However if you
+feel that something particular is missing, please submit it to the
+current maintainer.  Your submission will be included in the next
+edition of V.E.R.A.
+
+*Current maintainer*
+
+The current maintainer of this document is
+Oliver Heidelbach <ohei [at] snafu . de>
+
+5 Acknowledgments
+*****************
+
+*V.E.R.A. -- Virtual Entity of Relevant Acronyms*
+
+The following people contributed to this document:
+(In order to block spam-robots all @ have been replaced with #.)
+
+peterk#cbmger.de.so.commodore.com
+Wolfgang Houben <castor#newswire.de>
+Hans Fischer <profi#romeo.berlinet.de>
+Harald Welte <h.welte#silver.nbg.sub.org>
+a.lessmann#link-k.zer
+Rainer Frohnhoff <r.frohnhoff#aworld.zer>
+Marcus Cai Degler <m.c.degler#ithh.sh.sub.de>
+Sven van der Meer <vdmeer#cs.tu-berlin.de>
+elmar#peggy.e-technik.uni-dortmund.de
+Patrick Hess <patrick.hess#metazoa.de>
+Hans-Georg Forster <h.g.forster#parabol.cl.sub.de>
+thahn#berg93.in-berlin.de
+jochen#wip.mhs.compuserve.com
+Stefan Rinne <s_rinne#trashcan.mcnet.de>
+Wolfgang Kopp <kopp#naranek.camelot.de>
+ismias#wi.uni-muenster.de
+smendoza#yeti.dit.upm.es
+tms#dame.shnet.org
+Alexander Senne <akki#terra-i.rhein-ruhr.de>
+Frank Schlueter <frs#frs.in-berlin.de>
+Frank-Th. Bonnemeyer <Frank-Thomas.Bonnemeyer#eds.com>
+Olaf Naumann <amandus#esrf.fr>
+Keith Edgerley <edgerley#ebu.ch>
+Kristian Koehntopp <kk#netuse.de>
+Andreas Kempf <Andreas_Kempf#sidoun.go.germany-online.de>
+Thomas Rexroth <100414.42#compuserve.com>
+Christoph Lechner <Lechner#edvz.uni-linz.ac.at>
+Timothy Slater <t.slater#link-m.de>
+J.P. Lodge <jpl1#doc.ic.ac.uk>
+Andre Torrez <andre#frontside.com>
+Jeff Jewell <jcjewell#concentric.net>
+Peter H. Wendt <phw#compunet.de>
+Rene Caspersen <rene#sondagsavisen.dk>
+Carsten Schymik <cschy#zedat.fu-berlin.de>
+Noah Friedman <friedman#splode.com>
+Robert Bihlmeyer <robbe#orcus.priv.at>
+Matt Hillman <dhillman#netgate.net>
+Claude Gingras <CGingras#telebec.qc.ca>
+David Frewen <a-davfre#microsoft.com>
+Thorsten 'thh' Hempel <thh#valis.netestate.de>
+Bruno Haible <haible#ilog.fr>
+Andreas Waibel <Andreas.Waibel#studbox.uni-stuttgart.de>
+Martin Zierke <Martin.Zierke#gaia.de>
+Leonard <acmeman#myriad.net>
+Otto Stolz <Otto.Stolz#uni-konstanz.de>
+Wolfgang Borgert
+Stefan Hackebeil <stefan#hackebeil.l.uunet.de>
+Wolf Ivo Lademann <wil#kiel.netsurf.de>
+Werner Henze <beinhart#cs.tu-berlin.de>
+Kai Reese <reese#tecs.de>
+John L. Sokol <sokol#livecam.com>
+Guy Dumais <dumais#rgl.polymtl.ca>
+Gerhard Moeller <Gerhard.Moeller#offis.uni-oldenburg.de>
+Mike Moxcey <mmoxcey#email.aphis.usda.gov>
+Marco Koering <Marco.Koering#swisscom.com>
+Olaf Columbus <Olaf.Columbus#nortel-dasa.de>
+Craig Menefee <cmenefee#cwia.com>
+Kevin L. Burns <kburns#cogswell.edu>
+Timm Cordes <tc#Informatik.TU-Cottbus.DE>
+Thomas Ludwig <thomas_ludwig#hotmail.com>
+Torsten Halter <halter#prokom1.gg.uunet.de>
+Dr. Stephan Buehne <SBUEHNE#DE.oracle.com>
+H. Kronenberg <kronenberg#imst.de>
+Darren Baker <dbaker#tcon.net>
+Heiko Degenhardt <Heiko.Degenhardt#rz.tu-ilmenau.de>
+Simon Conti <sconti#dircon.co.uk>
+Mac Schwarz <mac#phil.uni-erlangen.de>
+Sven Heidelbach <Sven.Heidelbach#RegTP.de>
+Nicholas Stallard <Snowy#nsstalla.dialup.informatik.uni-stuttgart.de>
+Patrick Wibbeler pwibbele#Adobe.COM>
+Bastian Schick <elw5basc#gp.fht-esslingen.de>
+davint <davint#gensw.com>
+'The Lonegunmen' <tlgm#hamburg.crosswinds.net>
+Tim <directorSPAMMENOT#sympatico.ca>
+Daniel Lynde <Daniel.Lynde#Gateway.com>
+Jens Abromeit <jens.abromeit#tcpip-gmbh.de>
+Albrecht Schmiedel <atms#alibi.in-berlin.de>
+Joachim Nerz <nerz#rz.uni-mannheim.de>
+Prognos M. Voedisch <Michael.Voedisch#prognos.com>
+Peter A.Henning <P.Henning#FH-Karlsruhe.de>
+Ricardo Linden <rlinden#gotec.com.br>
+Robert Klemme <klemme#unity.de>
+Axel Kielhorn <A.Kielhorn#tu-bs.de>
+Mark Heitbrink <m.heitbrink#kamas.de>
+Philipp Steinau <Philipp.Steinau#gmx.de>
+Pressman AS/400 <STEVE.GIBSON#PRESSMAN-TOY.COM>
+Uwe Borchert <borchert#informatik.unibw-muenchen.de>
+Georg Oehl <oehlg#yahoo.com>
+Thomas Rohde <thomas.rohde#ecrc.de>
+Will <broly#online1.magnus1.com>
+Knut Kuelsen <Knut_K#kuelsen.de>
+Rene Ermler <rene.ermler#informatik.stud.uni-erlangen.de>
+Brian Hines <bhines#ppl.plesman.com>
+Tomasz Wegrzanowski <maniek#beer.com>
+Martin Mueller <martin.mueller#iuct.fhg.de>
+Florian Laws <florian#void.s.bawue.de>
+Adam Goode <adam#myrealbox.com>
+Henning Jonat <henningjonat#home.com>
+Norbert Zuber <zbx#topmail.de>
+Eckard Wolff Postler <Eckard.Wolff-Postler#Gtsgroup.com>
+Tomasz Wegrzanowski <maniek#beer.com>
+Jennifer <jenluk#chickmail.com>
+Nils <otott.buerotechnik#t-online.de>
+Ernst-Guenter Giessmann <ErnstG.Giessmann#telekom.de>
+Andreas Krause <andreas.krause#uni-dortmund.de>
+j l <jenluk#chickmail.com>
+Carsten Leonhardt <leo#debian.org>
+Robert D. Hilliard <hilliard#debian.org>
+Nils Rennebarth <nils#ipe.uni-stuttgart.de>
+Michael Schmitz <michael.schmitz#e-trend.de>
+Kerstin Assmus <praktika#bechtle.de>
+Michael Vielhaber <michael.vielhaber#fh-hof.de>
+Martin Biallas <martin#mbiallas.de>
+Joachim Ayasse <Joachim_Ayasse#genua.de>
+Arvind Mollin <amollin#cisco.com>
+Michael Ruehr <Michael.Ruehr#blb.de>
+Stefan Westerkamp <Stefan.Westerkamp#ger.sas.com>
+Nils Herzog <Nils.Herzog#DERTOUR.DE>
+Thomas Lack <lack#nexgo.de>
+Andreas Mock <A.Mock#tuvit.de>
+Volker Brune-Flueh <bruneflue#solutionline.com>
+Thimo Koenig <thimo.konig#evidian.com>
+Jim Scarborough <jims#iname.com>
+Falk Hauke <falk.hauke#gmx.de>
+Patrick Cowan <patrick#fifthera.com>
+Tomasz Wegrzanowski <taw#users.sourceforge.net>
+Christoph Probst <chris#cprobst.de>
+Tim Bannister <isoma#compsoc.man.ac.uk>
+Lutz Hohaus <lutz.hohaus#ruhr-uni-bochum.de>
+Ingo Maurer <ingo#maurer.net>
+Gerhard Brosig <Gerhard_Brosig#genua.de>
+Alois Reisinger <reisi#reisi.com>
+Brian Wolf/Dayacorp <brian.wolf.613#mindspring.com>
+Steven Duhon <SDuhon#mpea.com>
+<Philphillips28#aol.com>
+Axel Veil <Axel.Veil#mediaways.net>
+Tobias Ueberwasser <tobias.ueberwasser#cerberus.ch>
+Karsten Huppert <ed.treppuh-netsrak#karsten-huppert.de>
+Felix Schindele <zhamara#atheist.com>
+Klaus Juettermann <Klaus.Juttermann#sitel.de>
+Cecilie Rise <cecilie.rise#sbb.at>
+Jeff Orrok <jeff#rt.com>
+Ingo Russmann <ingo#linus.net-market.de>
+John E. Hein <jhein#timing.com>
+Christian Brandau <christian#cbra.de>
+Ben Armstrong <synrg#sanctuary.nslug.ns.ca>
+Matthias Kring <automatthias#web.de>
+Matthias Hinnah <mhinnah#deloitte.de>
+Axel Hornung <A.Hornung#ASC.DE>
+Jakob Hirsch <jh#plonk.de>
+Matt Zimmerman <mdz#csh.rit.edu>
+Stephan Boldt <Stephan.Boldt#epost.de>
+Pekka Lampila <medar#kapina.org>
+Maurice Leone <Leone.Maurice#swm.de>
+Michel Messerschmidt <9messers#informatik.uni-hamburg.de>
+Chong Yidong <yidong#stanford.edu>
+Jan Neumann <jan.neumann#bln1.siemens.de>
+Heiko Reddingius <heiko-stg#reddingius.de>
+Christian Griebel <Christian.Griebel#merck.de>
+Pedro Izecksohn <izecksohn#yahoo.com>
+Boris Masinovsky <boma#cs.tu-berlin.de>
+Reinhard Scholz <Reinhard.Scholz#wimi.landsh.de>
+Leslie Polzer <leslie.polzer#gmx.net>
+Tobias Toedter <t.toedter#web.de>
+Dan Avramescu <Dan.Avramescu#t-systems.com>
+Martin Meyerspeer <e9325116#stud4.tuwien.ac.at>
+Arnaud Giersch <giersch#icps.u-strasbg.fr>
+Pierre-Paul Lavoie <ppl#nbnet.nb.ca>
+Jutta Wrage <jw#witch.westfalen.de>
+Pauli Manninen <pajuma#iki.fi>
+Matthew Harris <mharris#litech.org>
+David Mohn <david.mohn1#web.de>
+Steffen Beyer <sbeyer#reactor.de>
+Dr. David Linke" <linke#aca-berlin.de>
+Alexander Kemp <Alexander.Kemp#gmx.de>
+Hans Thielen <hans.thielen#ipt.fraunhofer.de>
+Michael Wegner <michael-wegner#gmx.de>
+Vitaly Lipatov <lav#altlinux.ru>
+Ralph Bauer <rkhb#gmx.net>
+Markus Greil <m.greil#gcd-printlayout.de>
+Francesco Potorti <Potorti#isti.cnr.it>
+
+About 200 acronyms dealing with the ATM subject were taken
+from the online collection of the ATM forum.
+By courtesy of ATM forum.
+
+Another batch of acronyms was taken from the freely available
+acronym collection "Internet Perls 22" (_iperls22.zip_).
+By courtesy of William Hogg <wmhogg#execpc.com>.
+
+A lot of military related acronyms as well as several others
+were taken from the online collection of the DISA Center for
+Standards.
+By courtesy of DISA Center for Standards.
+
+Thanks to all of them and everybody who should be missing accidently.
+
+Also thanks to the following people:
+
+Richard M. Stallman
+For his encouraging words to get this edition done and some comments on
+how a Texinfo file should be formatted.  Also for the efforts taken to
+deal with the Systems Science Inc.  copyright/trademark incident in
+April 1998.
+
+Horst von Brand <vonbrand#sleipnir.valparaiso.cl>
+For pointing to the inconsistency between the file name in
+`@setfilename' (upper case) and the suggested info entry (lower case).
+
+Ricard Torres <root#tamino.udg.es>
+For pointing to some Un*x install problems in release 1.3.
+
+Carsten Leonhardt <leo#arioch.oche.de>
+For sending in a lot of spelling corrections for the text of release
+1.3. It were 17 if I counted right.  What a shame.
+
+H. Kronenberg <kronenberg#imst.de>
+For submitting numerous spelling corrections for acronym expansions.
+
+Henning Jonat <henningjonat#home.com>
+For sending a long list with acronym expansions which were still
+missing.
+
+Alexander Mai <st002279#hrzpub.tu-darmstadt.de>
+For pointing out a left over ISO character my replacing routine had
+ignored and for suggesting to add a 'README' file to the distributon.
+
+Andres Soolo <soolo#math.ut.ee>
+For contributing a Perl search routine for V.E.R.A.
+
+Leslie Polzer <leslie.polzer#gmx.net>
+For pointing out that the definition of the word acronym contained
+"_onyma_" which is aeolian while it should be "_onoma_" which is the
+more common attic form.
+
+Vitaly Lipatov <lav#altlinux.ru>
+For taking the effort to proof-read V.E.R.A. and sending in 46 spelling
+corrections.
+
+6 Disclaimer
+************
+
+*V.E.R.A. -- Virtual Entity of Relevant Acronyms*
+
+This is a special GNU edition of V.E.R.A., a list dealing with
+computational acronyms. It is currently maintained by Oliver Heidelbach
+<ohei [at] snafu . de>.
+
+Although V.E.R.A. has been corrected and worked over for quite a long
+time, no guarantee can be given for the correctness of any part of its
+contents.  Please don't get it wrong and help to correct any faults you
+may find.
+
+Please send corrections to the current maintainer.
+
+The author suggests not to redistribute corrected versions of this
+document, but instead to inform the actual maintainer about corrections
+you might have.  This would help not to confuse users because of
+different versions.
+
+For a complete legal disclaimer please read *Note GNU FDL::.
+
+Within the above restrictions the distribution of this document is
+explicitly encouraged and I hope you'll find it of some value.
+
+Please note that another version of V.E.R.A. exists, which is not
+related to the GNU project.
+
+This dictionary has nothing to do with Systems Science Inc.  or its
+products.
+
+Oliver Heidelbach (original author)
+<ohei [at] snafu . de>
+
+Copyright (C) 1993/2006

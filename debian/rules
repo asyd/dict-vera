@@ -1,0 +1,46 @@
+#! /usr/bin/make -f
+
+# export DH_VERBOSE=1
+
+pkg-ver  := $(shell dpkg-parsechangelog | sed -ne 's/^Version: //p')
+pkg-dte  := June 2006
+
+all build: build-stamp
+
+build-stamp:
+	dh_testdir
+	makeinfo --no-split vera.texi
+	sed '1,2!s/^/   /' vera. > vera
+	sed -f debian/sedfile vera.? >> vera
+	/usr/bin/dictfmt -f -u http://home.snafu.de/ohei \
+	    -s "V.E.R.A. -- Virtual Entity of Relevant Acronyms ($(pkg-dte))" \
+	   vera < vera 
+	/usr/bin/dictzip -v vera.dict
+	rm -f vera.tmp vera
+	touch $@
+
+clean:
+	dh_testdir
+	dh_clean
+
+binary: binary-indep binary-arch
+
+binary-indep: build
+	dh_testdir
+	dh_testroot
+	dh_installinfo
+	dh_installdocs -X debian/TODO
+	dh_installchangelogs debian/ChangeLog
+	dh_install
+	dh_compress
+	dh_fixperms
+	dh_installdeb
+	dh_gencontrol -pvera
+	dh_gencontrol -pdict-vera -- -v1:$(pkg-ver)
+	dh_md5sums
+	dh_builddeb
+
+binary-arch:
+# Nothing to do here.
+
+.PHONY: binary binary-arch binary-indep clean

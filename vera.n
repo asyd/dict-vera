@@ -1,0 +1,1502 @@
+@c -*-texinfo-*-
+@c This is part of the GNU edition of V.E.R.A.
+@c Copyright (C) 1993/2006 Oliver Heidelbach
+@c See the file vera.texi for copying conditions.
+@c 
+@c Syntax:
+@c ACRONYM
+@c Expansion[ (Reference)][, "Style"]
+@c Additional explanations are included in [square brackets]
+
+@table @asis
+@item NAARS
+National Automated Accounting Research System (USA)
+
+@item NAB
+National Association of Broadcasters (org., USA)
+
+@item NAB
+Netware Asynchronous Board (Novell, Netware)
+
+@item NABTS
+North American Broadcast Teletext Standard (USA)
+
+@item NAC
+Network Administration Center
+
+@item NAC
+Networks and Communications
+
+@item NAC
+Null Attached Concentrator (FDDI)
+
+@item NACLP
+North American Conference on Logic Programming (USA)
+
+@item NACM
+Networks And Communications Marketing
+
+@item NACS
+National Advisory Committee on Semiconductors (org., USA)
+
+@item NACS
+Netware Asynchronous Communication Server (Novell, Netware)
+
+@item NACS
+Network Access Control System (Netware, DES, cryptography)
+
+@item NACSIS
+National Academic Center for Science Information Systems (org., USA)
+
+@item NACT
+Neural Adaptive Control Technology [project] (NN)
+
+@item NAD
+Network Access Device
+
+@item NADB
+National Archaeological DataBase (DB, USA)
+
+@item NAEC
+Novell Authorized Education Center (Novell, Netware)
+
+@item NAG
+National Algorithms Group [ltd] (UK, org., predecessor), "NAg"
+
+@item NAG
+Network Architecture Group (org.)
+
+@item NAG
+Numerical Algorithms Group (UK, org.), "NAg"
+
+@item NAI
+Netzwerk Arbeitswelt Informatik (manufacturer)
+
+@item NAIIN
+No Abuse In InterNet (org.)
+
+@item NAL
+Netware Application Launcher (Novell, Netware, NAM)
+
+@item NALIS
+Nevada Academic Libraries Information System
+
+@item NAM
+Netware Application Manager (Novell, Netware, NAL)
+
+@item NAMP
+Netware, Apache, MySQL, PHP (Novell, Netware, Apache, PHP, DB)
+
+@item NAMS
+National Association of Multimedia Shareware (org., USA)
+
+@item NAP
+Network Access Point (IN)
+
+@item NAP
+Network Access Protection (MS, Windows, Vista)
+
+@item NAPLPS
+North American Presentation Level Protocol Syntax (BBS)
+
+@item NAPT
+Network Address and Protocol Translator (IP)
+
+@item NAPTR
+Naming Authority PoinTeR (Enum, DNS)
+
+@item NARP
+Non-Broadcast Multiple Access Address Resolution Protocol (RFC 1735)
+
+@item NAS
+Netware Access Services (Novell, Netware)
+
+@item NAS
+Network Application Services (DEC)
+
+@item NAS
+Network Application Support
+
+@item NAS
+Network Attached Storage (NFS, CIFS)
+
+@item NASI
+Netware Asynchronous Service Interface (Novell, Netware)
+
+@item NAT
+[IP] Network Address Translator (RFC 1631, IP)
+
+@item NATOA
+National Association of Telecommunications Officers & Advisors (org., USA)
+
+@item NAU
+Network Addressable Unit (IBM, SNA, OSI)
+
+@item NAU
+Network Attachment Unit (GigaB, IP-router)
+
+@item NAUN
+Nearest Active Upstream Neighbour (MAC)
+
+@item NAVNET
+NAVy NETwork (mil., USA, network)
+
+@item NB
+Nota bene (slang, Usenet, IRC)
+
+@item NBAR
+Network-Based Application Recognition
+
+@item NBCD
+Natural Binary Coded Decimal
+
+@item NBDD
+NetBIOS Datagram Distribution [server] (NETBIOS)
+
+@item NBE
+Not-Below-or-Equal
+
+@item NBFCE
+NETBIOS Frames Control Program (NETBIOS)
+
+@item NBFCP
+[PPP] NETBIOS Frames Control Protocol (PPP, NETBIOS, RFC 2097)
+
+@item NBFM
+Narrow Band Frequency Modulation
+
+@item NBIC
+Nano-Bio-Info-Cogno [initiative] (USA)
+
+@item NBMA
+Non-Broadcast Multiple Access (UNI, ATM)
+
+@item NBNS
+NetBIOS Name Server (NETBIOS)
+
+@item NBP
+Name Binding Protocol (AppleTalk)
+
+@item NBS
+Narrow Band Socket (Intel, Nokia)
+
+@item NBS
+National Bureau of Standards (org., predecessor, NIST)
+
+@item NBT
+NETBIOS on TCPIP (MS)
+
+@item NC
+Network Channel / Connect / Control
+
+@item NC
+Network Co-ordinator (FidoNet)
+
+@item NC
+Network Computer [reference profile] (Apple, IBM, Netscape, Oracle, Sun, Internet)
+
+@item NC
+Norton Commander (Symantec)
+
+@item NC
+Numerical Control
+
+@item NCA
+Network Communications Adapter
+
+@item NCA
+Network Computing Architecture (Oracle)
+
+@item NCA
+Network Control Analysis
+
+@item NCA
+Nexus Computing Agent (NGSCB, MS, Palladium)
+
+@item NCA
+Nexus Computing Agent (MS, Palladium)
+
+@item NCA
+Novell Certification Alliance (Novell, Netware)
+
+@item NCAIR
+National Center for Automated Information Research (org., USA)
+
+@item NCAM
+National Center for Accessible Media (org., USA)
+
+@item NCB
+Network Control Block (LAN)
+
+@item NCC
+Network Control / Coordination Center
+
+@item NCC
+Network Control Computer
+
+@item NCCF
+Network Communications Control Facility (IBM)
+
+@item NCCS
+NASA Center for Computational Sciences (org., NASA)
+
+@item NCD
+Network Computing Devices (manufacturer)
+
+@item NCD
+Norton Change Directory (DOS)
+
+@item NCDMA
+Narrowband - Code Division Multiple Access (telecommunication, mobile-systems, CDMA), "N-CDMA"
+
+@item NCE
+Nomadic Computing Environment (Tadpole)
+
+@item NCGA
+National Computer Graphics Association (org., USA)
+
+@item NCHPC
+National Consortium for High Performance Computing (org., HPC, USA)
+
+@item NCI
+Network Channel Interface
+
+@item NCI
+Non Coded Information
+
+@item NCIA
+Native Client Interface Architecture (IOS)
+
+@item NCIP
+Novell Certified Internet Professional (Novell, WWW, CNA)
+
+@item NCITS
+National Committee for Information Technology Standards (org., USA)
+
+@item NCL
+Null Convention Logic (CPU)
+
+@item NCMOS
+N-channel [Silicon Gate Reversed] CMOS
+
+@item NCN
+Nixdorf Communications Network
+
+@item NCOHPCC
+National Coordination Office for High Performance Computing and Communications (org., USA, HPC), "NCO/HPCC"
+
+@item NCOS
+Network Computer Operating System (OS, Oracle, Internet)
+
+@item NCOS
+Non-Concurrent Operating System (OS, UNIVAC 9200, UNIVAC 9300)
+
+@item NCP
+Netware Core Protocol (Novell, IPX)
+
+@item NCP
+Network Control Processor
+
+@item NCP
+Network Control Program (BBN, ARPANET)
+
+@item NCP
+Network Control Program / Point (IBM)
+
+@item NCP
+Non-Carbon Paper
+
+@item NCP
+Not Copy-Protected
+
+@item NCPE
+Netware Core Protocol Extension (NCP, Netware, IPX)
+
+@item NCPIE
+National Council on Patient Information and Education (org., USA)
+
+@item NCR
+National Cash Registers (manufacturer, AT&T)
+
+@item NCS
+National Communications System (USA)
+
+@item NCS
+Network Computing System (HP, Apollo)
+
+@item NCS
+Network Control System
+
+@item NCSA
+National Center for Supercomputing Applications (org., USA)
+
+@item NCSC
+National Computer Security Center (org., USA)
+
+@item NCSC
+North Carolina Supercomputing Center (org., USA)
+
+@item NCSI
+Network Communications Service Interface (NMP)
+
+@item NCSL
+National Computer Systems Laboratory (NIST, org., USA)
+
+@item NCSL
+National Conference of Standards Laboratories (org., USA)
+
+@item NCSNDR
+Network Computing System Network Data Representation (HP, Apollo), "NCS NDR"
+
+@item NCSS
+Non Commentary Sources Statements (LOC)
+
+@item NCSS
+Number Crunching Statistical System
+
+@item NCSTRL
+Networked Computer Science Technical Reference Library (WWW)
+
+@item NCT
+Network Control and Timing
+
+@item NCTE
+Network Channel-Terminating Equipment
+
+@item NCTL
+National Computer and Telecommunications Laboratory (org., USA)
+
+@item NCU
+Non-Cacheable Units
+
+@item ND
+Navigation Display (Airbus, A380)
+
+@item NDA
+Network Delivery Access
+
+@item NDA
+Non-Disclosure Agreement
+
+@item NDA
+Norddeutsche DatenAutobahn (network)
+
+@item NDBMS
+Network DataBase Management System (DB)
+
+@item NDBS
+Non-standard DataBase System (DB)
+
+@item NDC
+National Destination Code (MS-ISDN, GSM, mobile-systems)
+
+@item NDC
+Network Data Collection
+
+@item NDC
+Node Data Controller (Zenith)
+
+@item NDCC
+Network Data Collection Center
+
+@item NDD
+Norton Disk Doctor [software]
+
+@item NDDL
+Neutral Data Definition Language (DDL)
+
+@item NDE
+NeWS Development Environment
+
+@item NDI
+Network Distributed ISDN [for windows NT] (AVM, ISDN, Windows NT)
+
+@item NDIS
+Network Driver Interface Specification (3COM, MS)
+
+@item NDL
+Network Database Language (DB, 4GL)
+
+@item NDM
+Normal Disconnected Mode (IRDA, IRLAP, NRM)
+
+@item NDMP
+Network Data Management Protocol
+
+@item NDMS
+Netware Distributed Management Services (Novell, Netware)
+
+@item NDP
+Neighbor Discovery Protocol (RFC 2462)
+
+@item NDP
+Numeric Data Processor
+
+@item NDPA
+Network Problem Determination Application
+
+@item NDR
+Network Data Representation (NCS, DCE)
+
+@item NDR
+Network Data Representation service (DCE/RPC)
+
+@item NDR
+Non-Delivery Report (SMTP)
+
+@item NDR
+Non-Destructive Read
+
+@item NDRO
+Non-Destructive ReadOut
+
+@item NDS
+Netware Directory Services (Novell, Netware)
+
+@item NDS
+Network Data System
+
+@item NDT
+Net Data Throughput
+
+@item NDT
+Newfoundland Daylight Time (TZ, NFT)
+
+@item NDT
+Non-Destructive Testing
+
+@item NDU
+Network Device Utility
+
+@item NDV
+Non DSL Village (WIMAX, DSL)
+
+@item NE
+Network Element
+
+@item NE
+Netzebene (DTAG)
+
+@item NEA
+[Siemens] NEtzwerkArchitektur (NEA, Siemens)
+
+@item NEAB
+NEA Benutzerebenenprotokoll (NEA, Siemens)
+
+@item NEAN
+NEA Netzwerkebenenprotokoll (NEA, Siemens)
+
+@item NEAR
+National Electronic Accounting and Reporting
+
+@item NEARNET
+New England Academic and Research NETwork (USA, network), "NEARnet"
+
+@item NEAT
+New Enhanced Advanced Technology (AT)
+
+@item NEAT
+Novell Easy Administration Tool (Novell, Netware)
+
+@item NEATE
+NEA Transportebenenprotokoll (NEA, Siemens)
+
+@item NEBS
+Network Equipment Building System
+
+@item NEC
+National Electrical Code (USA)
+
+@item NEC
+Nippon Electronic Corporation (manufacturer)
+
+@item NED
+NASA Extragalactic Database (DB)
+
+@item NEDO
+New Energy and industrial technology Development Organization (org., Japan)
+
+@item NEFS
+Network Extensible File System, "NeFS" 
+
+@item NEII
+National Engineering Information Initiative (org., USA)
+
+@item NEM
+Nothing Else Matters (slang, Usenet, IRC)
+
+@item NEMS
+Nanoelektromechanische Speicher (IC, RAM)
+
+@item NEP
+Never-Ending Program
+
+@item NEREN
+NEbraska Research and Education Network (USA, network)
+
+@item NERO
+Neuro-Evolving Robotic Operatives [project]
+
+@item NES
+News Electronic Service
+
+@item NESC
+National E-Science Centre (org., UK), "NeSC"
+
+@item NESPINN
+NEurocomputer fuer Spikende Neuronale Netze (TUB)
+
+@item NEST
+Netware Embedded Systems Technology (Novell, Netware)
+
+@item NET
+Network Entity Title
+
+@item NETBEUI
+NETBIOS Extended User Interface (UI)
+
+@item NETBIOS
+NETwork Basic Input Output System (IBM, RFC 1001/1002), "NetBIOS"
+
+@item NETBLT
+NETwork BLock Transfer (IP)
+
+@item NETBT
+NetBIOS over TCP/IP (NETBIOS, TCP/IP), "NetBT"
+
+@item NETCDF
+NETwork Common Data Format, "NetCDF"
+
+@item NETDA
+NETwork Design and Analysis
+
+@item NETPARS
+NETwork Performing Analysis Reporting System
+
+@item NETSS
+National Electronic Telecommunication Surveillance System (USA)
+
+@item NEWS
+Netware Early Warning System (Novell, Netware)
+
+@item NEWS
+Networked Extensible Windowing System (Sun), "NeWS" 
+
+@item NEWT
+NeWS Terminal, "NeWT" 
+
+@item NEXT
+NEw eXtended Technology, "NeXT" 
+
+@item NFA
+Name Field Address (Forth)
+
+@item NFA
+Non-determistic Finite-state Automation
+
+@item NFAIS
+National Federation of Abstracting and Information Services (org., USA)
+
+@item NFAS
+Non Facilities-Associated Signaling (ISDN, PRI)
+
+@item NFGM
+Nano-Floating Gate Memory (RAM, IC)
+
+@item NFR
+Near Field Recording [technology]
+
+@item NFS
+Network Facilities Services
+
+@item NFS
+Network File System (Sun, Unix, RFC 1094/1813/3010)
+
+@item NFSP
+Netware File Service Protocol (Novell, Netware)
+
+@item NFT
+Network File Transfer (DNA, DEC)
+
+@item NFT
+NewFoundland Time [-0330] (TZ, NDT)
+
+@item NG
+NewsGroup (slang, Usenet)
+
+@item NGDD
+New Generation Desktop Design (Mitsubishi)
+
+@item NGE
+Not-Greater-or-Equal
+
+@item NGI
+Nederlands Genootschap for Informatica (org., Netherlands)
+
+@item NGIO
+Next Generation Input / Output (I/O, Intel)
+
+@item NGPP
+Next Generation Print Path [old term] (MS, Windows, Vista, XPS)
+
+@item NGPT
+Next Generation POSIX Threading (POSIX, IBM)
+
+@item NGS
+Non-Government Standard (USA)
+
+@item NGSB
+Non-Government Standards Body
+
+@item NGSBC
+Next Generation Secure Computing Base (MS, Windows, XP)
+
+@item NGSCB
+Next Generation Secure Computing Base (MS, Palladium)
+
+@item NHRP
+[NBMA] Next Hop Resolution Protocol (X.25, ATM, NBMA, IETF)
+
+@item NHSE
+National HPCC Software Exchange (USA)
+
+@item NI
+Network Interconnect / Interface
+
+@item NI
+Normenausschuss Informationstechnik (Din, org.)
+
+@item NI
+Normenausschuss Informationsverarbeitungssysteme [1987-1995] (DIN, predecessor, NI)
+
+@item NIA
+Network Information Access
+
+@item NIAC
+National Infrastructure Advisory Council (org., USA)
+
+@item NIAHGB
+Normenausschuss Informationstechnik - Ad-Hoc Gruppe Biometrie (NI, DIN), "NI-AHGB"
+
+@item NIAP
+National Information Assurance Partnership (org., NIST, NSA)
+
+@item NIAS
+Netware Internet Access Server (Novell, Netware)
+
+@item NIC
+Network Information Center (Internet, org.)
+
+@item NIC
+Network Interface Card / Controller
+
+@item NIC
+Numeric Intensive Computing
+
+@item NICAM
+Near-Instantaneously Companded Audio Multiplex (audio)
+
+@item NICD
+NIckel CaDmium [batterie], "NiCd" 
+
+@item NICE
+Network Information and Control Exchange (DECNET)
+
+@item NICOL
+Network Information Center On-Line
+
+@item NICOLAS
+Network Information Center On-Line Aid System
+
+@item NID
+Namespace IDentifier (URN)
+
+@item NIDOS
+NIxdorf Disk Operating System (OS, SNI)
+
+@item NIDR
+Network Information Discover and Retrieval
+
+@item NIDX
+Network Intrusion Detection eXpert system (BELLCORE, XPS)
+
+@item NIE
+Newton Internet Enabler (Apple, PDA)
+
+@item NIFTP
+Network Independent File Transfer Program (FTP)
+
+@item NIHCL
+National Institute of Health [c++] Class Library (PD)
+
+@item NII
+National Information Infrastructure [program] (USA, org.)
+
+@item NIIT
+National Information Infrastructure Testbed (ISH, USA)
+
+@item NIMH
+NIckel Metal Hydride [battery], "NiMH" 
+
+@item NIMT
+National Institute for Management Technology (org., Irland)
+
+@item NIPC
+National Infrastructure Protection Center (org., USA)
+
+@item NIPT
+[international symposium on] New Information Processing Technologies (conference, MITI)
+
+@item NIR
+Network Information Registry / Retrieval
+
+@item NIS
+Network Information Service (NSF)
+
+@item NIS
+Network Information System (Unix)
+
+@item NISC
+Network Information and Support Center
+
+@item NISCC
+National Infrastructure Security Coordination Centre (org., UK)
+
+@item NISDN
+Narrowband Integrated-Services Digital Network (ISDN), "N-ISDN"
+
+@item NISI
+Network Information Services Infrastructure
+
+@item NISO
+National Information Standards Organization (org., USA)
+
+@item NISS
+National Information on Software and Services (USA)
+
+@item NISSPAC
+NISS Public Access Collections (NISS)
+
+@item NIST
+National Institute of Standards and Technology (org., USA)
+
+@item NISYP
+Network Information System / Yellow Pages, "NIS/yp" 
+
+@item NIT
+Network Information Tabel (DVB)
+
+@item NITF
+National Imagery Transmission Format
+
+@item NITOL
+Norway-net with IT for Open Learning (network)
+
+@item NITS
+Network Independent Transport Service
+
+@item NIU
+Network Interface Unit
+
+@item NIU
+North american ISDN Users (USA, ISDN)
+
+@item NIUF
+North american ISDN Users Forum (USA, user group, ISDN, org.)
+
+@item NJC
+Nordic Journal of Computing (Finland)
+
+@item NJE
+Network Job Entry (BITNET, RSCS)
+
+@item NJE
+Network Job Entry
+
+@item NJSZT
+Neumann Janos SZamitogep-tudomanyi Tarsasag (org., Ungarn)
+
+@item NKS
+Network Knowledge Server
+
+@item NKSR
+Non-Kernel Security Related (Unix)
+
+@item NL
+Network Layer (ISO, OSI)
+
+@item NL
+New Line (ASCII)
+
+@item NL
+Number Lines (Unix)
+
+@item NLB
+Network Load Balancing (MS, Windows)
+
+@item NLDM
+Network Logical Data Manager (IBM)
+
+@item NLE
+Not-Less-or-Equal
+
+@item NLKD
+Novell Linux Kernel Debugger (Novell, Linux)
+
+@item NLM
+Netware Loadable Module (Novell, Netware)
+
+@item NLOS
+Non Line Of Sight (WIMAX, LOS)
+
+@item NLP
+Natural Language Processing
+
+@item NLP
+Non-Linear Programming
+
+@item NLP
+Normal Link Pulse (ethernet, LAN)
+
+@item NLPID
+Network Layer Protocol IDentifier (ATM, OSI)
+
+@item NLQ
+Near Letter Quality
+
+@item NLRI
+Network Layer Reachability Information
+
+@item NLS
+Native Language Support (HP)
+
+@item NLS
+Native Language System (OSF)
+
+@item NLS
+Network License Server
+
+@item NLS
+oNLine System
+
+@item NLSP
+Netware Link Services Protocol (Novell, Netware, IPX)
+
+@item NLSP
+Network Layer Security Protocol (ISO, IEC, ISO/IEC 11557)
+
+@item NLUUG
+NetherLand Unix User Group (org., user group)
+
+@item NLV
+National Language Version (IBM, OS/2, ...)
+
+@item NM
+Native Mode (PARISC, CM)
+
+@item NM
+Network Management
+
+@item NMA
+Network Management Architecture (SNA)
+
+@item NMAA
+National Multimedia Association of America (org., USA)
+
+@item NMAS
+Novell Modular Authentication Services (Novell, Netware)
+
+@item NMC
+Network Management Center
+
+@item NMCP
+Network Management Communication Protocol
+
+@item NMCS
+National Military Command System (mil., USA)
+
+@item NMEA
+National Marine Electronics Association [protocol] (org., USA, GPS)
+
+@item NMEO
+NetWorker Module for EMC Symmetrix for Oracle (Oracle, EMC, DB)
+
+@item NMF
+Network Management Forum
+
+@item NMI
+Non-Maskable Interrupt
+
+@item NML
+National Media Laboratory (org., USA)
+
+@item NML
+Natural Mapping Language (XPP, MPP)
+
+@item NML
+Network Management Layer (TMN)
+
+@item NMM
+Netzwerk-integrierte Multimedia Middleware
+
+@item NMOS
+Negative-channel Metal-Oxide Semiconductor (IC)
+
+@item NMP
+Network MODEM Program
+
+@item NMPF
+Network Management Productivity Facility (IBM)
+
+@item NMPL
+Netscape/Mozilla Public License (Netscape), "N/MPL"
+
+@item NMS
+Network Management Station / System (Novell, Netware)
+
+@item NMS
+Network Monitoring Station
+
+@item NMSU
+New Mexico State University (org.)
+
+@item NMT
+Nordic Mobile Telephone (mobile-systems)
+
+@item NMU
+Non-Maintainer Upload (Linux, Debian)
+
+@item NMVT
+Network Management Vector Transport
+
+@item NN
+Neural Network (NN)
+
+@item NNI
+Network Node Interface (ATM)
+
+@item NNI
+Network to Network Interface
+
+@item NNS
+Netware Named Services (Novel, Netware)
+
+@item NNSC
+NSF Network Service Center (org., NSF)
+
+@item NNTP
+Network News Transfer Protocol (Internet, RFC 977, Usenet)
+
+@item NNTPS
+Network News Transfer Protocol - Secured ??? (NNTP, Internet, Usenet)
+
+@item NNTR
+No Need To Reply (slang, Cygwin)
+
+@item NNX
+Network Numbering eXchange
+
+@item NOA
+Net On Air (Internet)
+
+@item NOC
+Network Operations Center
+
+@item NOCS
+Network Operations Center System
+
+@item NODIS
+NSSDC Online Data and Information Service (NSSDC)
+
+@item NOI
+Node Operator Interface
+
+@item NOKOS
+NOKia Open Source license (Nokia)
+
+@item NOMA
+National Online Media Association (org., USA)
+
+@item NORGEN
+Network Operations Report GENerator
+
+@item NORMA
+NO Remote Memory Access (OSF/1, Multi-Server)
+
+@item NOS
+Network Operating System
+
+@item NOSA
+Netlabs Open Source Archive
+
+@item NOSAC
+Netlabs Open Source Archive Client (NOSA)
+
+@item NOTA
+None of the Above
+
+@item NOTIS
+Network Operator Trouble Information System
+
+@item NOW
+Network Of Workstations (Cluster)
+
+@item NP
+Network Performance
+
+@item NP
+No Problem (telecommunication, Usenet, IRC)
+
+@item NPA
+Network Performance Analyzer
+
+@item NPA
+Network Printer Alliance (IEEE 1284, IBM, Lexmark, Xerox)
+
+@item NPA
+Network Professional Association (org., USA)
+
+@item NPA
+Numbering Plan Area
+
+@item NPAC
+Northeast Parallel Architectures Center (org., USA, HPC)
+
+@item NPC
+Network Parameter Control
+
+@item NPC
+Non-Player Character (MMORPG)
+
+@item NPD
+Network Products Division (Toshiba)
+
+@item NPDA
+Network Problem Determination Application (IBM)
+
+@item NPH
+Non Parse Headers (HTTPD, CGI)
+
+@item NPI
+Network Printer Interface
+
+@item NPL
+Netscape Public License (Netscape)
+
+@item NPL
+Non-Procedural Language
+
+@item NPM
+Network Performance Monitor
+
+@item NPMS
+Named Pipes / Mail Slots (MS)
+
+@item NPSI
+NCP Packet Switching Interface (IBM, NCP)
+
+@item NPSI
+Network Protocol Service Interface
+
+@item NPSS
+NASA Packet Switch System (NASA)
+
+@item NPTL
+Native POSIX Thread Library (POSIX)
+
+@item NPTN
+National Public Telecomputing Network (network, USA)
+
+@item NPV
+Net Present Value
+
+@item NQS
+Network Queuing System
+
+@item NRC
+National Research Council (org., USA)
+
+@item NRCLSE
+National Resource for Computers in Life Science Education (USA)
+
+@item NREN
+National Research and Education Network (USA, network)
+
+@item NRFD
+Not Ready for Data
+
+@item NRIP
+Novell Routing Information Protocol (Novell, Netware), "nRIP"
+
+@item NRM
+Network Resource Management
+
+@item NRM
+Normal Response Mode (IRDA, IRLAP, NDM)
+
+@item NRN
+National Research Network (USA, network)
+
+@item NRN
+No Reply Necessary (slang, Usenet)
+
+@item NROFF
+New Run-OFF (Unix)
+
+@item NRPC
+Notes Remote Procedure Call (Lotus)
+
+@item NRPE
+Nagios Remote Plug-in Executor (Nagios)
+
+@item NRPE
+Nagios Remote Plugin Executor
+
+@item NRS
+Name Registration System
+
+@item NRS
+Novell Replication Services (Novell, Netware)
+
+@item NRT
+Non-Requesting Terminal
+
+@item NRTVBR
+Non-RealTime Variable Bit Rate (VBR, ATM, BIT), "nrt-VBR"
+
+@item NRZ
+Non-Return-to-Zero [recording]
+
+@item NRZI
+Non-Return-to-Zero, Invert to ones [encoding]
+
+@item NS
+Name Server (DNS, Unix)
+
+@item NS
+National Standard
+
+@item NSA
+National Security Agency (org., USA)
+
+@item NSAI
+National Standards Authority of Ireland (org., Irland)
+
+@item NSAP
+Network Service Access Point (OSI, OSI/RM, SAP)
+
+@item NSAPA
+Network Service Access Point Address (OSI, NSAP)
+
+@item NSAPI
+Netscape Server Application Programmer's Interface (Netscape, WWW, C/S, API)
+
+@item NSB
+National Science Board (USA, org.)
+
+@item NSBD
+Not-So-Bad Distribution (Bell)
+
+@item NSC
+National Security Council (org., USA)
+
+@item NSC
+National SemiConductor (manufacturer)
+
+@item NSC
+Network Service Center
+
+@item NSC
+Network Storage Corporation
+
+@item NSCA
+Nagios Service Check Acceptor (Nagios)
+
+@item NSCA
+National institute for Supercomputing Applications
+
+@item NSD
+National Security Directive (USA)
+
+@item NSD
+Network Shared Disk (GPFS, HDD)
+
+@item NSE
+Network Support Encyclopedia (Novell)
+
+@item NSEC
+Network Switching Engineering Center
+
+@item NSERC
+Natural Sciences and Research Council (org., USA)
+
+@item NSF
+National Science Foundation (org., USA)
+
+@item NSF
+Norges StandardiseringsForbund (org., Norway)
+
+@item NSFIP
+NextStep Fuer IntelProzessoren, "NSfIP" 
+
+@item NSFNET
+National Science Foundation NETwork (network, USA, Internet), "NSFnet"
+
+@item NSG
+Network Services Group
+
+@item NSI
+Name Service Independent (DCE/RPC, CDS)
+
+@item NSI
+NASA Science Internet (NASA, network)
+
+@item NSIS
+National Schengen Information System (SIS, Europe)
+
+@item NSIS
+Next Steps In Signaling (RFC 4080)
+
+@item NSN
+NASA Science Network (USA, network)
+
+@item NSP
+Name Service Protocol (DNS)
+
+@item NSP
+Native Signal Processing (Intel, CPU)
+
+@item NSP
+Network Service Point
+
+@item NSP
+Network Service Provider
+
+@item NSP
+Network Services Protocol (DNA)
+
+@item NSPMP
+Network Switching Performance Measurement Plan
+
+@item NSPR
+NetScape Portable Runtime (Netscape, API)
+
+@item NSR
+Non-Source Routed
+
+@item NSRD
+National Software Reuse Directory (USA)
+
+@item NSS
+Namespace Specific String (URN)
+
+@item NSS
+Network Security Services (Mozilla, Internet)
+
+@item NSS
+Network Server System (Airbus, A380)
+
+@item NSS
+Network Storage Solutions (manufacturer)
+
+@item NSS
+Nodal Switching Subsystem (NSFNET)
+
+@item NSS
+Novell Storage System (Novell, Netware)
+
+@item NSSA
+Not So Stubby Area (OSPF, RFC 1587)
+
+@item NSSDC
+National Space Science Data Center (org., USA)
+
+@item NST
+Network Security Toolkit
+
+@item NST
+Newfoundland Standard Time (TZ)
+
+@item NST
+North Sumatra Time [+0630] (TZ)
+
+@item NSTAN
+NebenSTellenANlagen (DTAG, CBX), "NStAn"
+
+@item NSTC
+National Science and Technology Council (org., USA)
+
+@item NSTL
+National Software Testing Lab (org., USA)
+
+@item NSTS
+National Secure Telephone System
+
+@item NSTX
+Name Server Tunnel Exchange [protocol]
+
+@item NSW
+National Software Works (OS)
+
+@item NT
+[Windows] New Technology (MS, OS, Windows)
+
+@item NT
+Netzwerk Terminator, Network Terminator (ISDN)
+
+@item NT
+Nome Time [-1100] (TZ)
+
+@item NT1
+Network Termination [unit] 1 (ISDN)
+
+@item NTAS
+NT Advanced Server (MS, Windows NT)
+
+@item NTBA
+Network Termination for Basic Access (ISDN)
+
+@item NTBBA
+Netzwerk-Terminationspunkt BreitBandAngebot (DTAG, DSL)
+
+@item NTC
+National Telecommunications Conference (conference, USA)
+
+@item NTDS
+[Windows] NT Directory Services (MS, Windows NT, DS)
+
+@item NTE
+Network Terminal Equipment
+
+@item NTFS
+[windows] New Technology File System
+
+@item NTI
+Network Termination Interface
+
+@item NTIA
+National Telecommunications and Information Administration / Agency (org., USA)
+
+@item NTK
+Need-To-Know (slang, Usenet, IRC)
+
+@item NTK
+Newton ToolKit (Apple)
+
+@item NTLM
+[Windows] NT LAN Manager (MS, Windows NT, LAN)
+
+@item NTN
+National Telecommunications Network
+
+@item NTO
+Network Terminal Option
+
+@item NTP
+Network Time Protocol (Internet, RFC 1119/1305)
+
+@item NTS
+Network Technical Support
+
+@item NTS
+Network Test System
+
+@item NTS
+New Typesetting System (TeX, DANTE)
+
+@item NTS2
+Network Transport Services /2 (IBM), "NTS/2"
+
+@item NTSA
+Netware Telephony Services Architecture
+
+@item NTSC
+National Television Standards Committee (org., USA)
+
+@item NTSC
+Never The Same Color (slang)
+
+@item NTSE
+[Windows] NT Server / Enterprise edition (MS, Windows NT), "NTS/E"
+
+@item NTT
+Nippon Telephone & Telegraph (org., Japan)
+
+@item NUA
+Network User Address
+
+@item NUI
+Network User Identification (Datex-P)
+
+@item NUISSH
+Natur- und UmweltInformationsSystem Schleswig-Holstein (UIS), "NUIS-SH"
+
+@item NUMA
+Non Uniform Memory Access (SMP)
+
+@item NURB
+Non Uniform Rational B-spline
+
+@item NURBS
+Non-Uniform Rational B-Spline (CAD, Animation)
+
+@item NUS
+National University of Singapore (org.)
+
+@item NUTEK
+[National Board for Industrial and Technical Development] (org., Sweden)
+
+@item NVDM2
+NetView Distribution Manager /2 (OS/2, IBM), "NVDM/2"
+
+@item NVN
+National Videotex Network (USA, network)
+
+@item NVP
+Network Voice Protocol
+
+@item NVRAM
+Non-Volatile Random Access Memory (RAM, IC)
+
+@item NVS
+NachrichtenVermittlungsSystem (INPOL)
+
+@item NVSG
+NVidia SceneGraph [SDK] (Nvidia, SDK)
+
+@item NVT
+Network Virtual Terminal (Telnet, Internet)
+
+@item NWCS
+Netware Workstation Compatible Service (Netware, Windows NT)
+
+@item NWIP
+NetWare Internet Protocol (Novell, Netware)
+
+@item NWNET
+NorthWestern states NETwork (network, USA), "NWNet"
+
+@item NWO
+NetWork Operator (ETSI, ETSI 201 671)
+
+@item NWP
+Numeric Weather Modelling
+
+@item NX
+No eXecute (AMD, Athlon)
+
+@item NYSERNET
+New York State Education and Research NETwork (network, USA), "NYSERNet"
+
+@item NZCS
+New Zealand Computer Society (org., Neuseeland)
+
+@item NZT
+New Zealand Time [+1130] (TZ)
+
+@item NZUSUGI
+New Zealand Unix System User Group, Inc. (org., Unix, user group)
+
+@end table
+
+

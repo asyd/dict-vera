@@ -1,0 +1,176 @@
+@c -*-texinfo-*-
+@c This is part of the GNU edition of V.E.R.A.
+@c Copyright (C) 1993/2006 Oliver Heidelbach
+@c See the file vera.texi for copying conditions.
+@c 
+@c Syntax:
+@c ACRONYM
+@c Expansion[ (Reference)][, "Style"]
+@c Additional explanations are included in [square brackets]
+
+@table @asis
+@item ZAK
+Zero Administration Kit (ZAW, MS, Windows NT)
+
+@item ZAPP
+Zero Assignment Parallel Processor
+
+@item ZAW
+Zero Administration initiative for Windows (MS, Windows NT)
+
+@item ZBR
+Zone Bit Recording (BIT)
+
+@item ZC
+Zone Co-ordinator (FidoNet)
+
+@item ZCAV
+Zone Constant Angular Velocity
+
+@item ZCLV
+Zoned Constant Linear Velocity (DVD, DVD-RAM)
+
+@item ZCR
+Zero Channel RAID (RAID)
+
+@item ZCV
+Zortech Class Viewer (Zortech)
+
+@item ZDS
+Zenith Data Systems (manufacturer)
+
+@item ZDVA
+Zentrale DatenVerarbeitungsAnlage [des bundes]
+
+@item ZE
+Zentraleinheit (CPU)
+
+@item ZEAS
+ZEntrales AbsatzanalyseSystem (MBAG)
+
+@item ZEBES
+Zentrales teile-BEstandsSteuerungssystem (MBAG)
+
+@item ZEDAT
+ZentralEinrichtung DATenverarbeitung (FUB, Org)
+
+@item ZEDIS
+ZEntrales teile-DispositionsSystem (MBAG)
+
+@item ZEO
+ZOPE Enterprise Objects (ZOPE)
+
+@item ZEPRAS
+ZEntrales PReisabwicklungs- und AnalyseSystem (MBAG)
+
+@item ZESOD
+ZEntrale teileSOrtimentDatei (MBAG)
+
+@item ZEVIS
+ZEntrales VerkehrsInformationsSystem (Kraftfahrzeugbundesamt)
+
+@item ZFOD
+Zero-Filled On Demand
+
+@item ZIAM
+Zentrum fuer Industrielle Anwendungen Massiver parallelitaet [gmbh] (org.)
+
+@item ZIB
+[konrad-zuse] Zentrum fuer Informationstechnik Berlin (org.)
+
+@item ZIF
+Zero Insertion Force [socket] (IC)
+
+@item ZIL
+Zork Implementation Language (Infocom)
+
+@item ZIP
+Zigzag Inline Package (VRAM)
+
+@item ZIP
+Zone Information Protocol (AppleTalk)
+
+@item ZIS
+ZollInformationsSystem Germany
+
+@item ZISC
+Zero Instruction Set Computer (CPU)
+
+@item ZIT
+interdisziplinaeres forschungsZentrum fuer Informatik und Technik (org., Uni Paderborn, Germany)
+
+@item ZKA
+Zentraler Kreditausschuss banking, Org., Germany
+
+@item ZKDSG
+ZugangsKontrollDiensteSchutzGesetz Germany, telecommunication
+
+@item ZMD
+Zenworks [Linux] Management DAEMON (Novell, Linux, DEAMON)
+
+@item ZMH
+Zone Mail Hour (FidoNet)
+
+@item ZMI
+ZOPE Management Interface (ZOPE)
+
+@item ZMT
+Zentrum fuer Multimediale Telekommunikation (BERKOM)
+
+@item ZOC
+Zap-O-Comm (OS/2, telecommunication)
+
+@item ZODB
+ZOPE DataBase (DB, OO, ZOPE)
+
+@item ZOPE
+Z Object Publishing Environment (ZOPE)
+
+@item ZOS
+Z/Operating System (IBM, Java, OS), "z/OS"
+
+@item ZPL
+Zope Public License
+
+@item ZPR
+Zentrum fuer Paralleles Rechnen (org., Uni Koeln, Germany)
+
+@item ZPR
+Zero Power Resistance
+
+@item ZPT
+ZOPE Page Templates (ZOPE)
+
+@item ZRE
+Zero Rate Error
+
+@item ZRZ
+Zentrales RechenZentrum (org., TUB)
+
+@item ZSI
+Zentralstelle fuer Sicherheit in der Informationstechnik (org., BSI, predecessor)
+
+@item ZSI
+Zentralstelle fuer Sicherheit in der Informationstechnik [old term] Org., Germany, BSI
+
+@item ZSL
+Zero Slot LAN (LAN)
+
+@item ZV
+Zoomed Video (video)
+
+@item ZVM
+Z/Virtual Machine (IBM, VM), "z/VM"
+
+@item ZWEI
+ZWEI Was EINE Initially (EINE, LISP)
+
+@item ZZF
+Zentralamt zur Zulassung von Fernmeldeeinrichtungen (org., DTAG, predecessor, BZT)
+
+@item ZZK
+ZentralZeichengabeKanal (ISDN)
+
+@end table
+
+

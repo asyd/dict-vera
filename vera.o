@@ -1,0 +1,1244 @@
+@c -*-texinfo-*-
+@c This is part of the GNU edition of V.E.R.A.
+@c Copyright (C) 1993/2006 Oliver Heidelbach
+@c See the file vera.texi for copying conditions.
+@c 
+@c Syntax:
+@c ACRONYM
+@c Expansion[ (Reference)][, "Style"]
+@c Additional explanations are included in [square brackets]
+
+@table @asis
+@item OA
+Object Adapter (ORB, IDL)
+
+@item OA
+Office Automation
+
+@item OA
+Open Access (SPI, DB)
+
+@item OAA
+Open Arcade Architecture (Intel)
+
+@item OACIS
+Oregon Advanced Computing InStitute (org.)
+
+@item OAD
+Open Architecture Driver (Iomega)
+
+@item OADG
+Open Architecture Development Group (org.)
+
+@item OAG
+Online Airline Guide (CIS)
+
+@item OAG
+Open Application Group (org., USA)
+
+@item OAI
+Open Applications Interface
+
+@item OAI
+Open Archives Initiative (org.)
+
+@item OAK
+Object Application Kernel (Java, predecessor, Sun)
+
+@item OAM
+Object Attribute Memory (Gameboy)
+
+@item OAM
+Operations, Administration and Management [cell] (ATM)
+
+@item OARNET
+Ohio Academic Resources NETwork (network, USA), "OARnet"
+
+@item OAS
+Office Automation System
+
+@item OASF
+Office Automation System Facilities (OA)
+
+@item OASIS
+Online Application System Interactive Software
+
+@item OASIS
+Open And Secure Information Systems (Eureka)
+
+@item OASIS
+Organization for the Advancement of Structured Information Standards (org.)
+
+@item OASYS
+Office Automation SYStem
+
+@item OATS
+Office Automation Technology and Services (OA)
+
+@item OAW
+Optically Assisted Winchester (HDD, Seagate)
+
+@item OBAK
+OBjektAbbildungskatalog (ATKIS)
+
+@item OBD
+Online Bugs Database (Sun, DB)
+
+@item OBDH
+On-Board Data Handling (ESA, Venus-Express)
+
+@item OBDR
+One Button Disaster Recovery (HP, Streamer)
+
+@item OBEX
+OBject EXchange (WordPerfect)
+
+@item OBGA
+Organic Ball Grid Array (BGA, IC, CPU)
+
+@item OBI
+Open Buying on the Internet (Internet, WWW)
+
+@item OBM
+Original Brand Manufacturer
+
+@item OBS
+Online Book Store (Internet, WWW)
+
+@item OBST
+OBject management system of STONE (STONE)
+
+@item OBTWIAVBP
+OBligatory The World Is A Very Big Place (telecommunication, Usenet, IRC), "ObTWIAVBP"
+
+@item OBU
+On-Board-Unit
+
+@item OC
+Object Class (OOP)
+
+@item OC1
+Optical Carrier level 1 [51,48 Mbps] (SONET), "OC-1"
+
+@item OC12
+Optical Carrier level 12 [622,08 Mbps] (SONET, STM-4), "OC-12"
+
+@item OC18
+Optical Carrier level 18 [933,12 Mbps] (SONET, STM-6), "OC-18"
+
+@item OC24
+Optical Carrier level 24 [1244,16 Mbps] (SONET, STM-8), "OC-24"
+
+@item OC3
+Optical Carrier level 3 [155,52 Mbps] (SONET, STM-1), "OC-3"
+
+@item OC36
+Optical Carrier level 36 [1866,24 Mbps] (SONET, STM-12), "OC-36"
+
+@item OC48
+Optical Carrier level 48 [2488,32 Mbps] (SONET, STM-16), "OC-48"
+
+@item OC768
+Optical Carrier level 768 [39813,12 Mbps] (SONET, STM-256), "OC-768"
+
+@item OC9
+Optical Carrier level 9 [466,56 Mbps] (SONET, STM-3), "OC-9"
+
+@item OC96
+Optical Carrier level 96 [4976,64 Mbps] (SONET, STM-32), "OC-96"
+
+@item OCC
+Operations Control Center
+
+@item OCC
+Other Common Carrier
+
+@item OCCA
+Open Cooperative Computing Architecture
+
+@item OCD
+Off-Chip-Driver [calibration]
+
+@item OCD
+Out-of-Cell Delineation (UNI)
+
+@item OCE
+Open Collaborative Environment (Apple)
+
+@item OCF
+Open Clustering Framework
+
+@item OCF
+Open Computing Facility
+
+@item OCFS
+Oracle Cluster File System (Oracle, DB)
+
+@item OCG
+OEstereichische Computer Gesellschaft (org., Austria)
+
+@item OCL
+Object Constraint Language (DB, OO, UML, CASE)
+
+@item OCL
+Open Content License (OPL)
+
+@item OCL
+Operation Control Language
+
+@item OCL
+OS/2 inside Class Library (OS/2)
+
+@item OCLC
+Online Computer Library Center (org., Internet, USA)
+
+@item OCO
+Object Code Only (OOP)
+
+@item OCPA
+Open Content Platform Association (org., Amiga, Sharp, JVC, Kyocera, ...)
+
+@item OCR
+Optical Character Recognition
+
+@item OCS
+Object Compatibility Standard (Motorola)
+
+@item OCS
+Open Cabling System
+
+@item OCSP
+Online Certificate Status [revocation] Protocol (cryptography)
+
+@item OCX
+OLE Control eXtensions (MS)
+
+@item OD
+Optical Disk
+
+@item ODA
+Office Document Architecture [protocol] (RFC 1197, ISO 8613, JTC1, ECMA)
+
+@item ODA
+Open Document Architecture (CCITT T.410)
+
+@item ODAPI
+Open Database Application Programming Interface (Borland, DB, API), "Odapi"
+
+@item ODBC
+Open DataBase Connectivity (WOSA, DB, API)
+
+@item ODBMS
+Object orientated Database Management System (DBMS, DB)
+
+@item ODC
+Optical Disc Corporation (manufacturer)
+
+@item ODD
+Operator Distance-Dialing
+
+@item ODE
+Object Database and Environment (AT&T, DB)
+
+@item ODE
+Online Data Entry
+
+@item ODETTE
+Organization for Data Exchange by Tele-Transmission in Europe (org., Europe)
+
+@item ODF
+Open Document Format [for Office Applications] (OASIS, ISO/IEC 26300)
+
+@item ODF
+Opendoc Development Framework (Apple, OpenDoc)
+
+@item ODF
+Opendoc Part Framework (OpenDoc)
+
+@item ODI
+Open Data link Interface (Novell)
+
+@item ODI
+Open Device Interconnect
+
+@item ODIA
+OpenDoc Internet Adapter (Apple, ALOE, predecessor)
+
+@item ODIF
+Office Document Interchange Format (ISO 8613, ASN.1, ODA)
+
+@item ODIN
+Optimale Datenmodelle und algorithmen fuer Ingenieur- und Naturwissenschaften [auf hochleistungsrechnern] (Uni Karlsruhe, Germany, SNI)
+
+@item ODINSUP
+Open Data link Interface - Network driver interface specification SUPport (ODI, NDIS)
+
+@item ODISS
+Optical Digital Image Storage System
+
+@item ODK
+Office Development Kit
+
+@item ODL
+Object Description Language
+
+@item ODL
+Open Document Language (ODA, SGML)
+
+@item ODLI
+Open Data Link Interface
+
+@item ODM
+Object Database Manager (AIX, IBM)
+
+@item ODM
+Original Design Manufacturer (OEM)
+
+@item ODMA
+Open Document Management API (API)
+
+@item ODMG
+Object Database Management Group (org., DB)
+
+@item ODP
+Open Directory Project (WWW, Netscape)
+
+@item ODP
+Open Distributed Processing (ISO)
+
+@item ODP
+OverDrive Processor (Intel)
+
+@item ODPR
+OverDrive Processor Replacement (Intel)
+
+@item ODR
+Octal Data Rate (SDR, GDR, QDR)
+
+@item ODR
+Ontrack Data Recovery (Ontrack, Software, Netware)
+
+@item ODR
+Optimized Dynamic Routing (SNI)
+
+@item ODS
+Offenes Deutsches Schulnetz (network)
+
+@item ODS
+Office Dialog System (OA)
+
+@item ODS
+Open Data Services
+
+@item ODS
+Optical Data Systems [inc.] (manufacturer)
+
+@item ODS
+Output Delivery Database
+
+@item ODS
+Overhead Data Stream
+
+@item ODSI
+Open Directory Service Interfaces (MS, Windows NT)
+
+@item ODSPE
+Optical-based Digital Signal Processing Engine (DSP)
+
+@item ODT
+On-Die-Termination
+
+@item ODT
+Online Debugging Technique
+
+@item ODT
+Open DeskTop (SCO, GUI)
+
+@item ODVA
+Open DeviceNet Vendor Association (org.)
+
+@item OE
+Outlook Express (MS, Internet)
+
+@item OEB
+Open eBook [standard] (MS, NuvoMedia, ...)
+
+@item OECOS
+Organizational Engineering for Communications and Organizational Systems (SNI, OA)
+
+@item OEM
+Original Equipment Manufacturer (ODM)
+
+@item OEP
+Operand Execution Pipelines (Motorola, CPU)
+
+@item OES
+Olivetti EntsorgungsService (Olivetti)
+
+@item OES
+Open Enterprise Server (Novell, Linux)
+
+@item OF
+Overflow Flag (assembler)
+
+@item OFA
+Optimal Flexible Architecture (Oracle)
+
+@item OFC
+Open Financial Connectivity (MS, banking)
+
+@item OFDM
+Orthogonal Frequency Division Multiplexing (FDM, DVB-T, WIMAX)
+
+@item OFDMA
+Orthogonal Frequency Division Multiple Access (WIMAX)
+
+@item OFET
+Organic Field Effect Transistor
+
+@item OFFIS
+Oldenburg Forschungsinstitut Fuer Informatikwerkzeuge und -Systeme (org., Uni Oldenburg)
+
+@item OFFSAP
+Oracle Fusion For SAP (Oracle, SAP)
+
+@item OFS
+Object File System
+
+@item OFS
+Output Field Separator (AWK)
+
+@item OFTA
+OFfice of the Telecommunications Authority (org., Hongkong)
+
+@item OFTP
+ODETTE File Transfer Protocol (ODETTE)
+
+@item OFX
+Open Financial eXchange (banking, Intuit, MS, Checkfree, USA)
+
+@item OGC
+Office of Government Commerce (org., UK)
+
+@item OGM
+Ogg Media Streams (DivX, video)
+
+@item OGRAN
+OpenGate - Router Access Node ??? (RND), "OG-RAN"
+
+@item OGSA
+Open Grid Services Architecture (grid, GGF)
+
+@item OGSADAI
+Open Grid Services Architecture - Database Access and Integration (OGSA, grid, IBM, Oracle), "OGSA-DAI"
+
+@item OGSI
+Open Grid Service Infrastructure (OGSA, GGF, WG, grid)
+
+@item OH
+Off-Hook (MODEM)
+
+@item OHCI
+Open Host Controller Interface (USB, Compaq, OPTI, Apple, UHCI)
+
+@item OIA
+Operator Information Area (IBM)
+
+@item OIC
+Oh, I See (telecommunication, Usenet, IRC)
+
+@item OID
+Object IDentifier (OSI)
+
+@item OIDL
+Object Interface Definition Language
+
+@item OIDP
+Oracle Internet Development Pack (Oracle, Internet)
+
+@item OIF
+Outgoing InterFace (PIM, IIF, Multicast)
+
+@item OII
+Operations-Intelligence Interface (mil.)
+
+@item OIIC
+Optically Interconnected Integrated Circuits [project] (ESPRIT)
+
+@item OIL
+Operator Identification Language (ELI)
+
+@item OIM
+Open Information Model
+
+@item OIP
+Open Internet Platform (Caldera, Linux, SCO)
+
+@item OIT
+Onboard Information Terminal (Airbus, A380)
+
+@item OIW
+Open Information Warehouse (SAP, R/3)
+
+@item OIW
+OSI Implementors Workshop (OSI)
+
+@item OLAP
+OnLine Analytical Processing (DB)
+
+@item OLE
+Object Linking and Embedding
+
+@item OLED
+Organic Light Emitting Display (OLED, LED)
+
+@item OLEDB
+Object Linking and Embedding - DataBase ??? (DB), "OLE DB"
+
+@item OLEDS
+Object Linking and Embedding Directory Services (ODSI, MS), "OLE DS"
+
+@item OLEO
+Open Linking and Embedding of Objects (OLE, OpenDoc)
+
+@item OLEP
+Organic Light-Emitting Polymer [display]
+
+@item OLI
+Originating Line Information
+
+@item OLIS
+Oxford Library Information System
+
+@item OLIT
+OpenLook Interface Toolkit (OpenLook)
+
+@item OLIVR
+OnLine Interactive Virtual Reality, "OLiVR"
+
+@item OLLI
+OnLine Library Information
+
+@item OLM
+OnLine Monitor
+
+@item OLMC
+Output Logic Macro Cell (GAL)
+
+@item OLOCA
+Official List of Cygwin Acronyms (Cygwin)
+
+@item OLPS
+OnLine Programming System
+
+@item OLRT
+OnLine Real-Time
+
+@item OLS
+Online Library System
+
+@item OLSR
+Optimized Link State Routing (MANET, OLSR, RFC 3626)
+
+@item OLTEP
+OnLine Test Executive Program
+
+@item OLTM
+Optical Line Terminating Multiplexer, "O-LTM" 
+
+@item OLTP
+OnLine Transaction Processing
+
+@item OLWM
+OpenLook Window Manager (OpenLook)
+
+@item OM1
+Open MPEG consortium 1 (org., MPEG), "OM-1"
+
+@item OMA
+Object Management Architecture (OMG)
+
+@item OMA
+Open Mobile Alliance (org., mobile-systems)
+
+@item OMA
+Outlock Mobile Access (mobile-systems, PDA, WAP)
+
+@item OMAP
+Open Multimedia Application Platform (TI)
+
+@item OMC
+Operation and Maintenance Center (PLMN, GSM, mobile-systems)
+
+@item OME
+Open Messaging Environment (Novell)
+
+@item OMF
+Object Management Framework (DME)
+
+@item OMF
+Object Module Format (IBM, MS)
+
+@item OMF
+Open Media Framework (org.)
+
+@item OMFI
+Open Media Framework Interchange (OMF)
+
+@item OMG
+Object Management Group (IBM, HP, DEC, Tandem, Sun, org.)
+
+@item OMG
+Oh My G-d (slang, Usenet, IRC)
+
+@item OMI
+Open Messaging Interface
+
+@item OMISTN
+Optical Mode Interface SuperTwisted Nematic (LCD), "OMI-STN" 
+
+@item OMN
+Open Network Management
+
+@item OMR
+Optical Mark Reader (Fax)
+
+@item OMR
+Optical Mark Recognition
+
+@item OMS
+Object Management System
+
+@item OMS
+Onboard Maintenance System (Airbus, A380)
+
+@item OMS
+Open Music System (MIDI, Opcode Systems)
+
+@item OMT
+Object Management Technique (Westmount, CASE)
+
+@item OMT
+Object Modelling Technique (CASE)
+
+@item ON
+Ordinary Node (Kazaa, P2P)
+
+@item ONA
+Open Network Architecture
+
+@item ONAC
+Operations Network Administration Center
+
+@item ONAL
+Off Network Access Line
+
+@item ONC
+Open Network Computing (Sun)
+
+@item ONCXDR
+Open Network Computing eXternal Data Representation (Sun), "ONC XDR" 
+
+@item ONE
+Omnifunctional Networking Environment (Panasonic)
+
+@item ONE
+Open Network Environment (Netscape)
+
+@item ONI
+Operator Number Identification
+
+@item ONIX
+ONline Information eXchange [guidelines]
+
+@item ONMS
+Open-Network Management System
+
+@item ONS
+Object Numbering System (EPC)
+
+@item OO
+Object Orientated
+
+@item OOA
+Object Orientated [system] Analysis (OOP)
+
+@item OOAD
+Object Orientated Analysis and Design (OOP)
+
+@item OOB
+Out Of Band (S-ATA), "OoB"
+
+@item OOCTG
+Object Orientated COBOL Task Group (CODASYL, org., OOP)
+
+@item OOD
+Object-Oriented Design
+
+@item OODB
+Object Oriented Data Base (OOP, DB)
+
+@item OODBMS
+Object Orientated Database Management System (DBMS, DB)
+
+@item OODL
+Object Orientated Dynamic Language (OOP)
+
+@item OOF
+Office of The Future (OA)
+
+@item OOF
+Out of Frame (DS3/E3)
+
+@item OOL
+Object-Oriented Language (OOP)
+
+@item OOL
+Open Objects Library (OS/2)
+
+@item OOM
+Object Orientated Modelling (OO)
+
+@item OOM
+Object-Oriented Methodology (OOP)
+
+@item OOM
+Out Of Memory
+
+@item OOO
+Out Of Order [execution] (Intel, Pentium, CPU)
+
+@item OOP
+Object Orientated Programming (OOP)
+
+@item OOPL
+Object-Oriented Programming Language (OOP)
+
+@item OOPS
+Object Oriented Program Support (OOP)
+
+@item OOPS
+Object-Oriented Programming System (OOP)
+
+@item OOPSLA
+[conference on] Object Orientated Programming Systems, Languages and Applications (ACM, OOP, conference)
+
+@item OOPSTAD
+Object Orientated Programming for SmallTalk Application Development association (org., OOP)
+
+@item OOS
+Object-Oriented Systems
+
+@item OOS
+Out-Of-Sequence
+
+@item OOSA
+Object Orientated System Analysis (OOP)
+
+@item OOSH
+Object-Oriented SHell (OOP, Shell)
+
+@item OOT
+Object-Oriented Technology (OOP)
+
+@item OOTB
+Out Of The Box (slang, Cygwin)
+
+@item OOUI
+Object Orientated User Interface (UI, OO, WPS)
+
+@item OP
+Oracle9iAS Personalization (Oracle, DB)
+
+@item OP
+Original Poster (slang, Usenet)
+
+@item OPA
+Open Publishing Architecture
+
+@item OPAC
+Online Public Access Catalogue (Internet)
+
+@item OPC
+OLE for Process Control (OLE, HMI, SCADA)
+
+@item OPC
+OpenGL Performance Characterization [project group] (OpenGL, org.)
+
+@item OPC
+Optical Proximity Correction  [lithography]
+
+@item OPC
+Organic Photo Conductor
+
+@item OPC
+Overall Performance Category
+
+@item OPCOS
+OPerating COuntrieS
+
+@item OPCR
+Original Program Clock Reference
+
+@item OPDU
+Operation Protocol Data Units
+
+@item OPEN
+[You-R] OPerating ENvironment (Infineon, RFID)
+
+@item OPEN
+Open Protocol Enhanced Networks
+
+@item OPENEXR
+OPEN EXtended Range ??? (HDR), "OpenEXR"
+
+@item OPENGL
+OPEN Graphics Language (OpenGL), "OpenGL"
+
+@item OPENHCI
+Open Host Controller Interface (USB), "OpenHCI"
+
+@item OPERA
+Open PLC European Research Alliance (org., PLC, Europe)
+
+@item OPES
+Open Pluggable Edge Services
+
+@item OPI
+Open Prepress Interface (DTP)
+
+@item OPIE
+Open Palmtop Integrated Environment (Linux, PIM)
+
+@item OPK
+OEM Pre-installation Kit (MS, Windows, OEM)
+
+@item OPL
+Open Publication License (OCL)
+
+@item OPL
+Organizer Programming Language (Psion, PDA)
+
+@item OPM
+Operations-Per-Minute
+
+@item OPM
+Optimized Power Management (AMD, Opteron)
+
+@item OPML
+Outline Processor Markup Language (XML, RSS)
+
+@item OPP
+Object Push Profile (Bluetooth)
+
+@item OPQ
+Optimal Picture Quality [mode] (CRT, Iiyama)
+
+@item OPS
+Operations Per Second (CPU)
+
+@item OPS
+Oracle Parallel Server (Oracle)
+
+@item OPS
+Outbreak Prevention Service (Firewall, TrendMicro)
+
+@item OPSEC
+Open Platform for Secure Enterprise Connectivity (org., manufacturer, IDS)
+
+@item OPT
+Open Protocol Technology
+
+@item OQL
+Object Query Language (ODMG)
+
+@item OR
+Observation Report (CC)
+
+@item OR
+Originator / Recipient (X.400, MOTIS), "O/R"
+
+@item ORAIS
+Opportunities and Risks of Artificial Intelligent Systems (conference, GI)
+
+@item ORB
+Object Request Broker (OMA, OMG, CORBA, ORB)
+
+@item ORCA
+Online Resource Control Aid
+
+@item ORDB
+Open Relay DataBase (SPAM)
+
+@item ORDBMS
+Object Relational Database Management System (DBMS, DB)
+
+@item ORK
+Office Resource Kit (MS, Windows)
+
+@item ORM
+Object Role Modeling (OO, DB)
+
+@item ORM
+Optical Remote Module
+
+@item OROM
+Optical Read Only Memory (ROM), "O-ROM" 
+
+@item ORS
+Output Record Separator (AWK)
+
+@item ORT
+Ongoing Reliability Test
+
+@item OS
+Operating System
+
+@item OS2
+Operating System /2 (IBM, OS), "OS/2"
+
+@item OS200
+Operating System 200 (Honeywell), "OS/200"
+
+@item OS2000
+Operating System 2000 (Honeywell), "OS/2000"
+
+@item OS3
+Oregon State Open Shop Operating System (OS, CDC 3300), "OS-3"
+
+@item OS32MT
+Operating System /32 - Multitasking Time (OS, Interdata), "OS/32-MT"
+
+@item OS32ST
+Operating System /32 - Serial Time (OS, Interdata), "OS/32-ST"
+
+@item OS360
+Operating System /360 (IBM, OS), "OS/360"
+
+@item OS4
+Operating System /4 (OS, UNIVAC 9700), "OS/4"
+
+@item OS400
+Operating System /400 (IBM, OS), "OS/400"
+
+@item OS7
+Operating System /7 (OS, UNIVAC 9700), "OS/7"
+
+@item OS700
+Operating System /700 (OS, Honeywell), "OS/700"
+
+@item OS8
+Operating System /8 (OS, DEC, PDP 8), "OS/8"
+
+@item OS9
+Operating System - 9 (Microware, OS), "OS-9"
+
+@item OSA
+Object System Adaptor (SOM)
+
+@item OSA
+Office Systems Administrator (OA)
+
+@item OSA
+Open Scripting Architecture (Apple, OS/2)
+
+@item OSAC
+Operator Services Assistance Center
+
+@item OSADL
+Open Source Automation Development Lab (org., OSS)
+
+@item OSAIA
+Open Source And Industry Alliance (org.)
+
+@item OSAK
+Open Systems Application Kernel
+
+@item OSAM
+Overflow Sequential Access Method (SAM)
+
+@item OSAR
+Optical Storage and Retrieval
+
+@item OSC
+Ohio Supercomputer Center (org., USA)
+
+@item OSCA
+Only Specifically Cygwin-list Acronyms (OLOCA, Cygwin)
+
+@item OSCAR
+OnScreen Configuration & Activity Reporting (Apex)
+
+@item OSCRL
+Operating System Command Response Language
+
+@item OSD
+OnScreen Display
+
+@item OSD
+Open Software Description [manifest / standard] (MS, Marimba, XML, DU, DUP, MSIE)
+
+@item OSDB
+Open Source DataBase benchmark (benchmark)
+
+@item OSDL
+Open Source Development Lab (org., OSS)
+
+@item OSDN
+Open Source Development Network (OSS, Network)
+
+@item OSDS
+Operating System for Distributed Switching
+
+@item OSE
+Open Software / System Environment
+
+@item OSEIA
+Open System Environment profile for Imminent Acquisitions (OSE), "OSE/IA"
+
+@item OSF
+Open Software Foundation (HP, DEC, IBM, org.)
+
+@item OSF
+Operations System Function (IN)
+
+@item OSF
+Oppose Sun Forever [ aka Open Software Foundation] (slang, org.)
+
+@item OSF1
+Open Software Foundation [system] /1 (OSF, OS, DEC), "OSF/1"
+
+@item OSG
+Open Systems Group (org.)
+
+@item OSGI
+Open Services Gateway Initiative (org., Motorola, Sun, DTAG, Siemens, Toshiba, ...), "OSGi"
+
+@item OSI
+Open Source Initiative (org., OSS)
+
+@item OSI
+Open Systems Interconnection (ISO 9646-1)
+
+@item OSICS
+OSI Communication Systems (OSI)
+
+@item OSID
+Origination Signaling IDentifier
+
+@item OSINLCP
+[PPP] OSI Network Layer Control Protocol (OSI, PPP, RFC 1377)
+
+@item OSIRM
+Open Systems Interconnection/Reference Model (ISO), "OSI/RM" 
+
+@item OSKA
+ObjektSchluesselKAtalog (ATKIS)
+
+@item OSL
+Open Subscription License
+
+@item OSM
+Operating system Service Module (I2O)
+
+@item OSM
+Optical Storage Manager (ARMS)
+
+@item OSME
+Open Systems Message Exchange
+
+@item OSMFT
+Operating System / Multiprogramming with a Fixed number of Tasks (OS, IBM S/360), "OS/MFT"
+
+@item OSMVS
+Operating System / Multiple Virtual Space (OS, IBM,  S/370, OS/MVT, successorr, OS/VS-2), "OS/MVS"
+
+@item OSMVT
+Operating System / Multiprogramming with a Variable number of Tasks (OS, IBM, S/360, S/370), "OS/MVT"
+
+@item OSN
+Office System Node (IBM, DIA, OA)
+
+@item OSN
+Open Systems Network
+
+@item OSNR
+Optical Signal-to-Noise Relation (FO)
+
+@item OSO
+OverScan Operation (VXA, Streamer)
+
+@item OSP
+Optical Storage Processor
+
+@item OSP
+OrganisationStrukturPlan
+
+@item OSPCP
+Operating System / Primary Control Program (IBM, OS, OS/360, predecessor), "OS/PCP"
+
+@item OSPF
+Open Shortest Path First [protocol / routing] (Internet, IGP, RFC 1583)
+
+@item OSPM
+Operating System directed [configuration and] Power Management
+
+@item OSQL
+Object-Structured Query Language (DB, SQL, OODBMS)
+
+@item OSR
+Optical Scanning Recognition
+
+@item OSRT
+Operating System / Real Time (OS, Destek Group), "OS/RT"
+
+@item OSS
+Open Sound System (Linux, audio)
+
+@item OSS
+Open Source Software (OSS)
+
+@item OSS
+Operator Service System
+
+@item OSSIM
+Open Source Security Information Management (OSS, SIM)
+
+@item OSSVS
+Operating System / Single Virtual Space (OS, IBM, S/370, OS/VS2), "OS/SVS"
+
+@item OSTA
+Optical Storage Technology Association (org.)
+
+@item OSTC
+Open System Test Consortium (org., OSTC)
+
+@item OSTP
+Office of Science and Technology Policy (org., USA)
+
+@item OSVS1
+Operating System / Virtual System - 1 (OS, IBM,  S/370), "OS/VS-1"
+
+@item OSVS2
+(IBM, MVS), "OS/VS2"
+
+@item OSVS2
+Operating System / Virtual System - 2 (OS, IBM, S/370), "OS/VS-2"
+
+@item OSWL2
+OS-9 Windows / Level 2, "OSW/L2" 
+
+@item OSWS
+Operating System Work Station
+
+@item OT
+Object Technology
+
+@item OT
+Off Topic (slang, Usenet)
+
+@item OT
+Open Transport (Apple)
+
+@item OTA
+Office of Technology Assessment (org., IBM, HP, AEG, AT&T, SNI, ...)
+
+@item OTDR
+Optical Time DOMAIN Reflectometer (cable)
+
+@item OTES
+Outside Thermal Exhaust System (Abit)
+
+@item OTI
+Object Technology International (IBM)
+
+@item OTM
+Object Transaction Monitor (COM, MTS)
+
+@item OTOH
+On The Other Hand (slang, Usenet, IRC)
+
+@item OTP
+One Time Password
+
+@item OTP
+One Time Programmable [chip] (IC)
+
+@item OTPPP
+Open Transport/Point-to-Point Protocol (Apple, OT, PPP), "OT/PPP"
+
+@item OTPROM
+One Time Programmable Read Only Memory (ROM, IC)
+
+@item OTS
+Object Transaction Service (CORBA)
+
+@item OTS
+Office TeleSystem (OA)
+
+@item OU
+Organizational Unit (MS, Windows NT, AD)
+
+@item OUCL
+Oxford University Computing Laboratory
+
+@item OUG
+Occam User Group (org., user group)
+
+@item OUI
+Organization Unique Identifier (IEEE)
+
+@item OUI
+Organizational Unit Identifier
+
+@item OUM
+Ovonic Unified Memory (ECD)
+
+@item OUTWATS
+OUTward Wide Area Telephone Service
+
+@item OVAL
+Open Vulnerability and Assessment Language (XML)
+
+@item OVID
+Object, View, and Interaction Design
+
+@item OVPI
+Open View Performance Insights (HP)
+
+@item OVST
+OrtsVermittlungsSTelle (DTAG)
+
+@item OWA
+Outlook Web Access (MS, WWW)
+
+@item OWAMP
+One Way Active Measurement Protocol (RFC 3763)
+
+@item OWB
+Oracle Warehouse Builder (Oracle, DWH)
+
+@item OWF
+Object World Frankfurt (fair)
+
+@item OWG
+Optical WaveGuide (LWL)
+
+@item OWL
+Object Windows Library (Borland, API)
+
+@item OWL
+Ontology Web Language (WWW, W3C)
+
+@item OWL
+Open Windows Library (API)
+
+@item OWLDL
+Ontology Web Language Description Logic (OWL), "OWL DL"
+
+@item OWORM
+Optical Write Once Read Many, "O-WORM" 
+
+@end table
+
+

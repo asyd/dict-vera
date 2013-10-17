@@ -1,0 +1,1430 @@
+\input texinfo
+@c %**start of header
+@setfilename vera.info
+@settitle V.E.R.A@. --- Virtual Entity of Relevant Acronyms
+@setchapternewpage on
+@c %**end of header
+
+@c Last edited: 03 June 2006
+
+@c Not used @. cause it results in a 'registered trademark'
+@c sign in my Info environment.
+@c The following seems not to work in TeX with my emTeX for OS/2
+@c Have set @noindent in the textual chapters
+@c @paragraphindent none
+@paragraphindent 0
+
+
+@c Variables that (may) change with each edition
+@set EDITION Edition 1.17
+@set NONGNUEDITION 7.2
+@set RELEASE June 2006
+@set ACTYEAR 2006
+@set ACRONYMCOUNT 11024
+@set FOLDOCURL http://foldoc.org/ (as of June 2006)
+@set ACTMAINTAINER Oliver Heidelbach
+@set MAINTAINEMAIL <ohei [at] snafu . de>
+@set AUTHOREMAIL <ohei [at] snafu . de>
+@c End of variables
+
+@dircategory Information
+@direntry
+* VERA:  (vera).        Virtual Entity of Relevant Acronyms
+@end direntry
+
+@ifinfo
+This is a special GNU edition of V.E.R.A.,
+a list dealing with computational acronyms.@*
+Copyright @copyright{} 1993/@value{ACTYEAR} Oliver Heidelbach@*
+@value{AUTHOREMAIL} @*
+<ohei [at] snafu de>
+
+Please send corrections to @value{ACTMAINTAINER} @value{MAINTAINEMAIL}.
+
+Permission is granted to copy, distribute and/or modify this document
+under the terms of the GNU Free Documentation License, Version 1.1
+or any later version published by the Free Software Foundation;
+with no Invariant Sections, with no Front-Cover Texts, and with 
+no Back-Cover Texts.
+A copy of the license is included in the section entitled ``GNU FDL''.
+
+Within the above restrictions the distribution of this
+document is explicitly encouraged and I hope you'll find
+it of some value.
+
+This dictionary has nothing to do with Systems Science Inc. 
+or its products.
+
+@end ifinfo
+
+
+@titlepage
+@sp 10
+@c The title is printed in a large font.
+@title V.E.R.A.
+@subtitle @b{Virtual Entity of Relevant Acronyms}
+@sp 1
+@subtitle An overview of
+@subtitle common and not so common acronyms
+@subtitle in the field of computing
+@sp 1
+@subtitle @value{EDITION} (Texinfo)
+@subtitle Released @value{RELEASE}
+
+
+@c The following two commands start the copyright page.
+@page
+@vskip 0pt plus 1filll
+Special GNU edition of V.E.R.A. @*
+Released @value{RELEASE} @*
+Currently maintained by @value{ACTMAINTAINER} @value{MAINTAINEMAIL}
+@sp 2
+   
+Permission is granted to copy, distribute and/or modify this document
+under the terms of the GNU Free Documentation License, Version 1.1
+or any later version published by the Free Software Foundation;
+with no Invariant Sections, with no Front-Cover Texts, and with 
+no Back-Cover Texts.
+A copy of the license is included in the section entitled ``GNU FDL''.
+
+This dictionary has nothing to do with Systems Science Inc. 
+or its products.
+
+Copyright @copyright{} 1993/@value{ACTYEAR} Oliver Heidelbach
+@end titlepage
+
+
+@iftex
+@headings off
+@everyheading @thistitle @| @| page @thispage
+@everyfooting @value{EDITION} @| @| @today{}
+@end iftex
+
+
+@node Top, 0, (dir), (dir)
+@c node-name, next, previous, up
+@iftex
+@chapter Foreword to the printed edition
+@cindex Foreword to the printed edition
+@cindex Printed edition, Foreword to the
+@cindex Structure of this document (printed version)
+@noindent
+@strong{V.E.R.A. --- Virtual Entity of Relevant Acronyms}
+
+@noindent
+If you had decided to print this document with @TeX{}, you
+are probably missing the introduction normally found at this place. 
+Because this document is mainly designed to be used online, the
+important information, i.e. the acronym list, comes first.
+
+@noindent
+Please see @ref{About}, for some kind of introduction to this document.
+You will find more information in the following chapters:
+
+@table @asis
+@item @ref{Format}.
+The systematic approach of the acronym list.
+@item @ref{Acronym}.
+A definition of the word "acronym".
+@item @ref{History}
+News, changes, requests and other release related information
+@item @ref{Acknowledgments}.
+A list of contributors and other credits.
+@item @ref{Disclaimer}.
+Please read before printing, copying or distributing.
+@item @ref{GNU FDL}.
+The GNU Free Documentation License.
+@end table
+
+@noindent
+The @ref{Index}, will of course be an invaluable help if you
+ever should be looking for something else than an acronym.
+
+@end iftex
+@ifinfo
+@cindex Online overview
+@cindex Overview, Online
+@strong{V.E.R.A. --- Virtual Entity of Relevant Acronyms}
+@sp 2
+   @ref{0}.   @ref{A}.   @ref{B}.   @ref{C}.   @ref{D}.
+@sp 1
+   @ref{E}.   @ref{F}.   @ref{G}.   @ref{H}.   @ref{I}.  
+@sp 1
+   @ref{J}.   @ref{K}.   @ref{L}.   @ref{M}.   @ref{N}.
+@sp 1
+   @ref{O}.   @ref{P}.   @ref{Q}.   @ref{R}.   @ref{S}.
+@sp 1
+   @ref{T}.   @ref{U}.   @ref{V}.   @ref{W}.   @ref{X}.
+@sp 1
+   @ref{Y}.   @ref{Z}.
+@sp 1
+
+@c Note: all acronyms nodes go in the first place, so that
+@c Info searches do not stop at the examples nodes.
+@c This may not be book-like, but is definitely more convenient.
+To search for an acronym type @kbd{s ^@emph{ACRONYM}}.
+
+@menu
+* About::               What is V.E.R.A.?
+* Format::              Systematic approach of the acronym list (if any)
+* Acronym::             Definition of the word @emph{acronym}
+* History::             News, changes, requests, @dots{}
+* Acknowledgments::     List of contributors and other credits
+* Disclaimer::          Please read before printing, copying or the like
+* GNU FDL::             The full legalese for copying and distributing
+* Help on: (info).      Getting used to the Info browsing system
+* Index::
+@end menu
+
+@flushright
+@value{EDITION} (Texinfo)
+Released @value{RELEASE}
+@end flushright
+@end ifinfo
+
+
+@node 0, A, Top, Top
+@c node-name, next, previous, up
+@unnumbered --- 0 ---
+@cindex 0, Acronyms beginning with
+@cindex Numbers, Acronyms beginning with
+
+@include vera.0
+
+
+@node A, B, 0, Top
+@c node-name, next, previous, up
+@unnumbered --- A ---
+@cindex A, Acronyms beginning with
+
+@include vera.a
+
+
+@node B, C, A, Top
+@c node-name, next, previous, up
+@unnumbered --- B ---
+@cindex B, Acronyms beginning with
+
+@include vera.b
+
+
+@node C, D, B, Top
+@c node-name, next, previous, up
+@unnumbered --- C ---
+@cindex C, Acronyms beginning with
+
+@include vera.c
+
+
+@node D, E, C, Top
+@c node-name, next, previous, up
+@unnumbered --- D ---
+@cindex D, Acronyms beginning with
+
+@include vera.d
+
+
+@node E, F, D, Top
+@c node-name, next, previous, up
+@unnumbered --- E ---
+@cindex E, Acronyms beginning with
+
+@include vera.e
+
+
+@node F, G, E, Top
+@c node-name, next, previous, up
+@unnumbered --- F ---
+@cindex F, Acronyms beginning with
+
+@include vera.f
+
+
+@node G, H, F, Top
+@c node-name, next, previous, up
+@unnumbered --- G ---
+@cindex G, Acronyms beginning with
+
+@include vera.g
+
+
+@node H, I, G, Top
+@c node-name, next, previous, up
+@unnumbered --- H ---
+@cindex H, Acronyms beginning with
+
+@include vera.h
+
+
+@node I, J, H, Top
+@c node-name, next, previous, up
+@unnumbered --- I ---
+@cindex I, Acronyms beginning with
+
+@include vera.i
+
+
+@node J, K, I, Top
+@c node-name, next, previous, up
+@unnumbered --- J ---
+@cindex J, Acronyms beginning with
+
+@include vera.j
+
+
+@node K, L, J, Top
+@c node-name, next, previous, up
+@unnumbered --- K ---
+@cindex K, Acronyms beginning with
+
+@include vera.k
+
+
+@node L, M, K, Top
+@c node-name, next, previous, up
+@unnumbered --- L ---
+@cindex L, Acronyms beginning with
+
+@include vera.l
+
+
+@node M, N, L, Top
+@c node-name, next, previous, up
+@unnumbered --- M ---
+@cindex M, Acronyms beginning with
+
+@include vera.m
+
+
+@node N, O, M, Top
+@c node-name, next, previous, up
+@unnumbered --- N ---
+@cindex N, Acronyms beginning with
+
+@include vera.n
+
+
+@node O, P, N, Top
+@c node-name, next, previous, up
+@unnumbered --- O ---
+@cindex O, Acronyms beginning with
+
+@include vera.o
+
+
+@node P, Q, O, Top
+@c node-name, next, previous, up
+@unnumbered --- P ---
+@cindex P, Acronyms beginning with
+
+@include vera.p
+
+
+@node Q, R, P, Top
+@c node-name, next, previous, up
+@unnumbered --- Q ---
+@cindex Q, Acronyms beginning with
+
+@include vera.q
+
+
+@node R, S, Q, Top
+@c node-name, next, previous, up
+@unnumbered --- R ---
+@cindex R, Acronyms beginning with
+
+@include vera.r
+
+
+@node S, T, R, Top
+@c node-name, next, previous, up
+@unnumbered --- S ---
+@cindex S, Acronyms beginning with
+
+@include vera.s
+
+
+@node T, U, S, Top
+@c node-name, next, previous, up
+@unnumbered --- T ---
+@cindex T, Acronyms beginning with
+
+@include vera.t
+
+
+@node U, V, T, Top
+@c node-name, next, previous, up
+@unnumbered --- U ---
+@cindex U, Acronyms beginning with
+
+@include vera.u
+
+
+@node V, W, U, Top
+@c node-name, next, previous, up
+@unnumbered --- V ---
+@cindex V, Acronyms beginning with
+
+@include vera.v
+
+
+@node W, X, V, Top
+@c node-name, next, previous, up
+@unnumbered --- W ---
+@cindex W, Acronyms beginning with
+
+@include vera.w
+
+
+@node X, Y, W, Top
+@c node-name, next, previous, up
+@unnumbered --- X ---
+@cindex X, Acronyms beginning with
+
+@include vera.x
+
+
+@node Y, Z, X, Top
+@c node-name, next, previous, up
+@unnumbered --- Y ---
+@cindex Y, Acronyms beginning with
+
+@include vera.y
+
+
+@node Z, About , Y, Top
+@c node-name, next, previous, up
+@unnumbered --- Z ---
+@cindex Z, Acronyms beginning with
+
+@include vera.z
+
+
+@node About, Format, Z, Top
+@c node-name, next, previous, up
+@chapter About@dots{}
+@cindex What is V.E.R.A.?
+@cindex V.E.R.A., What is it?
+@cindex About V.E.R.A.
+
+@ifinfo
+@strong{V.E.R.A. --- Virtual Entity of Relevant Acronyms}
+
+@end ifinfo
+@noindent
+V.E.R.A. is a free list of acronyms all of which are used in the field
+of computing.
+
+@noindent
+V.E.R.A. is primarily meant to be used as an online reference,
+although some efforts have been taken to make its @TeX{} output
+looking acceptable.  However I doubt that somebody would like to print
+it.  The original release compiled to 250 pages.
+
+@noindent
+This edition is a special contribution to the GNU project
+similar to the version @value{NONGNUEDITION} of V.E.R.A.  It contains approximately
+@value{ACRONYMCOUNT} acronyms.
+
+@noindent
+The idea to make V.E.R.A. available in Texinfo format came after reading
+two other Info files both of which are available on the Internet, the
+@emph{Standards} and the @emph{Languages} file, both dealing with
+antique DEC mainframe environments and both distributed stand-alone;
+that is, both are not serving as a software manual like most of Texinfo
+files. I thought it would be very handy to have a list of acronyms
+available while using Emacs.
+
+@noindent
+It may be considered only a very little contribution.  However
+I make it to express my appreciation for the GNU project and its
+philosophy.  This project does not only make software available free to
+everyone, it also seems that it sets the only standard `everyone'
+supports nowadays.
+
+@noindent
+I started V.E.R.A. around easter 1993.  The ASCII version is being
+posted to the German=speaking newsgroups @emph{z-netz.alt.listen} and
+@emph{de.etc.lists} every three months.  It is not being posted to an
+international newsgroup, because the introduction as well as many
+internal references are only available in German.
+
+@noindent
+Please note that the original version of V.E.R.A. is not related to the
+to the Free Software Foundation or the GNU project at all.
+
+@noindent
+The list is far from being complete as dozens of new acronyms evolve
+every month.  Also I am not an every day Unix user, so I am pretty sure
+that a lot of acronyms from the Unix world are missing.  The same is true
+for the Apple world.  Please don't be angry if your field of computing
+seems little or not represented at all. Instead please consider
+contributing the missing acronyms to let other people share what you
+know.
+
+@noindent
+The shift from the original format of V.E.R.A. to Texinfo format took a
+whole week.  Please forgive any errors which still remain.  For hints
+how to submit corrections or to report bugs, please see @ref{History}.
+
+@noindent
+For a more in-depth discussion of some of the more common acronyms
+contained in this document you may want to consider visiting the
+@emph{Free Online Dictionary of Computing (FOLDOC)}, at least if you
+have access to the World Wide Web.  It can be found at
+@value{FOLDOCURL}.
+
+
+@node Format, Acronym, About, Top
+@c node-name, next, previous, up
+@chapter List format
+@cindex Acronyms, Common style of
+@cindex Approach, Systematic
+@cindex Common style of acronyms
+@cindex Format used
+@cindex German umlauts
+@cindex List format
+@cindex Systematic approach
+@cindex Umlauts, German
+@cindex Used format
+@ifinfo
+@cindex Searching for acronyms (online)
+@cindex Acronyms , Searching for (online)
+
+@strong{V.E.R.A. --- Virtual Entity of Relevant Acronyms}
+
+@end ifinfo
+@noindent
+Some notes on the systematic approach of the acronym list:
+
+@noindent
+Because often acronyms are being referenced not very unique in style,
+the acronyms in V.E.R.A. do not contain any special characters; only
+characters and numbers are used.  Please remember this, when you are
+searching for acronyms.
+
+@noindent
+German umlauts are expressed with AE, ae, OE, oe, UE, ue and ss.
+
+@noindent
+Examples:
+
+@noindent
+ASN.1 = ASN1 @*
+@noindent
+OS/2 = OS2 @*
+@noindent
+DFUE, Foerderung, Grossforschungseinrichtung, @dots{}
+
+@noindent
+What is thought to be the common style can be found at the end of
+the line(s) in quotation marks.
+
+@noindent
+Examples:
+
+@table @asis
+@item ASN1
+Abstract Syntax Notation One (OSI), "ASN.1"
+
+@item ATT
+American Telephone and Telegraph, "AT&T"
+
+@end table
+@sp 2
+@menu
+* Style::            Style of the acronym expansions.
+* Alternatives::     Alternative expansions.
+* Explanations::     Additional explanations.
+* References::       Reference tags for acronyms.
+* Concatenation::    Concatenated acronyms.
+* Versions::         Acronyms pointing to versions.
+* File extensions::  A note on file extensions.
+* Gaps::             Huh --- what is that?
+@end menu
+
+
+@node Style, Alternatives, Format, Format
+@c node-name, next, previous, up
+@section  Style of the acronym expansions
+@cindex Expansions, Style of
+@cindex Style of expansions
+
+@noindent
+The acronym expansions basically follow their acronyms in style.
+Exceptions are made if expansions are containing acronyms themselves.
+This often leads to an kind of odd or even wrong orthographical style.
+
+@noindent
+Examples:
+
+@table @asis
+@item AUX
+Apple UniX, "A/UX"
+
+@item XT
+eXtended Technology
+
+@item ACL
+Advanced CMOS Logic
+
+@end table
+
+@node Alternatives, Explanations, Style, Format
+@c node-name, next, previous, up
+@section Alternative expansions
+@cindex Alternative expansions
+@cindex Expansions, Alternative
+
+@noindent
+If alternative expansions for the same acronym are known these are
+separated by a slash.  However that is not true for acronyms of
+basically different meanings.
+
+@noindent
+Examples:
+
+@table @asis
+@item AE
+Apple Events
+
+@item AE
+Application Entity / Environment / Engineering (APE)
+
+@end table
+
+
+@node Explanations, References, Alternatives, Format
+@c node-name, next, previous, up
+@section Additional explanations
+@cindex Additional explanations
+@cindex Explanations, Additional
+
+@noindent
+Terms in square brackets show additional explanations, of which do not
+directly belong to the acronym's expansion, but rather to the acronym's
+meaning.
+
+@noindent
+Examples:
+
+@table @asis
+@item ARM
+Annotated [c++] Reference Manual
+
+@item RLL
+Run Length Limited [encoding]
+
+@end table
+
+
+@node References, Concatenation, Explanations, Format
+@c node-name, next, previous, up
+@section Reference tags for acronyms
+@cindex Acronyms, References for
+@cindex References for acronyms
+
+@noindent
+The terms in parenthesis which often appear behind the expansions are
+reference links to certain topics or firms and should help you to get an
+idea of in which context an acronym is being used.
+
+@noindent
+Examples:
+
+@table @asis
+@item WB
+WorkBench (Amiga)
+
+@item WYSIWYG
+What You See Is What You Get (DTP)
+
+@end table
+
+@noindent
+Please note that the original version of V.E.R.A. is meant to be
+formatted in a hypertext environment.  Thus some references may seem
+redundant in an environment which does not support such links.
+
+@noindent
+Examples:
+
+@table @asis
+@item API
+Application Program Interface (API)
+
+@end table
+
+
+@node Concatenation, Versions, References, Format
+@c node-name, next, previous, up
+@section Concatenated acronyms
+
+@noindent
+Often-used concatenated acronyms appear without the space or any special
+characters between them.
+
+@noindent
+Examples:
+
+@table @asis
+@item AMTPE
+Apple Media Tool Programming Environment (Apple), "AMT PE"
+
+@item RISCOS
+RISC Operating System (Acorn), "RISC OS"
+
+@end table
+
+
+@node Versions, File extensions, Concatenation, Format
+@c node-name, next, previous, up
+@section Acronyms pointing to versions
+@cindex Acronyms pointing to versions
+@cindex Versions, Acronyms pointing to 
+
+@noindent
+When there is a series of related acronyms differing by a number at the
+end, V.E.R.A. usually has just one entry, which omits the number.  For
+example, there are many versions of MNP (Microcom Networking Protocol),
+distinguished by numbers; but we do not list MNP4, MNP5 or MNP10, only
+MNP.
+
+@noindent
+So if you look for an acronym that ends in a number, and you don't find
+it, try leaving out the number(s).
+
+
+@node File extensions, Gaps, Versions, Format
+@c node-name, next, previous, up
+@section File extensions
+@cindex File extensions
+@cindex Extensions (files)
+
+@noindent
+Please note that file extensions are not covered by V.E.R.A. at the
+moment, although some exceptions were made. You will not find things 
+like EPS (Encapsulated PostScript) or GIF (Graphics Interchange Format).
+
+@noindent
+There are many such lists on the Internet if you should be looking
+for file extensions.
+
+
+@node Gaps, , File extensions, Format
+@c node-name, next, previous, up
+@section Gaps
+@cindex Gaps
+@cindex Expansions, Missing
+@cindex References, Missing
+@cindex Missing expansions or references
+
+@noindent
+You will probably notice that some acronym expansions or references are
+tagged with three question marks (@samp{???}).  This indicates that an
+expansion or reference is still missing or uncertain.
+
+@node Acronym, History, Format, Top
+@c node-name, next, previous, up
+@chapter Acronym
+@cindex Acronym, Definition of the term
+@cindex Acronyms, Pronunciation of
+@cindex Definition of the term acronym
+@cindex Pronunciation of acronyms
+
+@noindent
+An acronym is a word derived from the initial letters or
+groups of letters of several other words.
+
+@noindent
+Popular examples are: @*
+@ifinfo
+@noindent
+@emph{Laser}, from "(l)ight (a)mplification by
+(s)timulated (e)mission of (r)adiation",
+@emph{Radar}, from "(ra)dio (d)etecting (a)nd
+(r)anging" or @emph{snafu}, which should politely be rendered
+as "(s)ituation (n)ormal, (a)ll (f)ouled
+(u)p".
+@end ifinfo
+@iftex
+@noindent
+@emph{Laser}, from "@strong{l}ight @strong{a}mplification by
+@strong{s}timulated @strong{e}mission of @strong{r}adiation",
+@emph{Radar}, from "@strong{ra}dio @strong{d}etecting @strong{a}nd
+@strong{r}anging" or @emph{snafu}, which should politely be rendered
+as "@strong{s}ituation @strong{n}ormal, @strong{a}ll @strong{f}ouled
+@strong{u}p".
+@end iftex
+
+@noindent
+The word acronym itself derives from the Greek words
+@emph{akros} "the highest, the most outer" and @emph{onoma} "name".
+
+@noindent
+Please note that acronyms are always pronounced as the
+spelling indicates.
+
+
+@node History, Acknowledgments, Acronym, Top
+@c node-name, next, previous, up
+@chapter History and other useful information
+@cindex Acronyms, How to submit new
+@cindex Bugs, How to report
+@cindex Call for submissions
+@cindex Changes
+@cindex Current maintainer
+@cindex History
+@cindex How to install in the Info environment
+@cindex How to report bugs
+@cindex How to submit new acronyms
+@cindex Info environment, Installation in the
+@cindex Installation in the Info environment
+@cindex Maintainer, Current
+@cindex News
+@cindex Release notes
+@cindex Reporting bugs
+@cindex Requests
+@cindex Submissions, Call for
+
+@ifinfo
+@noindent
+@strong{V.E.R.A. --- Virtual Entity of Relevant Acronyms}
+
+@end ifinfo
+@noindent
+
+@strong{Version 7.2} (June 2006)
+
+@noindent
+Version 7.2 (Texinfo release 1.17) contains about 405 acronyms 
+more than the last release. Now V.E.R.A. knows about 11025 acronyms.
+
+@strong{Version 7.0} (June 2005)
+
+@noindent
+Version 7.0 (Texinfo release 1.16) contains about 106 acronyms 
+more than the last release. Now V.E.R.A. knows about 10620 acronyms.
+
+@strong{Version 6.9} (March 2005)
+
+@noindent
+Version 6.9 (Texinfo release 1.15) contains about 262 acronyms 
+more than the last release. Now V.E.R.A. knows about 10514 acronyms.
+
+@strong{Version 6.7} (September 2004)
+
+@noindent
+Version 6.7 (Texinfo release 1.14) contains about 92 acronyms 
+more than the last release. Now V.E.R.A. knows about 10252 acronyms.
+
+Until I find out how to put V.E.R.A. back into the GNU system, I
+will provide it on my home page at http://home.snafu.de/ohei.
+I have repeatedly written to addresses given in postings,
+asking for information on how to access the GNU server to
+no availability. Those guys must be busy, very busy.
+
+@strong{Version 6.6} (June 2004)
+
+@noindent
+Version 6.6 (Texinfo release 1.13) contains about 290 acronyms 
+more than the last release. Now V.E.R.A. knows about 10160 acronyms.
+
+Until I find out how to put V.E.R.A. back into the GNU system, I
+will provide it on my home page at http://home.snafu.de/ohei.
+
+@strong{Version 6.5} (December 2003)
+
+@noindent
+Version 6.5 (Texinfo release 1.12) contains about 210 acronyms 
+more than the last release. Now V.E.R.A. knows about 9870 acronyms.
+
+Until I find out how to put V.E.R.A. back into the GNU system, I
+will provide it on my home page at http://home.snafu.de/ohei.
+
+@strong{Version 6.3} (June 2003)
+
+@noindent
+Version 6.3 (Texinfo release 1.11) contains about 150 acronyms 
+more than the last release. Now V.E.R.A. knows about 9660 acronyms.
+
+I had problems finding an proper way to upload the last release
+(Texinfo release 1.10) to the GNU server. All seem to have changed,
+the old FTP Server is down, my e-mail contact is gone etc.
+
+Until I find out how to put V.E.R.A. back into the system, I
+will provide it on my home page at http://home.snafu.de/ohei.
+
+@strong{Version 6.2} (March 2003)
+
+@noindent
+Version 6.2 (Texinfo release 1.10) contains about 300 acronyms 
+more than the last release. Now V.E.R.A. knows about 9510 acronyms.
+
+For the log: There neither had been a GNU nor a Non-GNU edition
+of V.E.R.A. in September 2002.
+
+@strong{Version 6.0} (June 2002)
+
+@noindent
+Version 6.0 (Texinfo release 1.9) contains about 289 acronyms 
+more than the last release. Now V.E.R.A. knows about 9203 acronyms.
+
+Fixed some formatting bugs which had accumulated. Thanks for
+reporting those.
+
+There has been a request to add a 'README' file to the
+distribution. I added one.
+
+Also added a Perl search routine for V.E.R.A. from 
+Andres Soolo <soolo [at] math . ut . ee>. You will find 
+it in  the @code{./contrib} directory of the distribution.
+For bug reports please contact Andres.
+
+@strong{Version 5.8} (December 2001)
+
+@noindent
+Version 5.8 (Texinfo release 1.8) contains about 426 acronyms 
+more than the last release. Now V.E.R.A. knows about 8914 acronyms.
+
+@strong{Version 5.5} (March 2001)
+
+@noindent
+Version 5.5 (Texinfo release 1.7) contains about 320 acronyms 
+more than the last release. Now V.E.R.A. knows about 8440 acronyms.
+
+There had been no update of the GNU version for nearly a year,
+which was mostly due to the lack of significant increase of
+acronyms.
+
+Please note that this is the first GNU edition of V.E.R.A.
+to be released under the GNU Free Documentation License.
+
+Please also note that Bob Hilliard <hilliard [at] debian . org>
+now maintains the Debian vera package as well as the dict-* packages 
+for the Debian GNU/LINUX distribution.
+
+@strong{Version 5.2} (June 2000)
+
+@noindent
+Welcome to the first GNU edition of V.E.R.A. in the year 100,
+eh, I mean 1900+100 :)
+
+Version 5.2 (Texinfo release 1.6) contains about 500 acronyms 
+more than the last release. Now V.E.R.A. knows about
+than 8119 acronyms.
+
+There had been no update of the GNU version for over a year,
+which was mostly due to the lack of significant increase of
+acronyms.
+
+Thanks to all the supporters, some of which did send huge
+lists with new acronyms.
+
+@strong{Version 4.7} (March 1999)
+
+@noindent
+Version 4.7 (Texinfo release 1.5) contains about 100 acronyms 
+more than the last release. Now V.E.R.A. knows about
+than 7592 acronyms.
+
+Corrected a bug in my script to replace german comments
+with the according english terms which led to the comment
+brackets being deleted in every line touched by it.
+
+@strong{Version 4.6} (December 1998)
+
+@noindent
+Version 4.6 had not been released as Texinfo version,
+because there was no significant increase in the count
+of acronyms.
+
+@strong{Version 4.5} (September 1998) 
+
+@noindent
+Version 4.5 (Texinfo release 1.4) contains about 90 acronyms 
+more than the last release. Now V.E.R.A. knows about
+than 7490 acronyms.
+
+@noindent
+I also received a lot of spelling corrections for the
+acronym expansions as well as for the text of this
+Texinfo release. Thanks to the submitters.
+
+@noindent
+@strong{Version 4.4} (June 1998)
+
+@noindent
+Version 4.4 (Texinfo release 1.3) contains about 250 acronyms 
+more than the last release. Now V.E.R.A. knows about more 
+than 7400 acronyms.
+
+@noindent
+Version 4.2 had accidently been released containing 
+ISO 8859-1 characters. I received no complaints, but I
+believe not everyone can display these characters as
+meant to be, so I switched back to 7 bit with this version.
+
+@noindent
+Recently V.E.R.A. ran into copyright/trademark problems. It's
+unbelievable how small the name space in the computer field
+went over the years. To give you an example there are acronyms
+in this list which have five or more different meanings.
+However Systems Science Inc. agreed to solve the problem
+by including the following sentence into the distribution:
+"This dictionary has nothing to do with Systems Science Inc.
+or its products."
+Please don't wonder if you surprisingly run into this sentence.
+
+@noindent
+@strong{Version 4.3} (March 1998)
+
+@noindent
+I found no time to release V.E.R.A. 4.3 as Texinfo version
+in March 1998 as I was busy with other things. As compiling 
+the Texinfo version is always additional work to do, I thought 
+of to spare the March version and release the next Texinfo version 
+on the next release date (June, 1st).
+
+@noindent
+@strong{Version 4.2}
+
+@noindent
+Version 4.2 contains about 180 acronyms more than the last release.
+I also received a mail from the folks who maintain the GNU catalogue.
+This may mean that V.E.R.A. will be included on the GNU CD-ROM
+distribution, but I'm not sure.
+
+@noindent
+@strong{Version 4.1} (December 1997)
+
+@noindent
+Version 4.1 contains about 500 acronyms more than the initial release.
+Now V.E.R.A. knows about more than 7000 acronyms.
+
+@noindent
+Besides I wrote a script which automagically translates the German
+references sometimes to be found behind the acronym expansions in the
+original version of V.E.R.A. into the appropriate English terms. 
+It also adds `Germany' to German locations. However I still may have 
+missed some German terms or locations. 
+It is kind of awful to proof-read 7000 acronym expansions.
+If you still spot German terms in the references, please let me know
+about.
+
+@noindent
+@strong{Installation as Info file}
+
+@noindent
+If you like to install V.E.R.A. in your Info environment, there are three
+steps to do so:
+
+@enumerate
+@item
+Make an Info file from the Texinfo source, type:
+
+@kbd{makeinfo vera.texi}
+
+@noindent
+(The file extension may differ in your environment.)
+
+@item
+Copy the files generated by the previous step to the directory
+where the Info files reside on your site.
+
+@item
+Go to your Info directory and edit the @code{dir} file. Insert a line
+like the following where appropriate.
+
+@kbd{* V.E.R.A.:  (vera).        Virtual Entity of Relevant Acronyms}
+@end enumerate
+
+@noindent
+@strong{Bugs}
+
+@noindent
+This edition of V.E.R.A. has been translated from German and has not
+been intensively proofread.  Please report bugs concerning the use of
+broken or unsound English used in this document to the current
+maintainer of this document.
+
+@noindent
+If you spot any faults in the acronym chapters, these will be considered
+a bug too.  Please report those bugs to the current maintainer of this
+document.
+
+@noindent
+@strong{Call for submissions}
+
+@noindent
+This acronym list is not and will never be complete.  However if you
+feel that something particular is missing, please submit it to the
+current maintainer.  Your submission will be included in the next
+edition of V.E.R.A.
+
+@noindent
+@strong{Current maintainer}
+
+@noindent
+The current maintainer of this document is @*
+@value{ACTMAINTAINER} @value{MAINTAINEMAIL}
+
+
+@node Acknowledgments, Disclaimer, History, Top
+@c node-name, next, previous, up
+@chapter Acknowledgments
+@cindex Acknowledgments
+@cindex Contributors
+@cindex Credits
+@cindex People who contributed
+@ifinfo
+@noindent
+@strong{V.E.R.A. --- Virtual Entity of Relevant Acronyms}
+
+@end ifinfo
+@noindent
+The following people contributed to this document: @*
+(In order to block spam-robots all @@ have been replaced with #.)
+
+@format
+peterk#cbmger.de.so.commodore.com
+Wolfgang Houben <castor#newswire.de>
+Hans Fischer <profi#romeo.berlinet.de>
+Harald Welte <h.welte#silver.nbg.sub.org>
+a.lessmann#link-k.zer
+Rainer Frohnhoff <r.frohnhoff#aworld.zer>
+Marcus Cai Degler <m.c.degler#ithh.sh.sub.de>
+Sven van der Meer <vdmeer#cs.tu-berlin.de>
+elmar#peggy.e-technik.uni-dortmund.de
+Patrick Hess <patrick.hess#metazoa.de>
+Hans-Georg Forster <h.g.forster#parabol.cl.sub.de>
+thahn#berg93.in-berlin.de
+jochen#wip.mhs.compuserve.com
+Stefan Rinne <s_rinne#trashcan.mcnet.de>
+Wolfgang Kopp <kopp#naranek.camelot.de>
+ismias#wi.uni-muenster.de
+smendoza#yeti.dit.upm.es
+tms#dame.shnet.org
+Alexander Senne <akki#terra-i.rhein-ruhr.de>
+Frank Schlueter <frs#frs.in-berlin.de>
+Frank-Th. Bonnemeyer <Frank-Thomas.Bonnemeyer#eds.com>
+Olaf Naumann <amandus#esrf.fr>
+Keith Edgerley <edgerley#ebu.ch>
+Kristian Koehntopp <kk#netuse.de>
+Andreas Kempf <Andreas_Kempf#sidoun.go.germany-online.de>
+Thomas Rexroth <100414.42#compuserve.com>
+Christoph Lechner <Lechner#edvz.uni-linz.ac.at>
+Timothy Slater <t.slater#link-m.de>
+J.P. Lodge <jpl1#doc.ic.ac.uk>
+Andre Torrez <andre#frontside.com>
+Jeff Jewell <jcjewell#concentric.net>
+Peter H. Wendt <phw#compunet.de>
+Rene Caspersen <rene#sondagsavisen.dk>
+Carsten Schymik <cschy#zedat.fu-berlin.de>
+Noah Friedman <friedman#splode.com>
+Robert Bihlmeyer <robbe#orcus.priv.at>
+Matt Hillman <dhillman#netgate.net>
+Claude Gingras <CGingras#telebec.qc.ca>
+David Frewen <a-davfre#microsoft.com>
+Thorsten 'thh' Hempel <thh#valis.netestate.de>
+Bruno Haible <haible#ilog.fr>
+Andreas Waibel <Andreas.Waibel#studbox.uni-stuttgart.de>
+Martin Zierke <Martin.Zierke#gaia.de>
+Leonard <acmeman#myriad.net>
+Otto Stolz <Otto.Stolz#uni-konstanz.de>
+Wolfgang Borgert
+Stefan Hackebeil <stefan#hackebeil.l.uunet.de>
+Wolf Ivo Lademann <wil#kiel.netsurf.de>
+Werner Henze <beinhart#cs.tu-berlin.de>
+Kai Reese <reese#tecs.de>
+John L. Sokol <sokol#livecam.com>
+Guy Dumais <dumais#rgl.polymtl.ca>
+Gerhard Moeller <Gerhard.Moeller#offis.uni-oldenburg.de>
+Mike Moxcey <mmoxcey#email.aphis.usda.gov>
+Marco Koering <Marco.Koering#swisscom.com>
+Olaf Columbus <Olaf.Columbus#nortel-dasa.de>
+Craig Menefee <cmenefee#cwia.com>
+Kevin L. Burns <kburns#cogswell.edu>
+Timm Cordes <tc#Informatik.TU-Cottbus.DE>
+Thomas Ludwig <thomas_ludwig#hotmail.com>
+Torsten Halter <halter#prokom1.gg.uunet.de>
+Dr. Stephan Buehne <SBUEHNE#DE.oracle.com>
+H. Kronenberg <kronenberg#imst.de>
+Darren Baker <dbaker#tcon.net>
+Heiko Degenhardt <Heiko.Degenhardt#rz.tu-ilmenau.de>
+Simon Conti <sconti#dircon.co.uk>
+Mac Schwarz <mac#phil.uni-erlangen.de>
+Sven Heidelbach <Sven.Heidelbach#RegTP.de>
+Nicholas Stallard <Snowy#nsstalla.dialup.informatik.uni-stuttgart.de>
+Patrick Wibbeler pwibbele#Adobe.COM>
+Bastian Schick <elw5basc#gp.fht-esslingen.de>
+davint <davint#gensw.com>
+'The Lonegunmen' <tlgm#hamburg.crosswinds.net>
+Tim <directorSPAMMENOT#sympatico.ca>
+Daniel Lynde <Daniel.Lynde#Gateway.com>
+Jens Abromeit <jens.abromeit#tcpip-gmbh.de>
+Albrecht Schmiedel <atms#alibi.in-berlin.de>
+Joachim Nerz <nerz#rz.uni-mannheim.de>
+Prognos M. Voedisch <Michael.Voedisch#prognos.com>
+Peter A.Henning <P.Henning#FH-Karlsruhe.de>
+Ricardo Linden <rlinden#gotec.com.br>
+Robert Klemme <klemme#unity.de>
+Axel Kielhorn <A.Kielhorn#tu-bs.de>
+Mark Heitbrink <m.heitbrink#kamas.de>
+Philipp Steinau <Philipp.Steinau#gmx.de>
+Pressman AS/400 <STEVE.GIBSON#PRESSMAN-TOY.COM>
+Uwe Borchert <borchert#informatik.unibw-muenchen.de>
+Georg Oehl <oehlg#yahoo.com>
+Thomas Rohde <thomas.rohde#ecrc.de>
+Will <broly#online1.magnus1.com>
+Knut Kuelsen <Knut_K#kuelsen.de>
+Rene Ermler <rene.ermler#informatik.stud.uni-erlangen.de>
+Brian Hines <bhines#ppl.plesman.com>
+Tomasz Wegrzanowski <maniek#beer.com>
+Martin Mueller <martin.mueller#iuct.fhg.de>
+Florian Laws <florian#void.s.bawue.de>
+Adam Goode <adam#myrealbox.com>
+Henning Jonat <henningjonat#home.com>
+Norbert Zuber <zbx#topmail.de>
+Eckard Wolff Postler <Eckard.Wolff-Postler#Gtsgroup.com>
+Tomasz Wegrzanowski <maniek#beer.com>
+Jennifer <jenluk#chickmail.com>
+Nils <otott.buerotechnik#t-online.de>
+Ernst-Guenter Giessmann <ErnstG.Giessmann#telekom.de>
+Andreas Krause <andreas.krause#uni-dortmund.de>
+j l <jenluk#chickmail.com>
+Carsten Leonhardt <leo#debian.org>
+Robert D. Hilliard <hilliard#debian.org>
+Nils Rennebarth <nils#ipe.uni-stuttgart.de>
+Michael Schmitz <michael.schmitz#e-trend.de>
+Kerstin Assmus <praktika#bechtle.de>
+Michael Vielhaber <michael.vielhaber#fh-hof.de>
+Martin Biallas <martin#mbiallas.de>
+Joachim Ayasse <Joachim_Ayasse#genua.de>
+Arvind Mollin <amollin#cisco.com>
+Michael Ruehr <Michael.Ruehr#blb.de>
+Stefan Westerkamp <Stefan.Westerkamp#ger.sas.com>
+Nils Herzog <Nils.Herzog#DERTOUR.DE>
+Thomas Lack <lack#nexgo.de>
+Andreas Mock <A.Mock#tuvit.de>
+Volker Brune-Flueh <bruneflue#solutionline.com>
+Thimo Koenig <thimo.konig#evidian.com>
+Jim Scarborough <jims#iname.com>
+Falk Hauke <falk.hauke#gmx.de>
+Patrick Cowan <patrick#fifthera.com>
+Tomasz Wegrzanowski <taw#users.sourceforge.net>
+Christoph Probst <chris#cprobst.de>
+Tim Bannister <isoma#compsoc.man.ac.uk>
+Lutz Hohaus <lutz.hohaus#ruhr-uni-bochum.de>
+Ingo Maurer <ingo#maurer.net>
+Gerhard Brosig <Gerhard_Brosig#genua.de>
+Alois Reisinger <reisi#reisi.com>
+Brian Wolf/Dayacorp <brian.wolf.613#mindspring.com>
+Steven Duhon <SDuhon#mpea.com>
+<Philphillips28#aol.com>
+Axel Veil <Axel.Veil#mediaways.net>
+Tobias Ueberwasser <tobias.ueberwasser#cerberus.ch>
+Karsten Huppert <ed.treppuh-netsrak#karsten-huppert.de>
+Felix Schindele <zhamara#atheist.com>
+Klaus Juettermann <Klaus.Juttermann#sitel.de>
+Cecilie Rise <cecilie.rise#sbb.at>
+Jeff Orrok <jeff#rt.com>
+Ingo Russmann <ingo#linus.net-market.de>
+John E. Hein <jhein#timing.com>
+Christian Brandau <christian#cbra.de>
+Ben Armstrong <synrg#sanctuary.nslug.ns.ca>
+Matthias Kring <automatthias#web.de>
+Matthias Hinnah <mhinnah#deloitte.de>
+Axel Hornung <A.Hornung#ASC.DE>
+Jakob Hirsch <jh#plonk.de>
+Matt Zimmerman <mdz#csh.rit.edu>
+Stephan Boldt <Stephan.Boldt#epost.de>
+Pekka Lampila <medar#kapina.org>
+Maurice Leone <Leone.Maurice#swm.de>
+Michel Messerschmidt <9messers#informatik.uni-hamburg.de>
+Chong Yidong <yidong#stanford.edu>
+Jan Neumann <jan.neumann#bln1.siemens.de>
+Heiko Reddingius <heiko-stg#reddingius.de>
+Christian Griebel <Christian.Griebel#merck.de>
+Pedro Izecksohn <izecksohn#yahoo.com>
+Boris Masinovsky <boma#cs.tu-berlin.de>
+Reinhard Scholz <Reinhard.Scholz#wimi.landsh.de>
+Leslie Polzer <leslie.polzer#gmx.net>
+Tobias Toedter <t.toedter#web.de>
+Dan Avramescu <Dan.Avramescu#t-systems.com>
+Martin Meyerspeer <e9325116#stud4.tuwien.ac.at>
+Arnaud Giersch <giersch#icps.u-strasbg.fr>
+Pierre-Paul Lavoie <ppl#nbnet.nb.ca>
+Jutta Wrage <jw#witch.westfalen.de>
+Pauli Manninen <pajuma#iki.fi>
+Matthew Harris <mharris#litech.org>
+David Mohn <david.mohn1#web.de>
+Steffen Beyer <sbeyer#reactor.de>
+Dr. David Linke" <linke#aca-berlin.de>
+Alexander Kemp <Alexander.Kemp#gmx.de>
+Hans Thielen <hans.thielen#ipt.fraunhofer.de>
+Michael Wegner <michael-wegner#gmx.de>
+Vitaly Lipatov <lav#altlinux.ru>
+Ralph Bauer <rkhb#gmx.net>
+Markus Greil <m.greil#gcd-printlayout.de>
+Francesco Potorti <Potorti#isti.cnr.it>
+
+
+@end format
+
+@format
+@group
+About 200 acronyms dealing with the ATM subject were taken
+from the online collection of the ATM forum.
+By courtesy of ATM forum.
+@end group
+
+@group
+Another batch of acronyms was taken from the freely available
+acronym collection "Internet Perls 22" (@emph{iperls22.zip}).
+By courtesy of William Hogg <wmhogg#execpc.com>.
+@end group
+
+@group
+A lot of military related acronyms as well as several others
+were taken from the online collection of the DISA Center for
+Standards.
+By courtesy of DISA Center for Standards.
+@end group
+@end format
+
+@noindent
+Thanks to all of them and everybody who should be missing
+accidently.
+
+@noindent
+Also thanks to the following people:
+
+@noindent
+Richard M. Stallman @*
+For his encouraging words to get this edition done and some comments 
+on how a Texinfo file should be formatted.
+Also for the efforts taken to deal with the Systems Science Inc.
+copyright/trademark incident in April 1998.
+
+@noindent
+Horst von Brand <vonbrand#sleipnir.valparaiso.cl> @*
+For pointing to the inconsistency between the file name in
+@code{@@setfilename} (upper case) and the suggested info entry
+(lower case).
+
+@noindent
+Ricard Torres <root#tamino.udg.es> @*
+For pointing to some Un*x install problems in release 1.3.
+
+@noindent
+Carsten Leonhardt <leo#arioch.oche.de> @*
+For sending in a lot of spelling corrections for the
+text of release 1.3. It were 17 if I counted right. 
+What a shame.
+
+@noindent
+H. Kronenberg <kronenberg#imst.de> @*
+For submitting numerous spelling corrections 
+for acronym expansions.
+
+@noindent
+Henning Jonat <henningjonat#home.com> @*
+For sending a long list with acronym expansions which 
+were still missing.
+
+@noindent
+Alexander Mai <st002279#hrzpub.tu-darmstadt.de> @*
+For pointing out a left over ISO character my 
+replacing routine had ignored and for suggesting
+to add a 'README' file to the distributon.
+
+@noindent
+Andres Soolo <soolo#math.ut.ee> @*
+For contributing a Perl search routine for V.E.R.A.
+
+@noindent
+Leslie Polzer <leslie.polzer#gmx.net> @*
+For pointing out that the definition of the word acronym
+contained "@emph{onyma}" which is aeolian while it should be
+"@emph{onoma}" which is the more common attic form.
+
+@noindent
+Vitaly Lipatov <lav#altlinux.ru> @*
+For taking the effort to proof-read V.E.R.A. and sending
+in 46 spelling corrections.
+
+@node Disclaimer, GNU FDL, Acknowledgments, Top
+@c node-name, next, previous, up
+@chapter Disclaimer
+@cindex Copying policy
+@cindex Disclaimer
+@cindex Distribution policy
+@cindex Legal stuff
+@cindex Modifications policy
+@cindex Printing policy
+@cindex Translations policy
+
+@ifinfo
+@strong{V.E.R.A. --- Virtual Entity of Relevant Acronyms}
+
+@end ifinfo
+@noindent
+This is a special GNU edition of V.E.R.A.,
+a list dealing with computational acronyms. It is currently 
+maintained by @value{ACTMAINTAINER} @value{MAINTAINEMAIL}.
+
+@noindent
+Although V.E.R.A. has been corrected and worked over for
+quite a long time, no guarantee can be given for the
+correctness of any part of its contents.  Please don't
+get it wrong and help to correct any faults you may find.
+
+@noindent
+Please send corrections to the current maintainer.
+
+@noindent
+The author suggests not to redistribute corrected versions
+of this document, but instead to inform the actual maintainer
+about corrections you might have.  This would help not to
+confuse users because of different versions.
+
+@noindent
+For a complete legal disclaimer please read 
+@ref{GNU FDL}.
+
+@noindent
+Within the above restrictions the distribution of this
+document is explicitly encouraged and I hope you'll find
+it of some value.
+
+@noindent
+Please note that another version of V.E.R.A. exists, which
+is not related to the GNU project.
+
+@noindent
+This dictionary has nothing to do with Systems Science Inc. 
+or its products.
+
+@noindent
+Oliver Heidelbach (original author) @*
+@noindent
+@value{AUTHOREMAIL}
+
+@noindent
+Copyright @copyright{} 1993/@value{ACTYEAR}
+
+@node GNU FDL, Index, Disclaimer, Top
+@include fdl.texi
+
+@node Index, , GNU FDL, Top
+@comment  node-name,  next,  previous,  up
+@unnumbered Index
+@printindex cp
+
+@c I don't think a full TOC is needed.
+@summarycontents
+
+@bye
+
+

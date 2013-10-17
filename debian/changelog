@@ -1,0 +1,296 @@
+vera (1.17-6) unstable; urgency=low
+
+  * QA upload.
+
+  [ Sven Joachim ]
+  * Drop duplicate Section/Priority.
+  * Add missing ${misc:Depends}.
+  * Drop base-files dependency.
+
+  [ Andreas Beckmann ]
+  * Set maintainer to Debian QA Group.  (See: #659056)
+  * Rebuild against current debhelper for trigger support.  (Closes: #689774)
+
+ -- Andreas Beckmann <anbe@debian.org>  Sat, 26 Jan 2013 03:49:54 +0100
+
+vera (1.17-5) unstable; urgency=low
+
+  * Restore epoch for dict-vera package.
+
+ -- Sven Joachim <svenjoac@gmx.de>  Sun, 17 Aug 2008 16:55:28 +0200
+
+vera (1.17-4) unstable; urgency=low
+
+  * Use debhelper 7 for packaging.
+  * Add dircategory and direntry to vera.texi so that dh_installinfo
+    can work.
+  * Ship md5sums.
+  * Bump Standards-Version to 3.8.0, no changes needed.
+
+ -- Sven Joachim <svenjoac@gmx.de>  Tue, 12 Aug 2008 15:52:10 +0200
+
+vera (1.17-3) unstable; urgency=low
+
+  * New maintainer (Closes: #461567).
+  * Add BAARF description, thanks to Branden Robinson (Closes: #382881).
+  * Fix CAPTCHA description, thanks to Gerfried Fuchs (Closes: #445015).
+  * Fix DAV description, thanks to Justin Pryzby (Closes: #451390).
+  * Fix POE description, thanks to Peter Palfrader (Closes: #387009).
+  * Provide dictd-dictionary in dict-vera, thanks to Tatsuya Kinoshita
+    (Closes: #466219).
+
+  * Depend on base-files (>= 4.0.0), since that is the first version
+    which contains the GFDL.
+  * Add debian/watch file.
+  * Add Homepage field to debian/control.
+  * Rework and unify the package descriptions and remove useless paragraph
+    about dictd being needed; dict-vera depends on it anyway.
+  * Don't call install-info unconditionally in vera maintainer scripts.
+  * Ensure that /usr/share/doc/dict-vera/dict-vera.changelog-old.gz
+    is actually a gzipped file.
+  * Drop alternate build dependency on ancient dictd versions.
+  * Clean up debian/rules and debian/copyright a bit.
+  * Delete trailing whitespace from debian/changelog and
+    debian/dict-vera/changelog.
+  * Remove version control files and the redundant GFDL copy from the
+    Debian diff.
+
+ -- Sven Joachim <svenjoac@gmx.de>  Thu, 24 Apr 2008 16:56:09 +0200
+
+vera (1.17-2) unstable; urgency=low
+
+  * QA upload orphaning the package.
+  * Bumping Standards-Version.
+  * Make package actually buildable by not hardcoding the version in
+    debian/rules.
+  * Refer to /usr/share/common-licenses/GFDL and Depend on base-files (>> 4).
+    Also, no longer install a private GFDL (1.1) copy.
+
+ -- Christoph Berg <myon@debian.org>  Fri, 15 Feb 2008 13:44:31 +0100
+
+vera (1.17-1) unstable; urgency=low
+
+  * New upstream version.
+
+  * This version includes about 511 acronyms than were not in the previous
+    Debian Package.
+
+  * I have added entries for BBIAS (Closes: #307082), and NOTA, which will
+    be in the next upstream release.
+
+  * The erroneous entry for XFLD has been removed (Closes: #307048).
+
+
+ -- Robert D. Hilliard <hilliard@debian.org>  Wed, 27 Apr 2005 16:12:30 -0400
+
+vera (1.15-1) unstable; urgency=low
+
+  * New upsteam version.
+
+  * This version includes about 644 acronyms that were not in the previous
+    Debian package.
+
+  * This version includes numerous spelling corrections, including the entry
+    for AWOL, which Closes: #238914
+
+  * I have added entries for RFS (Closes: #291738), XFLD (Closes: #292284),
+    and SBCL (Closes: #284396), which will be in the next upstream release.
+
+
+ -- Robert D. Hilliard <hilliard@debian.org>  Wed, 27 Apr 2005 16:12:30 -0400
+
+vera (1.12-1) unstable; urgency=low
+
+  * New upsteam version.
+
+  * This version corrects definition of NIMH.  Closes: #204350.
+
+  * Included patch from Grant Hollingworth <grant@antiflux.org> to fix
+    formatting of header, which makes dict -i and dict --database-info
+    work properly.  Closes: #221187.  (Applies to dict-vera only.)
+
+
+ -- Robert D. Hilliard <hilliard@debian.org>  Sun, 11 Jan 2004 14:30:37 -0500
+
+vera (1.11-2) unstable; urgency=low
+
+  * Corrected format of Build-Depends-Indep: Closes: #217734
+
+ -- Robert D. Hilliard <hilliard@debian.org>  Sat, 01 Nov 2003 13:18:02 -0500
+
+
+vera (1.11-1) unstable; urgency=low
+
+  * New upstream version
+
+  * This version corrects typo in definition of DFSG - Closes: 194145.
+
+ -- Robert D. Hilliard <hilliard@debian.org>  Tue, 10 Jun 2003 18:27:52 -0400
+
+
+vera (1.10-1) unstable; urgency=low
+
+  * New upstream version.
+
+  * Removed kludge to workaround dictfmt bug (repeat last headword), which
+    has been fixed.
+
+  * Removed /usr/doc/symlinks.
+
+  * This version corrects definitions for`XFS' and `JFS' - Closes: 163951,
+    for `TOFU' - Closes: #166833, for `DFSG' - Closes: 168144
+
+  * Enclosed date in parentheses in database name (00-database-short)
+    Closes: 150697
+
+  * This version includes `IOTTMCO' - Closes: #156396, and `STFU' -
+    Closes: #168987
+
+ -- Robert D. Hilliard <hilliard@debian.org>  Mon, 19 May 2003 17:22:04 -0400
+
+
+vera (1.9-2) unstable; urgency=low
+
+  * Prior to version 1.6-2, vera and dict-vera were different source
+    packages, with different maintainers.  In version 1.6-2, I improperly
+    constructed the rules file to install a vera changelog in the vera
+    binary package, and a dict-vera changelog in the dict-vera binary
+    package.  Starting with this version, the vera changelog is included
+    in both packages.  For historical reasons, the dict-vera changelog for
+    versions 4.7-1 - 1:1.9-1 is included as
+    /usr/share/doc/dict-vera/dict-vera.changelog-old.gz.
+
+    Closes: #149949, #150141
+
+ -- Robert D. Hilliard <hilliard@debian.org>  Tue, 18 Jun 2002 17:52:16 -0400
+
+
+vera (1.9-1) unstable; urgency=low
+
+  * New upstream version
+
+  * Changed Recommends: dict|dict-client to Depends: dict|dict-client
+
+  * This upstream release includes AAMOF, FTBFS, and WLOG, and adds an SDH
+    reference to STM, STM1, STS, and STC3C.
+    Closes: #145726, #141110, #144367, #145578
+
+  * For Debian release, fixed typo in AUI, and added DAM (these will be
+    included bu upatream in next release).
+    Closes: #147437, #149410
+
+ -- Robert D. Hilliard <hilliard@debian.org>  Wed, 12 Jun 2002 16:12:21 -0400
+
+
+vera (1.8-4) unstable; urgency=low
+  * There are no substantive changes from 1.8-3 that would be visible to
+    the user.
+
+  * Added dict-server to Suggests:
+
+ -- Robert D. Hilliard <hilliard@debian.org>  Thu, 21 Feb 2002 15:03:39 -0500
+
+vera (1.8-3) unstable; urgency=low
+  * There are no substantive changes from 1.8-2 that would be visible to
+    the user.
+
+  * Added dictd to Build-Depends-Indep (closes: #134866).
+
+ -- Robert D. Hilliard <hilliard@debian.org>  Wed, 20 Feb 2002 17:59:43 -0500
+
+vera (1.8-2) unstable; urgency=low
+
+  * Duplicate entry for `RIFF' deleted in earlier version, but omitted fom
+    changelog.
+
+  * Added ACS, AES, BTS, OOM, OSS, POS, SANE, TMTOWTDI.
+
+ -- Robert D. Hilliard <hilliard@debian.org>  Sun, 10 Feb 2002 16:44:01 -0500
+
+vera (1.8-1) unstable; urgency=low
+
+  * New upstream version
+
+  * Corrected spelling in long description (s/versosn/version/)
+    Closes: #109291
+
+  * APSL included
+    Closes: #113697
+
+ -- Robert D. Hilliard <hilliard@debian.org>  Sat,  8 Dec 2001 15:01:23 -0500
+
+vera (1.7-2) unstable; urgency=low
+
+  * Corrected Depends: to `info-browser'
+    Closes: #98985
+
+  * Modified debian/rules to add GFDL /usr/share/doc/vera
+
+ -- Robert D. Hilliard <hilliard@debian.org>  Mon, 28 May 2001 13:52:03 -0400
+
+vera (1.7-1) unstable; urgency=low
+
+  * new upstream version
+
+  * Added XML to definition of DTD
+
+  * This release fixes Bugs #88489 and #89437 as far as they affect
+    vera, but they will not be closed until they are also fixed in
+    dict-foldoc.
+
+ -- Robert D. Hilliard <hilliard@debian.org>  Thu, 15 Mar 2001 17:07:06 -0500
+
+
+vera (1.6-2) unstable; urgency=low
+
+  * new maintainer
+
+  * Source package format is changed, since it now builds both vera
+    and dict-vera.
+
+  * Added additional acronyms listed in /usr/share/doc/vera/Debian_supplement
+    closes: #77481, #79688
+
+ -- Robert D. Hilliard <hilliard@debian.org>  Thu, 11 Jan 2001 18:04:02 -0500
+
+
+vera (1.6-1) unstable; urgency=low
+
+  * new upstream version
+  * added entries for ITP, RFP, WNPP, AIUI, TINC, BTDT
+    (Closes: #64675, #65772)
+
+ -- Carsten Leonhardt <leo@debian.org>  Tue, 20 Jun 2000 00:32:22 +0200
+
+vera (1.5-2) unstable; urgency=low
+
+  * standards version 3.1.1
+  * build dependencies
+
+ -- Carsten Leonhardt <leo@debian.org>  Thu, 13 Jan 2000 20:20:39 +0100
+
+vera (1.5-1) unstable; urgency=low
+
+  * new upstream release
+
+ -- Carsten Leonhardt <leo@debian.org>  Tue,  9 Mar 1999 21:37:20 +0100
+
+vera (1.4a-1) unstable; urgency=low
+
+  * new upstream release that fixes the two "@"s-problem
+
+ -- Carsten Leonhardt <leo@debian.org>  Wed, 28 Oct 1998 01:13:23 +0100
+
+vera (1.4-2) unstable; urgency=low
+
+  * fixed problem in the files vera.[0a-z], where there were two "@"s
+    instead of one in front of texinfo macros, which caused the macros not
+    to be interpreted
+
+ -- Carsten Leonhardt <leo@debian.org>  Sun,  4 Oct 1998 00:54:25 +0200
+
+vera (1.4-1) unstable; urgency=low
+
+  * First Debian release
+
+ -- Carsten Leonhardt <leo@debian.org>  Wed, 30 Sep 1998 00:43:01 +0200
