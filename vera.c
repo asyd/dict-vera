@@ -2505,6 +2505,9 @@ Control Unit Terminal
 @item CUU
 ComputerUnterstuetzte Unterweisung
 
+@item CVC
+Card Verifiable Certificate (PKI)
+
 @item CVD
 Chemical Vapor Deposition
 
