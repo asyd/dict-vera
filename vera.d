@@ -1248,6 +1248,9 @@ DJ's GNU Programming Platform (GNU, DOS, GPP)
 @item DKE
 Deutsche Kommission Deutsche Kommission Elektrotechnik, elektronik, informationstechnik (org., DIN, VDE)
 
+@item DKIM
+DomainKeys Identified Mail (Mail, RFC 5322)
+
 @item DKRZ
 Deutsches KlimaRechenZentrum (org.)
 
