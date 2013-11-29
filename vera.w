@@ -18,6 +18,9 @@ World Wide Web Consortium (WWW, org.)
 @item WABI
 Windows Application Binary Interface (MS, Windows)
 
+@item WAF
+Women Acceptance Factor (slang)
+
 @item WAFL
 Write Anywhere File Layout (Netapp)
 
